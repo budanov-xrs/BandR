@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="14101" xml:space="preserve">
+    <value>Falsche Knoten Nummer (z.B.: Stations Nummer) wurde im Response empfangen. Knoten Nummer ist unterschiedlich zur Request Knoten Nummer.</value>
+  </data>
+  <data name="14100" xml:space="preserve">
+    <value>Ungültiger Opcode wurde in der Response empfangen. (Opcode nicht spezifiziert im OS9/NET Protokoll).</value>
+  </data>
+  <data name="14102" xml:space="preserve">
+    <value>Unbekannter Opcode wurde in der Response empfangen.</value>
+  </data>
+  <data name="14001" xml:space="preserve">
+    <value>Der Schreibvorgang wird nicht unterstützt. Der Schreibvorgang wird vom Objekt nicht unterstützt. Dieser Fehler wird vom Basis Objekt zurückgemeldet.</value>
+  </data>
+  <data name="14002" xml:space="preserve">
+    <value>Der Lesevorgang wird nicht unterstützt. Der Lesevorgang wird vom Objekt nicht unterstützt. Dieser Fehler wird vom Basis Objekt zurückgemeldet.</value>
+  </data>
+  <data name="14003" xml:space="preserve">
+    <value>Der Info Service wird nicht unterstützt. Der Info Service wird vom Objekt nicht unterstützt. Dieser Fehler wird vom Basis Objekt zurückgemeldet.</value>
+  </data>
+  <data name="14004" xml:space="preserve">
+    <value>Verbindungsbeschreibung (CD) des Linien Objekts konnte nicht ermittelt werden.</value>
+  </data>
+  <data name="14005" xml:space="preserve">
+    <value>Schreibmodus wird für den Info Service im Linien Objekts nicht unterstützt.</value>
+  </data>
+  <data name="14006" xml:space="preserve">
+    <value>Lesemodus wird für den Info Service im Linien Objekts nicht unterstützt.</value>
+  </data>
+  <data name="14007" xml:space="preserve">
+    <value>Interner Fehler beim Lesen der Linien Version aus der DLL.</value>
+  </data>
+  <data name="14008" xml:space="preserve">
+    <value>Kein Speicher für das temporäre Speichern der Version vorhanden.</value>
+  </data>
+  <data name="14009" xml:space="preserve">
+    <value>Ungültiger Zugriffstyp im Info Service für das Linien Objekt angegeben.</value>
+  </data>
+  <data name="14022" xml:space="preserve">
+    <value>Verbindungsfehler des Stations Objektes</value>
+  </data>
+  <data name="14023" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Stations Objektes.. Interner Fehler beim Bearbeiten des Stations Objektes. Ein falsches aktives Service sollte am Stations Objekt ausgeführt werden.</value>
+  </data>
+  <data name="14020" xml:space="preserve">
+    <value>Der Lesemodus wird im Info Service vom Stations Objekt nicht unterstützt.</value>
+  </data>
+  <data name="14021" xml:space="preserve">
+    <value>Ungültiger Zugriff im Info Service vom Stations Objekt angegeben.</value>
+  </data>
+  <data name="14026" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes. Interner Fehler beim Bearbeiten des Variablen Objektes. Ungültiger Datentyp.</value>
+  </data>
+  <data name="14027" xml:space="preserve">
+    <value>Schreibmodus wird beim Info Service des Variablen Objektes nicht unterstützt.</value>
+  </data>
+  <data name="14024" xml:space="preserve">
+    <value>Ungültige Objekt Hierachie. Eine ungültige Objekt Hierarchie wurde beim Durchführen des Ident Service an den Variablen Objekten gefunden. Es wurden keinen Linien Objekte am Anfang der Variablen Objekte gefunden.</value>
+  </data>
+  <data name="14025" xml:space="preserve">
+    <value>Das Anfangsobjekt der Objekt Hierarchie ist kein Linien Objekt.</value>
+  </data>
+  <data name="14028" xml:space="preserve">
+    <value>Lesemodus wird beim Info Service des Variablen Objektes nicht unterstützt.</value>
+  </data>
+  <data name="14029" xml:space="preserve">
+    <value>Ungültiger Zugriff beim Info Service des Variablen Objektes angegeben.</value>
+  </data>
+  <data name="14011" xml:space="preserve">
+    <value>Lesemodus wird im Info Service für das Device Objekt nicht unterstützt.</value>
+  </data>
+  <data name="14010" xml:space="preserve">
+    <value>Schreibmodus wird im Info Service für das Device Objekt nicht unterstützt.</value>
+  </data>
+  <data name="14013" xml:space="preserve">
+    <value>Die Anfangsposition im Ident Service vom Device Objekt konnte nicht ermittelt werden.</value>
+  </data>
+  <data name="14012" xml:space="preserve">
+    <value>Ungültiger Zugriff im Info Service des Device Objektes angegeben.</value>
+  </data>
+  <data name="14015" xml:space="preserve">
+    <value>Verbindungsfehler des Device Objektes</value>
+  </data>
+  <data name="14014" xml:space="preserve">
+    <value>Beim Bearbeiten des Ident Service vom Device Objekt wurde ein Parent Objekt gefunden, dass kein Linien Objekt ist.</value>
+  </data>
+  <data name="14017" xml:space="preserve">
+    <value>Beim Bearbeiten der Stations Objekte wurde nur ein Objekt in der Objekt Hierarchie gefunden.</value>
+  </data>
+  <data name="14016" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Device Objektes.. Interner Fehler beim Bearbeiten des Device Objektes. Der Fehler wird generiert, wenn TotalStationsInList größer als die maximale Anzahl der möglichen Stationen ist.</value>
+  </data>
+  <data name="14019" xml:space="preserve">
+    <value>Der Schreibmodus wird im Info Service vom Stations Objekt nicht unterstützt.</value>
+  </data>
+  <data name="14018" xml:space="preserve">
+    <value>Das erste Objekt (Head) in der Objekt Hierachie ist kein Linien Objekt</value>
+  </data>
+  <data name="14044" xml:space="preserve">
+    <value>Stations Thread konnte nicht erzeugt werden.</value>
+  </data>
+  <data name="14045" xml:space="preserve">
+    <value>Verbindungsbeschreibung des Device Objektes konnte bei der Durchführung des Ident Service nicht gelesen werden.</value>
+  </data>
+  <data name="14046" xml:space="preserve">
+    <value>Alle Geräte, die unter dem Linien Objekt LNOS9NET erzeugt wurden, müssen eine ARCNET Verbindungsbeschreibung haben.</value>
+  </data>
+  <data name="14047" xml:space="preserve">
+    <value>Beim Durchführen des Ident Service vom Device Objekt ist ein Fehler aufgetreten: Speicher nicht verfügbar.</value>
+  </data>
+  <data name="14041" xml:space="preserve">
+    <value>Interne Fehler.</value>
+  </data>
+  <data name="14042" xml:space="preserve">
+    <value>Beim Durchführen des Ident Service vom Stations Objekt ist ein Fehler aufgetreten: Speicher nicht verfügbar.</value>
+  </data>
+  <data name="14043" xml:space="preserve">
+    <value>Beim Durchführen des Ident Service vom Device Objekt ist ein Fehler aufgetreten: Speicher nicht verfügbar.</value>
+  </data>
+  <data name="14048" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Device Objektes.. Interner Fehler beim Bearbeiten des Device Objektes. Die angegebene Station ist im StationList Array nicht eingetragen.</value>
+  </data>
+  <data name="14049" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Device Objektes.. Interner Fehler beim Bearbeiten des Device Objektes. Ungültiges Service hätte am Device Objekt ausgeführt werden sollen.</value>
+  </data>
+  <data name="14032" xml:space="preserve">
+    <value>Interner Fehler</value>
+  </data>
+  <data name="14031" xml:space="preserve">
+    <value>Response Timeout der Station</value>
+  </data>
+  <data name="14030" xml:space="preserve">
+    <value>Verbindungsfehler mit dem Variablen Objekt</value>
+  </data>
+  <data name="14066" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Die DATAFORM Eigenschaft der Variable konnte nicht gelesen werden.</value>
+  </data>
+  <data name="14067" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Die Array Größe des Objektes stimmt nicht mit der erwarteten Größe überein.</value>
+  </data>
+  <data name="14064" xml:space="preserve">
+    <value>Die Verbindungsbeschreibung des Stations Objektes konnte im Ident Service des Stations Objektes nicht gelesen werden.</value>
+  </data>
+  <data name="14065" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Im Write Service ist der Schreib Offset (Write.Offs) ungleich -1.</value>
+  </data>
+  <data name="14062" xml:space="preserve">
+    <value>Das zweite Objekt in der Objekt Hierarchie ist nicht das Device Objekt.</value>
+  </data>
+  <data name="14063" xml:space="preserve">
+    <value>Die Verbindungsbeschreibung des Device Objektes konnte im Ident Service des Stations Objektes nicht gelesen werden.</value>
+  </data>
+  <data name="14060" xml:space="preserve">
+    <value>Zuwenig Speicher für die Bearbeitung des Ident Service im Stations Objekt.</value>
+  </data>
+  <data name="14061" xml:space="preserve">
+    <value>Die Anfangsposition vom Stations Objekt konnte im Ident Service nicht gelesen werden.</value>
+  </data>
+  <data name="14068" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Falscher Datentyp (m_ datatype)</value>
+  </data>
+  <data name="14069" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Die Längen im PVI Manager und im LNOS9NET.DLL Treiber stimmen nicht überein.</value>
+  </data>
+  <data name="14055" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Stations Objektes.. Interner Fehler beim Bearbeiten des Stations Objektes. Request konnte nicht in die Stations Warteschlange (Queue) von ReqOpen() eingefügt werden.</value>
+  </data>
+  <data name="14054" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Stations Objektes.. Interner Fehler beim Bearbeiten des Stations Objektes. Obwohl der Zustand des Stations Objektes als LOS9_STATION_SERVICE_NULL erwartet wurde, wurden aktive Service am Stations Objekt gefunden.</value>
+  </data>
+  <data name="14057" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Stations Objektes.. Interner Fehler beim Bearbeiten des Stations Objektes. Request konnte nicht in die Stations Warteschlange (Queue) von ReqSeek() eingefügt werden.</value>
+  </data>
+  <data name="14056" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Stations Objektes.. Interner Fehler beim Bearbeiten des Stations Objektes. Request konnte nicht in die Stations Warteschlange (Queue) von ReqClose() eingefügt werden.</value>
+  </data>
+  <data name="14051" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Linien Objektes. Interner Fehler beim Bearbeiten des Linien Objektes. Die Datei Versions Info konnte mit dem Info Service des Linien Objektes nicht gelesen werden.</value>
+  </data>
+  <data name="14050" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Device Objektes.. Interner Fehler beim Bearbeiten des Device Objektes. Ungültiges Service hätte am Device Objekt ausgeführt werden sollen.</value>
+  </data>
+  <data name="14053" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Stations Objektes.. Interner Fehler beim Bearbeiten des Stations Objektes. Obwohl der Zustand des Stations Objektes als LOS9_STATION_SERVICE_NULL erwartet wurde, wurden aktive Service am Stations Objekt gefunden.</value>
+  </data>
+  <data name="14052" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Linien Objektes.. Interner Fehler beim Bearbeiten des Linien Objektes. Der Wert der "Ver" Variable konnte im Info Service des Linien Objektes nicht ermittelt werden.</value>
+  </data>
+  <data name="14059" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Stations Objektes.. Interner Fehler beim Bearbeiten des Stations Objektes. Request konnte nicht in die Stations Warteschlange (Queue) von ReqWrite() eingefügt werden.</value>
+  </data>
+  <data name="14058" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Stations Objektes.. Interner Fehler beim Bearbeiten des Stations Objektes. Request konnte nicht in die Stations Warteschlange (Queue) von ReqRead() eingefügt werden.</value>
+  </data>
+  <data name="14088" xml:space="preserve">
+    <value>Unbekannter Fehler (z.B.: ungleich 200 und 201) wird vom OS9NET_READ Ocode Kommando zurückgegeben.</value>
+  </data>
+  <data name="14089" xml:space="preserve">
+    <value>Der Name der Variable ist zu lang.</value>
+  </data>
+  <data name="14080" xml:space="preserve">
+    <value>Die Verbindungsbeschreibung des Variablen Objektes konnte im Ident Service vom Variablen Objekt nicht gelesen werden.</value>
+  </data>
+  <data name="14081" xml:space="preserve">
+    <value>Syntax Fehler in der Verbindungsbeschreibung für das Variablen Objekt.</value>
+  </data>
+  <data name="14082" xml:space="preserve">
+    <value>Das in der Verbindungsbeschreibung des Variablen Objektes angegebene Array konnte mit der gewünschten Größe nicht erzeugt werden.</value>
+  </data>
+  <data name="14083" xml:space="preserve">
+    <value>Der angeforderte Speicher für das Variablen Array konnte nicht reserviert werden.</value>
+  </data>
+  <data name="14084" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Stations Objekt. Interner Fehler beim Bearbeiten des Stations Objekt. Der StationResourceMutex ist zerstört oder existiert nicht.</value>
+  </data>
+  <data name="14085" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Stations Objekt. Interner Fehler beim Bearbeiten des Stations Objekt. In der Funktion ReqWrite() stimmt die Größe des zu schreibenden Speichers nicht mit der Größe des Arrays überein.</value>
+  </data>
+  <data name="14086" xml:space="preserve">
+    <value>Die Tabelle mit den Pfadeinträgen der OS9NET Stationen ist voll.. Die Tabelle mit den Pfadeinträgen der OS9NET Stationen ist voll. Dieser Fehler tritt auf, wenn die Station beim OS9NET_READ Opcode Kommando den Fehler 200 zurückgibt.</value>
+  </data>
+  <data name="14087" xml:space="preserve">
+    <value>Der angegebene Pfad im OS9NET Kommunikations Request ist ungültig.. Der angegebene Pfad im OS9NET Kommunikations Request ist ungültig. Dieser Fehler tritt auf, wenn die OS9NET Station beim OS9NET_READ Opcode Kommando den Fehler 201 zurückgibt.</value>
+  </data>
+  <data name="14077" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. M_datalen ist größer als das lokale Variablen Array der ReqWriteVar Funktion.</value>
+  </data>
+  <data name="14076" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Der Datentyp Property.Stk.Ptr-&gt;Type der Funktion PutNewData ist ungültig.</value>
+  </data>
+  <data name="14075" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Die DATAFORM Eigenschaft konnte in der Funktion PutNewData nicht gelesen werden.</value>
+  </data>
+  <data name="14074" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Ein falsches aktives Service hätte im Variablen Objekt gesetzt werden sollen.</value>
+  </data>
+  <data name="14073" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Im Read Service stimmt die komplexe Datentyp Länge nicht.</value>
+  </data>
+  <data name="14072" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Die DATAFORM Eigenschaft konnte im Read Service nicht gelesen werden.</value>
+  </data>
+  <data name="14071" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Ein falscher Datentyp hätte im Read Service gesetzt werden sollen.</value>
+  </data>
+  <data name="14070" xml:space="preserve">
+    <value>Interner Fehler beim Bearbeiten des Variablen Objektes.. Interner Fehler beim Bearbeiten des Variablen Objektes. Der Lese Offset (Read.Offs) ist ungleich 1 im Read Service vom Variablen Objekt.</value>
+  </data>
+  <data name="14079" xml:space="preserve">
+    <value>Ein Variablen Objekt kann nur unter einem Stations Objekt in der Objekthierarchie erzeugt werden.</value>
+  </data>
+  <data name="14078" xml:space="preserve">
+    <value>Beim Durchführen des Ident Service vom Variablen Objekt ist nur ein Objekt in der Objekt Hierarchie eingetragen.</value>
+  </data>
+  <data name="14099" xml:space="preserve">
+    <value>Es kann nur ein Objekt vom Typ "ARCNET" erzeugt werden.</value>
+  </data>
+  <data name="14098" xml:space="preserve">
+    <value>Es kann nur ein Objekt vom Typ "LNOS9NET" erzeugt werden.</value>
+  </data>
+  <data name="14091" xml:space="preserve">
+    <value>Syntax Fehler bei der Definition des Variablen Arrays.</value>
+  </data>
+  <data name="14090" xml:space="preserve">
+    <value>Kein Name für die Variable angegeben.</value>
+  </data>
+  <data name="14093" xml:space="preserve">
+    <value>Ungleicher Datentyp der Variable.</value>
+  </data>
+  <data name="14092" xml:space="preserve">
+    <value>Syntax Fehler beim Variablen Namen.</value>
+  </data>
+  <data name="14095" xml:space="preserve">
+    <value>Variablenwert außerhalb des Rückwandbereichs (rack range).</value>
+  </data>
+  <data name="14094" xml:space="preserve">
+    <value>Variablenwert außerhalb des Adreßbereichs.</value>
+  </data>
+  <data name="14097" xml:space="preserve">
+    <value>Variablenwert außerhalb des Kanalbereichs (channel range).</value>
+  </data>
+  <data name="14096" xml:space="preserve">
+    <value>Variablenwert außerhalb des Steckplatzbereichs (slot range).</value>
+  </data>
+  <data name="14321" xml:space="preserve">
+    <value>Interner Fehler: Fehler der VM-File-Verwaltung - die Daten konnten nicht geschrieben werden.</value>
+  </data>
+  <data name="14320" xml:space="preserve">
+    <value>Interner Fehler: Die Daten aus der "section" konnten nicht in das BR-Modul geschrieben werden.</value>
+  </data>
+  <data name="14323" xml:space="preserve">
+    <value>Interner Fehler: Das BR-Modul konnte nicht im Speicher fertiggestellt werden.</value>
+  </data>
+  <data name="14322" xml:space="preserve">
+    <value>Interner Fehler: Im BR-Modul konnte keine weitere "section" erstellt werden.</value>
+  </data>
+  <data name="14325" xml:space="preserve">
+    <value>Interner Fehler: Daten konnten nicht aus dem VM-Speicher in das BR-Modul übernommen werden.</value>
+  </data>
+  <data name="14324" xml:space="preserve">
+    <value>Interner Fehler: Fehler der VM-File-Verwaltung - Speicher konnte nicht angefordert werden.</value>
+  </data>
+  <data name="14327" xml:space="preserve">
+    <value>Interner Fehler: Es wurde nicht genügend Speicherplatz für die Daten angelegt. (Berechnungsfehler).</value>
+  </data>
+  <data name="14326" xml:space="preserve">
+    <value>Es konnte kein Speicherplatz angefordert und reserviert werden.. Es ist kein freier Speicher mehr im System vorhanden. (Windows beenden und neu starten, Dateien löschen, Auslagerungsdatei prüfen, Programme beenden, ... ... ??)</value>
+  </data>
+  <data name="14329" xml:space="preserve">
+    <value>reserviert</value>
+  </data>
+  <data name="14328" xml:space="preserve">
+    <value>Interner Fehler: Nicht freigegebener Speicher - es könnten Lücken im Speicher entstehen.. Ein Zeiger, mit dem Speicher allokiert werden soll, ist nicht NULL. Der Speicher, auf den der Zeiger zeigt, kann nicht freigegeben werden, weil er nicht von dieser DLL allokiert worden ist. Es könnte bei der Freigabe des Speichers ein Programmabsturz verursacht werden, weil die DLL keine Zugriffsberechtigung auf den Speicher hat.</value>
+  </data>
+  <data name="14303" xml:space="preserve">
+    <value>Die übergebenen Daten sind ungültig.. Die übergebenen Daten sind ungültig. Es könnte sein, dass die Datei keine Daten enthält oder nicht zum Lesen geöffnet werden kann.</value>
+  </data>
+  <data name="14302" xml:space="preserve">
+    <value>Der übergebene NC-Datenobjekttyp (MT=NC_...) ist unbekannt.. Der übergebene NC-Datenobjekttyp (MT=NC_...) ist unbekannt. Es kann deshalb kein NC-Datenobjekt erzeugt werden. Gültige Typen sind: NC_CNC, NC_ZPO, NC_TDT, NC_RPT, NC_CAM und NC_CAP.</value>
+  </data>
+  <data name="14301" xml:space="preserve">
+    <value>Der übergebene BR-Modultyp (MT=...) ist unbekannt.. Der übergebene BR-Modultyp (MT=...) ist unbekannt. Es kann deshalb kein BR-Datenobjekt erzeugt werden. Gültiger Typ ist: BRM.</value>
+  </data>
+  <data name="14300" xml:space="preserve">
+    <value>Der übergebene Modultyp (MT=...) ist unbekannt.. Der übergebene Modultyp (MT=...) ist unbekannt. Es kann deshalb kein BR-Modul erzeugt werden.</value>
+  </data>
+  <data name="14307" xml:space="preserve">
+    <value>Der Modulname ist nicht angegeben worden.. Der Modulname ist nicht angegeben worden oder er ist ungültig (MN=).</value>
+  </data>
+  <data name="14306" xml:space="preserve">
+    <value>Die Modulinfo ist nicht angegeben worden.. Die Modulinfo ist nicht angegeben worden oder sie ist ungültig (MI=).</value>
+  </data>
+  <data name="14305" xml:space="preserve">
+    <value>Der Modultyp ist nicht angegeben worden.. Der Modultyp ist nicht angegeben worden oder er ist ungültig (MT=).</value>
+  </data>
+  <data name="14304" xml:space="preserve">
+    <value>Eine der notwendigen Informationen für die Generierung des BR-Moduls ist ungültig oder fehlt.. Folgende Informationen sind notwendig, um ein BR-Modul zu erstellen: Modultyp (MT=...), Modulinfo (MI=...), Modulname (MN=...), Versionsnummer (MV=...), Länge der section (SL=...), Index der section (SI=...), Daten der section (müssen aus einer Datei geladen werden). Eine dieser Informationen für die Erzeugung des BR-Moduls ist nicht definiert.</value>
+  </data>
+  <data name="14309" xml:space="preserve">
+    <value>Die angegebene "section" ist ungültig.. Die Länge und die Daten der gewünschten "section" im BR-Modul sind ungültig (z.B. Länge gleich 0). Es kann sein, dass die Datei keine Daten enthält, oder dass die Datei nicht zum Lesen geöffnet werden kann.</value>
+  </data>
+  <data name="14308" xml:space="preserve">
+    <value>Die Versionsnummer ist nicht angegeben worden oder fehlerhaft. Die Versionsnummer ist nicht angegeben worden oder sie ist ungültig (MV=). Kann passieren, wenn die Versionsnummer unbekannt ist, oder nicht sinnvoll möglich ist (z.B. bei ChangeVer() Aufruf um die eigene Version zu ermitteln)</value>
+  </data>
+  <data name="14312" xml:space="preserve">
+    <value>Das angegebene Modul ist keine NC-Datenobjekt.. Das angegebene Modul ist kein NC-Datenobjekt - denn der Modultyp ist nicht gleich (hex)46/(dec)70 – und kann deshalb nicht zurückübersetzt werden.</value>
+  </data>
+  <data name="14313" xml:space="preserve">
+    <value>Das Modul enthält keine Daten für die Rückübersetzung.. Das angegebene BR-Modul enthält keine Daten für die Rückübersetzung (Länge der Daten in der "section" ist 0).</value>
+  </data>
+  <data name="14310" xml:space="preserve">
+    <value>Der Index der "section" ist nicht angegeben worden.. Der Index der "section" ist nicht angegeben worden oder er ist ungültig (SI=). Es kann sein, dass die "section" mit diesem Index nicht vorhanden ist.</value>
+  </data>
+  <data name="14311" xml:space="preserve">
+    <value>Der "special module type" ist unbekannt.. Der "special module type" ist unbekannt, das heißt, dass dieses BR-Modul kein gültiges NC-Datenobjekt ist. Deshalb ist keine Rückübersetzung durch die "brncmgen.dll" möglich. Alle NC-Datenobjekte müssen einen gültigen "special module type" aufweisen. Der Übergabestring darf nicht "MT=NC_" enthalten.</value>
+  </data>
+  <data name="14316" xml:space="preserve">
+    <value>Beim Auslesen der Daten ist ein Fehler aufgetreten.. Während des Auslesens der Daten aus der "section" ist ein Fehler aufgetreten. Die Daten könnten unvollständig sein, oder das BR-Modul bzw. die Datei ist fehlerhaft.</value>
+  </data>
+  <data name="14317" xml:space="preserve">
+    <value>Fehler beim Auswerten der Textdaten.. Fehler beim Auswerten der Textdaten. Es kann sein, dass nicht genügend Zahlen angegeben worden sind. Dies ist dann der Fall, wenn z.B. in einer Nullpunktverschiebungstabelle 3 als Anzahl angegeben worden ist, jedoch nicht 3 x 3 Achsenoffsets angegeben sind. Es kann auch daran liegen, dass ein Syntaxfehler im Text vorliegt. Es wird nicht als Fehler gewertet, wenn 4 x 3 Achsenoffsets angegeben werden, als Anzahl jedoch nur 3 Offsetsätze angegeben werden.</value>
+  </data>
+  <data name="14314" xml:space="preserve">
+    <value>Das angegebene Modul ist kein BR-Datenobjekt.. Das angegebene Modul ist kein BR-Modul - denn der Modultyp ist nicht gleich (hex)41/(dec)65 – und kann deshalb nicht zurückübersetzt werden.</value>
+  </data>
+  <data name="14315" xml:space="preserve">
+    <value>Die Sprache ist nicht vorhanden.. Die angegebene Sprache ist ungültig für die Rückübersetzung. Es ist nur Deutsch (RL=DEU) oder Englisch (RL=ENG) für die Rückübersetzung vorgesehen. Es werden keine Kommentare erzeugt.</value>
+  </data>
+  <data name="14318" xml:space="preserve">
+    <value>Die Struktur für den gewünschten Datentypen ist nicht definiert (NCT=...).. Die Struktur für den gewünschten Datentypen ist nicht definiert (NCT=...). In der NC-Datenbank ist keine Struktur für den gewünschten Datentypen vorhanden (NCHWID=... und MV=... sind ebenfalls zu beachten !).</value>
+  </data>
+  <data name="14319" xml:space="preserve">
+    <value>BuildModule() oder RebuildModule() dürfen während PVI-download bzw. PVI-upload nicht aufgerufen werden.. BuildModule() oder RebuildModule() dürfen während PVI-download bzw. PVI-upload nicht aufgerufen werden. Für InitParameterModule müssen Daten aus der NC-Datenbank gelesen werden, was zu diesem Zeitpunkt nicht möglich ist. Um .br-Module zu erstellen soll die Funktion AscToBr() verwendet werden. Um Ascii-Module zu erstellen soll die Funktion BrToAsc() verwendet werden.</value>
+  </data>
+  <data name="14289" xml:space="preserve">
+    <value>Keine Station gefunden, die mit dem ARCNET Netzwerk verbunden ist.. Keine Station gefunden, die mit dem ARCNET Netzwerk verbunden ist. Bitte überprüfen Sie das Netzwerk. Dieser Fehler wird bei der Erzeugung eines ARCNET Objektes zurückgegeben.</value>
+  </data>
+  <data name="14299" xml:space="preserve">
+    <value>Fataler Fehler in der OS9ARC.DLL.</value>
+  </data>
+  <data name="14298" xml:space="preserve">
+    <value>Stationsname ist NULL.</value>
+  </data>
+  <data name="14293" xml:space="preserve">
+    <value>Filter für die ARCNET Karte konnte nicht eingestellt werden.. Filter für die ARCNET Karte konnte nicht eingestellt werden. Die OS9ARC.DLL konnte den Filter am NDIS Treiber nicht so setzen, damit nur die Pakete gelesen bzw. geschrieben werden die für die OS9ARC.DLL bestimmt sind. Alle anderen Pakete sollten nicht von der OS9ARC.DLL gelesen werden. (z.B.: Broadcast Pakete)</value>
+  </data>
+  <data name="14292" xml:space="preserve">
+    <value>Die Knotennummer der installierten ARCNET Karte konnte nicht gelesen werden.</value>
+  </data>
+  <data name="14291" xml:space="preserve">
+    <value>Die Version der OS9ARC.DLL konnte nicht gelesen werden.</value>
+  </data>
+  <data name="14290" xml:space="preserve">
+    <value>Interner Fehler: Puffer zu klein.. Puffer ist zu klein beim Aufruf der Os9netListStations() Funktion.</value>
+  </data>
+  <data name="14297" xml:space="preserve">
+    <value>Stations Name wurde in der Stations Information nicht gefunden.. Stations Name wurde in der Stations Information nicht gefunden. Die Stations Information wird beim Erzeugen des ARCNET Gerätes initialisiert. Das System versucht mit allen 254 OS9/NET Geräten über einen OS9/NET Broadcast Request zu kommunizieren. Das angeschlossene Gerät meldet sich mit einer Inquiry Nachricht zurück, welche den Stations Namen enthält.</value>
+  </data>
+  <data name="14296" xml:space="preserve">
+    <value>Request Liste ist voll.</value>
+  </data>
+  <data name="14295" xml:space="preserve">
+    <value>Zuwenig Speicher verfügbar.</value>
+  </data>
+  <data name="14294" xml:space="preserve">
+    <value>ARCNET Karte kann nicht angesprochen werden.</value>
+  </data>
+  <data name="14980" xml:space="preserve">
+    <value>Illegale Objekthierarchie</value>
+  </data>
+  <data name="14982" xml:space="preserve">
+    <value>Lese- und Schreib- Attribut sind gesetzt.</value>
+  </data>
+  <data name="14986" xml:space="preserve">
+    <value>Timeout beim Schreiben.</value>
+  </data>
+  <data name="14988" xml:space="preserve">
+    <value>Illegaler "IF" Parameter (Anschlussbeschreibung des Geräteobjekts).</value>
+  </data>
+  <data name="14945" xml:space="preserve">
+    <value>Max. Protokoll-Länge überschritten.</value>
+  </data>
+  <data name="14944" xml:space="preserve">
+    <value>Fataler Fehler in der MiniNet-Linie</value>
+  </data>
+  <data name="14946" xml:space="preserve">
+    <value>Illegaler Objektname</value>
+  </data>
+  <data name="14941" xml:space="preserve">
+    <value>Deviceobjekt ist bereis vorhanden (nur ein Geräteobjekt erlaubt)</value>
+  </data>
+  <data name="14940" xml:space="preserve">
+    <value>Fehler beim Initialisieren der MiniNet-DLL</value>
+  </data>
+  <data name="14943" xml:space="preserve">
+    <value>Keine Verbindung zur RPS oder MiniNet Protokoll-Fehler</value>
+  </data>
+  <data name="14942" xml:space="preserve">
+    <value>Illegale Objekthierarchie</value>
+  </data>
+  <data name="14966" xml:space="preserve">
+    <value>Index Reset</value>
+  </data>
+  <data name="14965" xml:space="preserve">
+    <value>Ungültiger Parameter</value>
+  </data>
+  <data name="14964" xml:space="preserve">
+    <value>Befehl bereits ausgeführt</value>
+  </data>
+  <data name="14963" xml:space="preserve">
+    <value>Unbekannter Befehl</value>
+  </data>
+  <data name="14962" xml:space="preserve">
+    <value>Index / Befehls-Widerspruch</value>
+  </data>
+  <data name="14961" xml:space="preserve">
+    <value>Indexfehler</value>
+  </data>
+  <data name="14960" xml:space="preserve">
+    <value>Reset ausgeführt</value>
+  </data>
+  <data name="14979" xml:space="preserve">
+    <value>Illegale CAN-ID (in der Anschlussbeschreibung)</value>
+  </data>
+  <data name="14973" xml:space="preserve">
+    <value>Windows-Systemfehler beim Einrichten einer Systemressource.. Der Versuch eine Systemressource einzurichten wurde von Windows mit einem Fehler abgewiesen.</value>
+  </data>
+  <data name="14970" xml:space="preserve">
+    <value>Fataler Fehler</value>
+  </data>
+  <data name="14880" xml:space="preserve">
+    <value>Unzulässiger Parameter ("CD"). Die Anschlussbeschreibung (PVI Parameter "CD") enthält einen unzulässigen Parameter.</value>
+  </data>
+  <data name="14881" xml:space="preserve">
+    <value>Windows-System (9x/NT) nicht erkannt. Das MTC Gerät kann nicht erkennen, ob es sich beim verwendeten System um Windows 9x oder Windows NT handelt.</value>
+  </data>
+  <data name="14879" xml:space="preserve">
+    <value>Scancodes sind nicht definiert. Das Variablen-Prozessobjekt kann nicht verwendet werden, weil keine Tasten-Scancodes definiert sind. Scancodes können mit den B&amp;R MKEY Utilities definiert werden. Dies betrifft die Variablen "Mkeys" und "MkeyMatrix".</value>
+  </data>
+  <data name="14878" xml:space="preserve">
+    <value>Kein Display angeschlossen. Das Variablen-Prozessobjekt kann nicht verwendet werden, weil kein Display angeschlossen ist. Dies betrifft die Variablen "FpdOperatingHours", "FpdPowerOnCycles", "FpdOverTempHours", "FpdTemperature", "FpdContrast", "FpdBrightness", "FpdDefaultContrast", "FpdDefaultBrightness" und "FpdMkeyLedRegisters".</value>
+  </data>
+  <data name="14877" xml:space="preserve">
+    <value>Falsche MTC Version. Das Variablen-Prozessobjekt kann nicht verwendet werden, weil die notwendige MTC Version nicht installiert ist. Die Variablen "UserLed", "MkeyLedMatrix", "KeySwitches", "KeySwitchesOffset", "WatchdogTime" und "Watchdog" benötigen mindestens MTC Version 00.10.</value>
+  </data>
+  <data name="14876" xml:space="preserve">
+    <value>MTC Gerät kann nicht geöffnet werden. Beim Öffnen des MTC Gerätes ist ein Fehler aufgetreten. Möglicherweise sind die B&amp;R MTC Utilities noch nicht installiert.</value>
+  </data>
+  <data name="14875" xml:space="preserve">
+    <value>Illegale Objektdaten. Beim Beschreiben eines Variablen-Prozessobjekts wurden unzulässige Daten angegeben, z.B.: auf die Variable "MkeyLeds[0]" wurde der Wert 4 geschrieben (der gültige Bereich ist 0 bis 3).</value>
+  </data>
+  <data name="14874" xml:space="preserve">
+    <value>Kein Schlüsselschalter definiert. Die Variablen "MkeySwitches" und "MkeySwitchesOffset" können nicht verwendet werden, da kein Schlüsselschalter definiert ist. Ein Schlüsselschalter kann mit den B&amp;R MKEY Utilities definiert werden.</value>
+  </data>
+  <data name="14873" xml:space="preserve">
+    <value>Illegaler Objektname. Illegaler Name des Linienobjekts. Der Device-Name (wenn angegeben) ist nicht "MTC" oder der Variablenname ist unbekannt (entspricht keiner von der MTC-Linie unterstützten Variablen). Der Name des Linienobjekts wird aus dem Anschlussnamen (PVI Parameter "CD") ermittelt.</value>
+  </data>
+  <data name="14872" xml:space="preserve">
+    <value>Fataler Fehler. Interner Fehler der MTC-Linie.</value>
+  </data>
+  <data name="14871" xml:space="preserve">
+    <value>MTC Protokoll-Fehler. Bei der Kommunikation mit dem MTC ist ein Fehler aufgetreten, z.B.: Timeout oder falsche Prüfsumme.</value>
+  </data>
+  <data name="14870" xml:space="preserve">
+    <value>Illegale Objekthierarchie. Der angegebene Prozessobjekttyp (z.B.: Line, Device, Task, Pvar) ist mit dem des übergeordneten Prozessobjekts nicht vereinbar. Es wird z.B. versucht ein Device-Prozessobjekt unter einem Task-Prozessobjekt einzurichten.</value>
+  </data>
+  <data name="12701" xml:space="preserve">
+    <value>Speicherfehler im init Teil (Speicheranforderung führt zu einem Fehler)</value>
+  </data>
+  <data name="12700" xml:space="preserve">
+    <value>DSF noch nicht initialisiert (durch Aufruf von dsf_action vor dsf_open)</value>
+  </data>
+  <data name="12703" xml:space="preserve">
+    <value>Fehler beim Einrichten/Beenden des Kommunikations-Threads</value>
+  </data>
+  <data name="12702" xml:space="preserve">
+    <value>Action Code von DSF-state-machine ungültig (mögliches Versionsproblem)</value>
+  </data>
+  <data name="12704" xml:space="preserve">
+    <value>Fehler beim Einrichten/Beenden des Kommunikations-Events</value>
+  </data>
+  <data name="12755" xml:space="preserve">
+    <value>Fehler der NET2000 Master-Library oder RPS.. NET2000 Fehlercode (1 Byte) ermitteln</value>
+  </data>
+  <data name="12756" xml:space="preserve">
+    <value>Fehler beim Initialisieren der NET2000-DLL</value>
+  </data>
+  <data name="12758" xml:space="preserve">
+    <value>Illegale Objekthierarchie. Die eingerichteten Prozessobjekte der NET2000-Linie besitzen eine illegale Objekthierarchie. z.B.: Es wurde ein Variablenobjekt unter einem Geräteobjekt eingerichtet (ohne Stationsobjekt). Die Net2000-Linie benötigt jedoch Geräteobjekt und Stationsobjekt.</value>
+  </data>
+  <data name="12759" xml:space="preserve">
+    <value>NET2000 Protokollfehler. NET2000 Protokollfehler ist aufgetreten. Dieser Fehler ist ein interner Fehler, ausgelöst durch ein Fehlverhalten der NET2000 "State-Machine".</value>
+  </data>
+  <data name="12763" xml:space="preserve">
+    <value>RPS unterstützt keine Events oder Event-Modul ist nicht installiert. Die angeschlossene RPS unterstützt keine Events oder das Event-Modul ist auf der RPS nicht installiert.</value>
+  </data>
+  <data name="12762" xml:space="preserve">
+    <value>Illegaler Objektname. Illegaler Name des Linienobjekts. Die Länge des Variablennamens und des Tasknamens (wenn vorhanden) ist größer als 1024 Bytes. Der Name des Linienobjekts wird aus dem Anschlussnamen (PVI Parameter "CD") ermittelt.</value>
+  </data>
+  <data name="12761" xml:space="preserve">
+    <value>Maximale NET2000 Protokoll-Länge zu klein. Die maximal übertragbare Variablendaten-Länge wurde überschritten. Das NET2000 Protokoll kann nur Variablendaten bis zu einer maximalen Länge übertragen. Diese maximale Länge ermittelt sich aus der, in der RPS eingestellten "l7lenght" (siehe NET2000-Struktur) abzüglich eines Protokoll-Headers von 20 Bytes. Für "l7lenght" darf maximal 32747 Bytes eingestellt werden.</value>
+  </data>
+  <data name="12760" xml:space="preserve">
+    <value>Fataler Fehler. Interner Fehler der NET2000-Linie.</value>
+  </data>
+  <data name="12600" xml:space="preserve">
+    <value>Slave: Fataler Fehler</value>
+  </data>
+  <data name="12601" xml:space="preserve">
+    <value>Slave: Kein Response-Puffer (Schicht 7) entsprechender Größe vorhanden.</value>
+  </data>
+  <data name="12602" xml:space="preserve">
+    <value>Slave: Illegaler Objektindex.. Slave: Illegaler Objektindex. Mögliche Ursache: Versionsproblem, Änderungen am Slave wurden durchgeführt.</value>
+  </data>
+  <data name="12603" xml:space="preserve">
+    <value>Slave: Illegaler Aufrufcode (Service wird nicht unterstützt).</value>
+  </data>
+  <data name="12604" xml:space="preserve">
+    <value>Slave: Illegale Kanalnummer (Softwareversionen kontrollieren)</value>
+  </data>
+  <data name="12605" xml:space="preserve">
+    <value>Slave: Fehlerhafte Syntax für ereignisgetriebenes Objekt (Eventliste)</value>
+  </data>
+  <data name="12606" xml:space="preserve">
+    <value>Slave: Kein Eventmanager installiert</value>
+  </data>
+  <data name="12607" xml:space="preserve">
+    <value>Slave: Eventliste zu klein konfiguriert.</value>
+  </data>
+  <data name="12608" xml:space="preserve">
+    <value>Slave: Objekt ist keine Struktur.</value>
+  </data>
+  <data name="12609" xml:space="preserve">
+    <value>Slave: Fehler aus Objektstruktur lesen.</value>
+  </data>
+  <data name="12611" xml:space="preserve">
+    <value>Slave: Objekt-Indexfehler / Index außerhalb des zulässigen Bereichs.</value>
+  </data>
+  <data name="12610" xml:space="preserve">
+    <value>Slave: Anderer "Master" als der "Eventmaster" versucht eventgesteuerte PV's anzumelden.</value>
+  </data>
+  <data name="12613" xml:space="preserve">
+    <value>Slave: Kein Confirmation-Puffer (Schicht 4 oder 7) entsprechender Größe vorhanden.</value>
+  </data>
+  <data name="12612" xml:space="preserve">
+    <value>Slave: Kein Request-Puffer (Schicht 7) entsprechender Größe vorhanden.</value>
+  </data>
+  <data name="12614" xml:space="preserve">
+    <value>Slave: Kein Indication-Puffer (Schicht 4 oder 7) entsprechender Größe vorhanden.</value>
+  </data>
+  <data name="12672" xml:space="preserve">
+    <value>Slave: Objekt Indextabelle ist voll.</value>
+  </data>
+  <data name="12671" xml:space="preserve">
+    <value>Slave: unbekanntes Objekt.. Eine Prozessvariable mit dem angegebenen Namen existiert nicht auf der RPS.</value>
+  </data>
+  <data name="12670" xml:space="preserve">
+    <value>Slave: ungültiger Objekt Typ</value>
+  </data>
+  <data name="12521" xml:space="preserve">
+    <value>Der Empfangspuffer des Masters ist zu klein um die Slave Daten aufzunehmen.</value>
+  </data>
+  <data name="12520" xml:space="preserve">
+    <value>Der Empfangspuffer im Master konnte nicht allokiert werden (zu wenig Speicher).</value>
+  </data>
+  <data name="12522" xml:space="preserve">
+    <value>Kommunikation Status Fehler (Datenblöcke gingen verloren).</value>
+  </data>
+  <data name="12510" xml:space="preserve">
+    <value>Timeout während der Kommunikation mit dem Slave.. Timeout während der Kommunikation mit dem Slave. Mögliche Ursache: Net2000 Timeout-Parameter zu klein, Verbindung unterbrochen.</value>
+  </data>
+  <data name="12561" xml:space="preserve">
+    <value>Illegaler Aufrufcode.. Illegaler Aufrufcode. Mögliche Ursache: Softwareversion.</value>
+  </data>
+  <data name="12560" xml:space="preserve">
+    <value>Datenpuffer ist zu klein.. Datenpuffer ist zu klein. Mögliche Ursache: Problem mit spoio_in_len beim Aufruf dsf_action.</value>
+  </data>
+  <data name="12545" xml:space="preserve">
+    <value>Illegale Daten vom Slave erhalten, falsche Datenlänge.. Illegale Daten vom Slave erhalten, falsche Datenlänge. Mögliche Ursachen: Master wurde neu gestartet ohne den Slave zu reseten. Das Byte-Alignment einer angesprochenen RPS Strukturvariablen stimmt nicht mit dem vom Master erwarteten überein. Abhilfe: alle Byte-Strukturelemente auf Typ WORD / INT16 ändern bzw. Füll-Bytes einfügen.</value>
+  </data>
+  <data name="12544" xml:space="preserve">
+    <value>Illegale Daten vom Slave erhalten, falscher Servicecode.. Illegale Daten vom Slave erhalten, falscher Servicecode. Mögliche Ursache: Master wurde neu gestartet ohne den Slave zu reseten.</value>
+  </data>
+  <data name="12543" xml:space="preserve">
+    <value>Illegale Daten vom Slave erhalten, falsche Sequenznummer.. Illegale Daten vom Slave erhalten, falsche Sequenznummer. Mögliche Ursache: Master wurde neu gestartet ohne den Slave zu reseten.</value>
+  </data>
+  <data name="12542" xml:space="preserve">
+    <value>Der Sendepuffer des Masters ist zu klein um die Slave Daten aufzunehmen</value>
+  </data>
+  <data name="12541" xml:space="preserve">
+    <value>Der Sendepuffer im Master konnte nicht allokiert werden (zu wenig Speicher)</value>
+  </data>
+  <data name="12540" xml:space="preserve">
+    <value>Slave ist nicht bereit</value>
+  </data>
+  <data name="12581" xml:space="preserve">
+    <value>Speicher konnte nicht allokiert werden (Init).</value>
+  </data>
+  <data name="12580" xml:space="preserve">
+    <value>Speicher konnte nicht allokiert werden (Create).</value>
+  </data>
+  <data name="12125" xml:space="preserve">
+    <value>Fehler beim Einrichten/Öffnen einer Datei. Beim Einrichten oder Öffnen einer Datei meldet das Betriebssystem einen Fehler.</value>
+  </data>
+  <data name="12124" xml:space="preserve">
+    <value>Gerät ist nicht bereit. Das angegebene Gerät ist nicht bereit.</value>
+  </data>
+  <data name="12127" xml:space="preserve">
+    <value>Fehler beim Lesen. Beim Lesen von Daten aus einer Datei meldet das Betriebssystem einen Fehler.</value>
+  </data>
+  <data name="12126" xml:space="preserve">
+    <value>Fehler beim Schreiben. Beim Schreiben von Daten in die Datei meldet das Betriebssystem einen Fehler.</value>
+  </data>
+  <data name="12121" xml:space="preserve">
+    <value>Ungültiger Pfad- oder Dateiname. Der angegebene Pfad- oder Dateiname ist ungültig (z.B.: Im Namen wurden unzulässige Zeichen verwendet - Syntaxfehler).</value>
+  </data>
+  <data name="12120" xml:space="preserve">
+    <value>Pfad/Datei nicht vorhanden. Ein im Pfadnamen angegebenes Laufwerk oder Verzeichnis ist nicht vorhanden. Die angegebene Datei ist nicht vorhanden.</value>
+  </data>
+  <data name="12123" xml:space="preserve">
+    <value>Gerät ist schreibgeschützt. Das angegebene Gerät ist schreibgeschützt.</value>
+  </data>
+  <data name="12122" xml:space="preserve">
+    <value>Zugriff verweigert. Der Zugriff auf das Laufwerk, das Verzeichnis oder die Datei wurde vom Betriebssystem verweigert.</value>
+  </data>
+  <data name="12129" xml:space="preserve">
+    <value>Fehler beim Ausführen einer Datei. Beim Ausführen einer Datei meldet das Betriebssystem einen Fehler.</value>
+  </data>
+  <data name="12128" xml:space="preserve">
+    <value>Fehler beim Löschen einer Datei. Beim Löschen einer Datei meldet das Betriebssystem einen Fehler.</value>
+  </data>
+  <data name="12130" xml:space="preserve">
+    <value>Datei existiert bereits. Es wurde versucht eine Datei einzurichten die bereits existiert.</value>
+  </data>
+  <data name="12104" xml:space="preserve">
+    <value>Windows-Systemfehler: Thread einrichten/starten. Der Versuch einen Thread einzurichten bzw. zu starten wurde von Windows mit einem Fehler abgewiesen. Der von Windows dabei gemeldete Fehler kann aus dem Log-File des PVI Managers bzw. der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12103" xml:space="preserve">
+    <value>Windows-Systemfehler: Mapped-File (Kommunikationspuffer) einrichten/öffnen. Der Versuch ein Mapped-File (Kommunikationspuffer) einzurichten bzw. zu öffnen wurde von Windows mit einem Fehler abgewiesen. Der von Windows dabei gemeldete Fehler kann aus dem Log-File des PVI Managers bzw. der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12102" xml:space="preserve">
+    <value>Windows-Systemfehler: Events einrichten/öffnen. Der Versuch ein System-Event einzurichten bzw. zu öffnen wurde von Windows mit einem Fehler abgewiesen. Der von Windows dabei gemeldete Fehler kann aus dem Log-File des PVI Managers bzw. der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12101" xml:space="preserve">
+    <value>Windows-Systemfehler: Wait-Funktion. Fehler bei der Ausführung der Wait-Funktion. Der von Windows dabei gemeldete Fehler kann aus dem Log-File des PVI Managers bzw. der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12100" xml:space="preserve">
+    <value>Windows-Systemfehler beim Einrichten einer Systemressource. Der Versuch eine Systemresource einzurichten wurde von Windows mit einem Fehler abgewiesen. Der von Windows dabei gemeldete Fehler kann aus dem Log-File des PVI-Managers bzw. der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Daten-Logger).</value>
+  </data>
+  <data name="12060" xml:space="preserve">
+    <value>Prozess- Timeout (Request/Response). Die vom Anwender mit der Funktion PviInitialize (Parameter "PT") definierte Zeit für Timeout der Auftragsabwicklung (Request/Response) ist abgelaufen. Der Auftrag wurde abgebrochen. Der Timeout für die Auftragsabwicklung definiert die maximale Zeit, die vergehen darf, bis die Antwortdaten (Response) eines Auftrages (Request) vom PVI Manager an die Applikation gesendet wurden.</value>
+  </data>
+  <data name="12062" xml:space="preserve">
+    <value>PVICOM ist nicht / oder bereits initialisiert. Folgende Ursachen können vorliegen: 1) Nach dem Start der Applikation oder nach dem Aufruf der Funktion PviDeinitialize wurde eine andere Anwenderfunktion als PviInitialize aufgerufen. 2) Die Anwenderfunktion PviInitialize (ohne Fehlerantwort) wurde erneut aufgerufen ohne zuvor die Funktion PviDeinitialize aufzurufen.</value>
+  </data>
+  <data name="12063" xml:space="preserve">
+    <value>Illegaler Funktionsparameter. Eine Anwenderfunktion wurde mit einem unzulässigen Funktionsparameter versorgt. z.B.: wenn für den letzten Parameter (pRes) der Funktion PviInitialize ein Wert ungleich Null angegeben wurde.</value>
+  </data>
+  <data name="12042" xml:space="preserve">
+    <value>Applikation nicht angemeldet. Der Fehler tritt auf, wenn von einem nicht am Server (Manager) angemeldeten Client (Applikation) ein Request empfangen wurde. Dieser Fehler ist ein interner PVI Fehler und ist nur im Daten-Logger sichtbar.</value>
+  </data>
+  <data name="12043" xml:space="preserve">
+    <value>Request wurde abgebrochen. Ein von der Applikation angestoßener Auftrag (Request) wurde vorzeitig abgebrochen. Der Abbruch kann folgende Ursachen haben: 1) Der Auftrag wurde von der Applikation selbst per Kommando (Zugriffsart CANCEL) abgebrochen. 2) Das zugeordnete Prozessobjekt wurde gelöscht (PviDelete).</value>
+  </data>
+  <data name="12040" xml:space="preserve">
+    <value>Verbindung wurde abgebrochen. Eine, über ein Verbindungsobjekt bestehende Verbindung zu einem Prozessobjekt wurde abgebrochen. Folgende Ursachen des Abbruchs sind möglich: 1) PVI Manager wurde beendet. 2) Das Prozessobjekt wurde gelöscht (Anwenderfunktion PviDelete). 3) Die Trial-Zeit ist abgelaufen.</value>
+  </data>
+  <data name="12041" xml:space="preserve">
+    <value>Fehler beim Anmelden der Applikation. Reservierter Fehler - wird nicht verwendet</value>
+  </data>
+  <data name="12044" xml:space="preserve">
+    <value>Applikationsinstanzen (Clients) Maximum wurde überschritten. Die maximale Anzahl der am PVI Manager anmeldebaren Applikationsinstanzen (Clients) wurde überschritten. Die maximale Anzahl ist derzeit mit 65534 begrenzt.</value>
+  </data>
+  <data name="12045" xml:space="preserve">
+    <value>Ungültiger Instanzhandle (Client). Der Anwenderfunktion (PviX....) wurde ein ungültiger Handle für die Applikationsinstanz übergeben.</value>
+  </data>
+  <data name="12071" xml:space="preserve">
+    <value>Fehler beim Identifizieren der Linien-DLL. Die mit der Anschlussbeschreibung des Linienobjekts definierte DLL konnte geladen werden. Die DLL wurde aber vom PVI Manager nicht als Linien-DLL erkannt.</value>
+  </data>
+  <data name="12070" xml:space="preserve">
+    <value>Fehler beim Laden der Linien-DLL. Das Linienobjekt konnte die Linien-DLL nicht laden. Häufigste Ursache: Die mit der Anschlussbeschreibung definierte Linien-DLL oder einer ihrer Komponenten konnte nicht gefunden werden. Der von Windows dabei gemeldete Fehler kann aus dem Log-File des PVI Managers gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12073" xml:space="preserve">
+    <value>Unzulässiger Linienname. Der mit der Anschlussbeschreibung des Linienobjekts definierte Name der Linien-DLL ist unzulässig. Der von Windows gemeldete Fehler kann aus dem Log-File des PVI-Managers gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12072" xml:space="preserve">
+    <value>Undefinierbare Linien-Fehlermeldung. Ein nicht zuordenbarer Fehler wurde von der Linie dem PVI-Manager gemeldet. Nicht zuordenbare Fehler sind Fehler mit Fehlercode kleiner gleich 0 oder größer 65535. Der tatsächlich übergebene Fehlercode kann nur mit dem PVI Data-Logger mit Mode=3 ermittelt werden.</value>
+  </data>
+  <data name="12075" xml:space="preserve">
+    <value>Fehler beim Laden der Funktions-DLL. Das Variablenobjekt konnte die Funktions-DLL nicht laden. Häufigste Ursache: Für die definierte Datenfunktion konnte keine entsprechende Funktions-DLL gefunden werden. Der von Windows dabei gemeldete Fehler kann aus dem Log-File des PVI Managers gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12074" xml:space="preserve">
+    <value>Komponente zur B&amp;R-Modulgenerierung ist nicht installiert</value>
+  </data>
+  <data name="12077" xml:space="preserve">
+    <value>Unzulässiger Funktionsname. Der mit der Datenfunktion definierte Funktionsname ist unzulässig. Der von Windows gemeldete Fehler kann aus dem Log-File des PVI-Managers gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12076" xml:space="preserve">
+    <value>Fehler beim Identifizieren der Funktions-DLL. Für die im Variablenobjekt definierte Datenfunktion konnte eine DLL geladen werden. Die DLL wurde aber vom PVI Manager nicht als Funktions-DLL erkannt.</value>
+  </data>
+  <data name="12024" xml:space="preserve">
+    <value>Maximale Verschachtelungstiefe oder Elementanzahl in Strukturvariable überschritten. Die maximale Verschachtelungstiefe oder die maximale Elementanzahl in Strukturvariable überschritten. Derzeit ist im PVI die maximale Verschachtelungstiefe auf 64 begrenzt. Die maximale Anzahl der Strukturelemente ist mit 65535 begrenzt. Zur Berechnung der Anzahl der Strukturelemente einer Struktur ist folgendes zu beachten: Sind in der Struktur weitere Strukturen definiert, muss die Struktur selbst und deren Strukturelemente dazugezählt werden.</value>
+  </data>
+  <data name="12025" xml:space="preserve">
+    <value>Illegale Verschachtelung in Strukturvariable. Die im Beschreibungsstring (Verbindungsobjekt- bzw. Prozessobjektbeschreibung oder Zugriffsart TYPE) als Datenformat angegebene Struktur wurde mit einer fehlerhaften Verschachtelung angegeben.</value>
+  </data>
+  <data name="12026" xml:space="preserve">
+    <value>Unzulässige Skalierungs- bzw. Grenzwertangabe. In der Parameterangabe "FS" der Verbindungsobjekt- bzw. Prozessobjektbeschreibung (Anwenderfunktion PviCreate oder PviLink) oder in dem, beim Zugriff auf die Objekteigenschaft FUNCTION (Anwenderfunktion PviWrite) übergebenen String ist eine unzulässige Skalierungs- bzw. Grenzwertangabe enthalten. Unzulässige Angaben sind: 1) Die maximale Anzahl der Funktionswertepaaren wurde überschritten. Derzeit können maximal 32766 Wertepaare angegeben werden. 2) Es wurde eine ungerade Anzahl von Funktionswerten angegeben. 3) Syntaktischer Fehler (z.B.: Funktions- oder Grenzwertangabe beinhaltet unzulässiges Trennzeichen).</value>
+  </data>
+  <data name="12027" xml:space="preserve">
+    <value>Unzulässiger Skalierungs- bzw. Grenzwert. In der Parameterangabe "FS" der Verbindungsobjekt- bzw. Prozessobjektbeschreibung (Anwenderfunktion PviCreate oder PviLink) oder in dem, beim Zugriff auf die Objekteigenschaft FUNCTION (Anwenderfunktion PviWrite) übergebenen String ist mindestens ein unzulässiger Skalierungs- bzw. Grenzwert enthalten. Die angegebene Funktion ist nicht "streng monoton steigend" oder "streng monoton fallend".</value>
+  </data>
+  <data name="12020" xml:space="preserve">
+    <value>Illegale Syntax. Syntaktischer Fehler in einem Beschreibungsstring. Fall A) In der angegebenen Verbindungsobjekt- bzw. Prozessobjektbeschreibung (Anwenderfunktion PviCreate oder PviLink) oder in dem, mit einem schreibenden Zugriff (Anwenderfunktion PviWrite) auf eine Objekteigenschaft (Zugriffsart TYPE, CONNECT usw.) übergebenen String ist mindestens ein syntaktischer Fehler enthalten. Fall B) Beim Lesen der PVI-Konfigurationsdaten über die Funktionen der PviCfg.dll wurde ein syntaktischer Fehler erkannt.</value>
+  </data>
+  <data name="12021" xml:space="preserve">
+    <value>Unbekanntes Schlüsselwort in einem PVI Beschreibungsstring. Unbekanntes Schlüsselwort in einem PVI Beschreibungsstring. Fall A) In der angegebenen Verbindungsobjekt- bzw. Prozessobjektbeschreibung (Anwenderfunktion PviCreate oder PviLink) ist mindestens ein unbekanntes PVI Schlüsselwort enthalten. Beispiel Falsch: "RF=1500 VT=u8 QW=2" Richtig: "RF=1500 VT=u8" Fall B) Beim Lesen der PVI-Konfigurationsdaten über die Funktionen der PviCfg.dll wurde ein unbekannter Sektionsschlüssel gefunden.</value>
+  </data>
+  <data name="12022" xml:space="preserve">
+    <value>Schlüsselwort in Beschreibung bereits vorhanden. In der angegebenen Verbindungsobjekt- bzw. Prozessobjektbeschreibung (Anwenderfunktion PviCreate oder PviLink) ist mindestens ein PVI Schlüsselwort mehr als einmal angegeben. Beispiel Falsch: "RF=200 VT=u8 RF=200" Richtig: "VT=u8 RF=200"</value>
+  </data>
+  <data name="12023" xml:space="preserve">
+    <value>Unzulässiges Schlüsselwort in Beschreibung. In der angegebenen Verbindungsobjekt- bzw. Prozessobjektbeschreibung (Anwenderfunktion PviCreate oder PviLink) ist ein PVI Schlüsselwort für diesen Prozessobjekttyp nicht zulässig. Beispiel: Die Angabe eines Variablentyps ("VT=u8") in Verbindung mit einem Task-Objekt ist unzulässig.</value>
+  </data>
+  <data name="12028" xml:space="preserve">
+    <value>Unzulässige Hysteresewertangabe. In der Parameterangabe "HY" der Verbindungsobjekt- bzw. Prozessobjektbeschreibung (Anwenderfunktion PviCreate oder PviLink) oder in dem, beim Zugriff auf die Objekteigenschaft HYSTERESE (Anwenderfunktion PviWrite) übergebenen String ist eine unzulässige Hysteresewertangabe enthalten.</value>
+  </data>
+  <data name="12053" xml:space="preserve">
+    <value>Illegale Request-Daten. Es wurden unzulässige Request-Daten vom Server gelesen. Unzulässige Request-Daten können prinzipiell nur bei einer TCP-IP Kommunikation zwischen Client (Applikation) und Server (PVI Manager) auftreten, wenn eine fremde (nicht PVI) Applikation versucht eine Verbindung auf der gleichen Portnummer herzustellen.</value>
+  </data>
+  <data name="12052" xml:space="preserve">
+    <value>Falsche Version der Kommunikations-DLL. Die vom Client (Applikation) verwendete Version der Kommunikations-Library PviCom.dll ist nicht kompatibel zu der vom Server (PVI Manager) verwendeten Version.</value>
+  </data>
+  <data name="12051" xml:space="preserve">
+    <value>Fehler bei Kommunikation mit PVI-Manager. Reservierter Fehler - wird nicht verwendet</value>
+  </data>
+  <data name="12050" xml:space="preserve">
+    <value>PVI Manager nicht gestartet. Der PVI Manager ist nicht gestartet bzw. angemeldet. Dieser Fehler kann nur in Verbindung mit einer lokalen Client/Server (Applikation/PVI Manager) Kommunikation auftreten.</value>
+  </data>
+  <data name="12057" xml:space="preserve">
+    <value>Illegaler Window-Handle. Der in der Funktion PviLinkRequest angegebene Message-Zeiger/Handle ist nicht zulässig (== NULL).</value>
+  </data>
+  <data name="12056" xml:space="preserve">
+    <value>Unerlaubte Anwendung der C-Funktionen. Die aufgerufene Response-Funktion (Pvi...Response) passt nicht zum Modus der Antwortdaten. Dieser Modus (Create, Link, Read, Write usw) wird durch die verwendete Request-Funktion (PviCreateRequest, PviLinkRequest, PviReadRequest, PviWriteRequest usw.) bestimmt. So können Anwortdaten der Funktion PviLinkRequest nur mit PviLinkResponse oder Antwortdaten der Funktion PviWriteRequest nur mit PviWriteResponse gelesen werden. Event-Daten können nur mit der Response-Funktion PviReadResponse gelesen werden.</value>
+  </data>
+  <data name="12055" xml:space="preserve">
+    <value>Keine Response-Daten vorhanden. Beim Aufruf der Funktion PviGetResponseInfo oder einer der Antwortfunktionen Pvi...Response lagen keine entsprechenden Response-Daten vor. Folgende Ursachen können vorliegen: 1) Der beim Funktionsaufruf angegebene Meldungsparameter (wParam) ist falsch. 2) Die Antwortfunktion Pvi...Response wurde für den Meldungsparameter bereits aufgerufen. 3) Die Response-Daten (Antwort- oder Ereignisdaten) wurden mit dem Funktionsaufruf PviUnlink bzw. PviUnlinkAll bereits gelöscht.</value>
+  </data>
+  <data name="12054" xml:space="preserve">
+    <value>Illegale Response-Daten. Es wurden unzulässige Response-Daten vom Client gelesen. Fehlerverhalten analog zu Fehler 12053.</value>
+  </data>
+  <data name="12059" xml:space="preserve">
+    <value>Kommunikations-Timeout (Applikation/PVI Manager). Die vom Anwender mit der Funktion PviInitialize (Funktionsargument "Timeout") definierte Zeit für Timeout der Client/Server (Applikation/PVI Manager) Kommunikation ist abgelaufen. Die Applikation konnte während dieser Zeit keine Kommunikation mit dem PVI Manager durchführen.</value>
+  </data>
+  <data name="12058" xml:space="preserve">
+    <value>Zugriffsart wird nicht unterstützt. Die mit der Anwenderfunktion PviRead oder PviWrite übergebene Zugriffsart (Access) wird vom Typ des angesprochenen Prozessobjekts bzw. von der verwendeten Linie nicht unterstützt.</value>
+  </data>
+  <data name="12006" xml:space="preserve">
+    <value>Illegale Länge des Objektnames. Die Länge des symbolischen Prozessobjektnamen ist unzulässig. Es wurde im Prozessobjektpfad ein "leerer" Objektname angegeben oder die Länge des Prozessobjektpfades ist größer als MAXLEN_POBJ_NAME Zeichen. MAXLEN_POBJ_NAME ist zur Zeit auf 256 Zeichen beschränkt.</value>
+  </data>
+  <data name="12007" xml:space="preserve">
+    <value>Syntaxfehler im Objektnamen. Im Prozessobjektnamen oder im Prozessobjektpfad wurde ein syntaktischer Fehler erkannt. Der Prozessobjektpfad spiegelt die Prozessobjekthierarchie wieder. Um die Prozessobjektnamen innerhalb eines Prozessobjektpfades eindeutig zu trennen unterliegen sie festen syntaktischen Regeln. Als typischer Fehler wird der Prozessobjektname bei Verwendung von Leerzeichen oder Sonderzeichen nicht unter Hochkomma gestellt. Beispiel: falsch: @/Pvi/Lnina2/COM2/ST1/CP260 Hauptextruder/TempHigh richtig: @/Pvi/Lnina2/COM2/ST1/"CP260 Hauptextruder"/TempHigh Siehe PVI Dokumentation Kapitel "Zeichen in Objektnamen und Objektbeschreibungen" und Kapitel "Prozessobjektnamen und Anschlussbeschreibung"</value>
+  </data>
+  <data name="12004" xml:space="preserve">
+    <value>Undefinierter Objekthandle. Der in der Anwenderfunktion (PviRead, PviWrite, PviChgLink und Unlink) angegebene Verbindungsobjekthandle ("LinkID") ist nicht gültig. Es existiert kein entsprechendes Verbindungsobjekt.</value>
+  </data>
+  <data name="12005" xml:space="preserve">
+    <value>Illegaler Objekttyp. Der in der Funktion PviCreate, PviLink oder PviDelete, im symbolischen Objektpfad angegebene Objekttyp ( im Stringformat) ist dem PVI nicht bekannt. Beispiel @/Pvi/LNINA2 OT=XYZ/Station Der in der Funktion PviCreate als Argument angegebene Objekttyp [ Zahl (im Binärformat) ] ist dem PVI nicht bekannt. Derzeit gültige Objekttypen: 1..7</value>
+  </data>
+  <data name="12002" xml:space="preserve">
+    <value>Objekt-Name bereits vorhanden. Der symbolische Prozessobjekt Name wird bereits verwendet. Das Prozessobjekt kann unter diesem Namen nicht eingerichtet werden. Der Fehler wird beim Einrichten eines statischen Prozessobjektes in der Funktion PviCreate oder PviCreateResponse zurückgegeben. Wird versucht ein temporäres Prozessobjekt einzurichten, so wird ein Linkobjekt auf das bereits existierende Prozessobjekt mit dem angegebenen Namen eingerichtet.</value>
+  </data>
+  <data name="12003" xml:space="preserve">
+    <value>Objekt-Name nicht gefunden. Fall A) Ein symbolischer Prozessobjektname im Prozessobjektpfad ist nicht vorhanden. Der Fehler tritt beim PviCreate, PviLink und beim PviDelete auf. Fall B) Der symbolische Prozessobjektname ist nicht vorhanden. Dies kann nur beim PviLink oder PviDelete der Fall sein.</value>
+  </data>
+  <data name="12000" xml:space="preserve">
+    <value>Undefinierbarer Fehler. Ein nicht zuordenbarer Fehler wurde im PVI-Manager generiert. Dieser Fehler ist ein interner PVI Fehler.</value>
+  </data>
+  <data name="12001" xml:space="preserve">
+    <value>Objekthandle-Liste ist voll. Die Anzahl der Linkobjekte oder Prozessobjekte (Serviceobjekte) übersteigt 2147483647.</value>
+  </data>
+  <data name="12008" xml:space="preserve">
+    <value>Syntaktischer Fehler in Anschlussbeschreibung. Dieser Fehler tritt nur dann auf, wenn anstelle der "Pfadangabe" die Adressierung über "Eindeutige Objektnamen" verwendet wird. Der Fehler tritt beim "CD" Parameter oder beim schreibenden Zugriff auf die Anschlussbeschreibung auf. Die Anschlussbeschreibung entspricht nicht den syntaktischen Regeln für Prozessobjektnamen. Die Regeln sind hier entsprechend der Beschreibung des Fehler 12007 ausschließlich auf die Anschlussbeschreibung angewandt.</value>
+  </data>
+  <data name="12009" xml:space="preserve">
+    <value>Illegale Objekt-Hierarchie. Der angegebene Prozessobjekttyp (z.B.: Line, Device, Task, Pvar) ist mit dem des übergeordneten Prozessobjekts nicht vereinbar. z.B.: Es wird versucht ein Device-Prozessobjekt unter einem Task-Prozessobjekt einzurichten.</value>
+  </data>
+  <data name="12035" xml:space="preserve">
+    <value>Objekt mit Leseschutz. Es wurde versucht auf eine Prozessvariable mit aktiven Leseschutz lesend zuzugreifen. Der Leseschutz kann vom Anwender (z.B.: Parameter AT=w) oder von der Linie festgelegt werden.</value>
+  </data>
+  <data name="12034" xml:space="preserve">
+    <value>Objekt mit Schreibschutz. Es wurde versucht eine Prozessvariable mit aktiven Schreibschutz zu beschreiben. Der Schreibschutz kann vom Anwender (z.B.: Parameter AT=r) oder von der Linie festgelegt werden.</value>
+  </data>
+  <data name="12037" xml:space="preserve">
+    <value>Datenlängen Konflikt. Fall A) Fehler im Beschreibungsstring für das Datenformat. Eine durch den Variablentyp (Parameter "VT") vorgegebene Datenlänge ist ungleich der angegebenen Datenlänge. Beispiel: Falsch: "VT=u16 VL=3" Richtig: "VT=u16 VL=2" oder einfach "VT=u16" Fall B) Es wurde beim Schreiben auf ein Variablenobjekt (PviWrite) eine Pufferlänge angegeben, die nicht mit der Länge der Variablendaten übereinstimmt. Die Angabe einer kleineren Pufferlänge ist nur bei Variablentyp "String" erlaubt.</value>
+  </data>
+  <data name="12036" xml:space="preserve">
+    <value>Datentyp Konflikt (Cast mit nicht kompatiblen Datentypen). Der Datentypkonvertierung (Cast) zwischen Verbindungs- und Prozessobjekt kann mit den bestehenden Datenformaten nicht durchgeführt werden. z.B.: Cast zwischen Integer und Struktur.</value>
+  </data>
+  <data name="12031" xml:space="preserve">
+    <value>Zustand wird nicht unterstützt. Es wurde versucht auf einen, vom angesprochenen Objekt nicht unterstützten Status schreibend oder lesend zuzugreifen. Dieser Fehler ist ein interner PVI Fehler.</value>
+  </data>
+  <data name="12030" xml:space="preserve">
+    <value>Eigenschaft wird nicht unterstützt. Es wurde versucht auf eine, vom angesprochenen Objekt nicht unterstützte oder unbekannte Eigenschaft schreibend oder lesend zuzugreifen. Dieser Fehler ist ein interner PVI Fehler.</value>
+  </data>
+  <data name="12033" xml:space="preserve">
+    <value>Illegales Datenformat. Fall A) Mit dem bestehenden Datenformat (Verbindungsobjekt bzw. Prozessobjekt) kann eine Variablenadressierung nicht durchgeführt werden. Fall B) In der Datenformatangabe der Verbindungsobjekt- bzw. Prozessobjektbeschreibung (Anwenderfunktion PviCreate oder PviLink) oder in dem, mit einem schreibenden Zugriff (Anwenderfunktion PviWrite) auf die Objekteigenschaft TYPE übergebenen String ist ist ein illegales Datenformat definiert.</value>
+  </data>
+  <data name="12032" xml:space="preserve">
+    <value>Kein Datenformat definiert. In der Verbindungsobjektbeschreibung wurde eine Hysterese oder Funktion definiert ohne ein Datenformat festzulegen.</value>
+  </data>
+  <data name="12039" xml:space="preserve">
+    <value>Datenformat ist durch die Linie definiert. Es wurde versucht ein durch die Linie (bei NET2000 und INA2000 Linien) definiertes Datenformat zu überschreiben (Zugriffsart: TYPE).</value>
+  </data>
+  <data name="12038" xml:space="preserve">
+    <value>Illegales Datenformat zusammen mit Hysterese oder Funktion. Die Hysterese oder Skalierungsfunktion bzw. Grenzwertüberwachung kann mit dem vorhandenen Datenformat der Variable nicht arbeiten. z.B.: Hysterese bei Strukturvariablen ist nicht möglich</value>
+  </data>
+  <data name="12014" xml:space="preserve">
+    <value>Grenzwertüberschreitung. Überschreitung der im Prozessobjekt oder im Verbindungsobjekt angegebenen Grenzwerte. Die Grenzwerte werden mit dem Parameter "FS" definiert. Dieser Fehler kann nur als Antwort auf einen Write-Request (Anwenderfunktion PviWrite) auftreten.</value>
+  </data>
+  <data name="12013" xml:space="preserve">
+    <value>Prozessobjekt besitzt keine gültigen Variablendaten. Dieser Fehler tritt hauptsächlich bei internen Variablen auftritt, die gelesen werden bevor sie das erste Mal beschrieben werden.</value>
+  </data>
+  <data name="12012" xml:space="preserve">
+    <value>Illegale Datenlänge. Die Anzahl der angegebenen Request-Datenbytes (Anwenderfunktion PviRead, PviWrite) ist größer als 2147483647.</value>
+  </data>
+  <data name="12011" xml:space="preserve">
+    <value>Der angeforderte Speicher kann nicht reserviert werden. Die Speicheranforderung liefert einen Fehler. Zuwenig freier Speicher vorhanden, keine Reservierung möglich.</value>
+  </data>
+  <data name="12010" xml:space="preserve">
+    <value>PVI-Objekt nicht eingerichtet. Historischer Fehlercode - wird seit Version 1.40 nicht mehr verwendet</value>
+  </data>
+  <data name="12086" xml:space="preserve">
+    <value>Falsche Version der Linien-DLL. Die verwendete Version der Linien-DLL ist nicht kompatibel zum PVI Manager.</value>
+  </data>
+  <data name="12084" xml:space="preserve">
+    <value>Systemfehler Linie (illegaler Prozessobjekt-Handle). Illegaler Prozessobjekt-Handle. Dieser Fehler ist ein interner Fehler der PVI Linienschnittstelle.</value>
+  </data>
+  <data name="12085" xml:space="preserve">
+    <value>Systemfehler PVI/Linie (undefinierter Servicezustand). Undefinierter Servicezustand. Dieser Fehler ist ein interner Fehler der PVI Linienschnittstelle oder des PVI Managers.</value>
+  </data>
+  <data name="12082" xml:space="preserve">
+    <value>Systemfehler Linie (unerlaubter Zugriff auf Linienschnittstellenfunktion). Unerlaubter Zugriff auf Linienschnittstellenfunktion. Dieser Fehler ist ein interner Fehler der PVI Linienschnittstelle.</value>
+  </data>
+  <data name="12083" xml:space="preserve">
+    <value>Systemfehler Linie (unerlaubte Prozess-Suspendierung). Unerlaubte Prozess-Suspendierung. Dieser Fehler ist ein interner Fehler der PVI Linienschnittstelle.</value>
+  </data>
+  <data name="12080" xml:space="preserve">
+    <value>Systemfehler PVI (illegales Werteformat). Illegales Werteformat wurde übergeben. Dieser Fehler ist ein interner Fehler des PVI Managers.</value>
+  </data>
+  <data name="12081" xml:space="preserve">
+    <value>Systemfehler PVI (interne PVI Daten sind beschädigt). Interne PVI Manager Daten sind beschädigt. Dieser Fehler ist ein interner Fehler des PVI Managers.</value>
+  </data>
+  <data name="12096" xml:space="preserve">
+    <value>Host nicht gefunden oder gestört (TCP/IP-Fehler). Host nicht gefunden oder gestört (TCP/IP-Fehler). Der von Windows dabei gemeldete Fehler kann aus dem Log-File der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12095" xml:space="preserve">
+    <value>Kommunikation gestört (TCP/IP-Fehler). Kommunikation gestört (TCP/IP-Fehler). Der von Windows dabei gemeldete Fehler kann aus dem Log-File der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12094" xml:space="preserve">
+    <value>Kommunikation nicht möglich (TCP/IP-Fehler). Kommunikation nicht möglich (TCP/IP-Fehler). Der von Windows dabei gemeldete Fehler kann aus dem Log-File der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12093" xml:space="preserve">
+    <value>Speicherfehler oder Limit erreicht (TCP/IP-Fehler). Speicherfehler oder Limit erreicht (TCP/IP-Fehler). Der von Windows dabei gemeldete Fehler kann aus dem Log-File der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12092" xml:space="preserve">
+    <value>Fehler im Netzwerk-Subsystem (TCP/IP-Fehler). Fehler im Netzwerk-Subsystem (TCP/IP-Fehler). Der von Windows dabei gemeldete Fehler kann aus dem Log-File der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12091" xml:space="preserve">
+    <value>Falsche IP-Adresse oder Hostname nicht vorhanden (TCP/IP-Fehler). Falsche IP-Adresse oder Hostname nicht vorhanden (TCP/IP-Fehler). Der von Windows dabei gemeldete Fehler kann aus dem Log-File der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12090" xml:space="preserve">
+    <value>Allgemeiner Socket-Fehler (TCP/IP-Fehler). Allgemeiner Socket-Fehler (TCP/IP-Fehler). Der von Windows dabei gemeldete Fehler kann aus dem Log-File der Kommunikations-DLL PviCom Client- oder Server-Instanz gelesen werden (siehe PVI Data Logger).</value>
+  </data>
+  <data name="12902" xml:space="preserve">
+    <value>Gerät ist nicht vorhanden</value>
+  </data>
+  <data name="12901" xml:space="preserve">
+    <value>Ungültiges Datenformat</value>
+  </data>
+  <data name="12900" xml:space="preserve">
+    <value>Daten-Puffer nicht eingerichtet</value>
+  </data>
+  <data name="11150" xml:space="preserve">
+    <value>Basis für alle ANSL Server Dienstfehler</value>
+  </data>
+  <data name="11041" xml:space="preserve">
+    <value>Unzulässige Modullänge</value>
+  </data>
+  <data name="11040" xml:space="preserve">
+    <value>Unzulässige Objektnamenslänge</value>
+  </data>
+  <data name="11014" xml:space="preserve">
+    <value>kein Ereignisvariablen-Betrieb möglich</value>
+  </data>
+  <data name="11010" xml:space="preserve">
+    <value>illegaler IF-Parameter</value>
+  </data>
+  <data name="11011" xml:space="preserve">
+    <value>illegaler Applikationsmodulname</value>
+  </data>
+  <data name="11012" xml:space="preserve">
+    <value>ungültiges Datenformat</value>
+  </data>
+  <data name="11013" xml:space="preserve">
+    <value>Variablenformatversion wird nicht unterstützt</value>
+  </data>
+  <data name="11036" xml:space="preserve">
+    <value>Objekt wird nicht unterstützt</value>
+  </data>
+  <data name="11037" xml:space="preserve">
+    <value>angegebenes Objekt ist ungültig</value>
+  </data>
+  <data name="11034" xml:space="preserve">
+    <value>angegebenes Objekt existiert bereits</value>
+  </data>
+  <data name="11035" xml:space="preserve">
+    <value>Objekt nicht bereit</value>
+  </data>
+  <data name="11032" xml:space="preserve">
+    <value>Dienstparameter sind ungültig</value>
+  </data>
+  <data name="11033" xml:space="preserve">
+    <value>angegebenes Objekt existiert nicht</value>
+  </data>
+  <data name="11030" xml:space="preserve">
+    <value>Auftrag wurde abgebrochen</value>
+  </data>
+  <data name="11031" xml:space="preserve">
+    <value>Dienst wird vom ANSL nicht unterstützt</value>
+  </data>
+  <data name="11038" xml:space="preserve">
+    <value>unzulässiger Objektname</value>
+  </data>
+  <data name="11005" xml:space="preserve">
+    <value>allgemeiner Fehler Online-Server</value>
+  </data>
+  <data name="11004" xml:space="preserve">
+    <value>ANSL Objektfehler</value>
+  </data>
+  <data name="11007" xml:space="preserve">
+    <value>Ungültige XML-Daten</value>
+  </data>
+  <data name="11006" xml:space="preserve">
+    <value>Fehler in Online-Server Response</value>
+  </data>
+  <data name="11001" xml:space="preserve">
+    <value>interner Linienfehler</value>
+  </data>
+  <data name="11003" xml:space="preserve">
+    <value>ANSL Protokollfehler</value>
+  </data>
+  <data name="11002" xml:space="preserve">
+    <value>ANSL Versionskonflikt</value>
+  </data>
+  <data name="11009" xml:space="preserve">
+    <value>BrMod104 Fehler</value>
+  </data>
+  <data name="11008" xml:space="preserve">
+    <value>XML-Tag nicht gefunden</value>
+  </data>
+  <data name="11023" xml:space="preserve">
+    <value>Falsche IP-Adresse</value>
+  </data>
+  <data name="11022" xml:space="preserve">
+    <value>Verbindung wurde geschlossen</value>
+  </data>
+  <data name="11021" xml:space="preserve">
+    <value>Verbindung wurde abgebrochen / unterbrochen</value>
+  </data>
+  <data name="11020" xml:space="preserve">
+    <value>Verbindung kann nicht eingerichtet werden</value>
+  </data>
+  <data name="13214" xml:space="preserve">
+    <value>Fehler bei CAN Start. Der CAN Controller kann nicht gestartet werden, z.B. wegen Angabe einer falschen I/O Port Adresse bei IOCTL_INACAN_SETPAR.</value>
+  </data>
+  <data name="13215" xml:space="preserve">
+    <value>Fehler bei CAN Reset. Der CAN Controller kann nicht zurückgesetzt werden, z.B. wegen Angabe einer falschen I/O Port Adresse bei IOCTL_INACAN_SETPAR.</value>
+  </data>
+  <data name="13216" xml:space="preserve">
+    <value>Fehler beim Konfigurieren. Interner Treiberfehler: Das Empfangs- oder Sendeobjekt kann nicht konfiguriert werden, z.B. wegen einer falschen Objektnummer.</value>
+  </data>
+  <data name="13217" xml:space="preserve">
+    <value>Fehler bei FIFO Initialisierung. Die Empfangs-FIFO kann nicht initialisiert werden, z.B. weil der notwendige Speicher nicht angefordert werden kann. Dieser Fehler wird nur bei Treiberversion &lt; 1.30 geliefert.</value>
+  </data>
+  <data name="13210" xml:space="preserve">
+    <value>Fehler beim Schreiben. Interner Treiberfehler: Fehler beim Beschreiben des Sendeobjekts vom CAN Controller, z.B. ungültige Objektnummer, Sendeauftrag ist noch aktiv oder Sendeobjekt kann nicht aktualisiert werden.</value>
+  </data>
+  <data name="13211" xml:space="preserve">
+    <value>CAN Warning State. Am CAN Bus traten ungewöhnlich viele Fehler auf.</value>
+  </data>
+  <data name="13212" xml:space="preserve">
+    <value>CAN Bus Off. Am CAN Bus traten zu viele Fehler auf. Es können keine CAN Nachrichten mehr empfangen oder gesendet werden. Wenn IOTCL_INACAN_SETPAR mit "restart_at_busoff" = 1 aufgerufen wurde, versucht der Treiber selbständig diesen Zustand durch Reset des CAN Controllers wieder zu verlassen. Wenn "restart_at_busoff" mit 0 angegeben wurde, kann dieser Zustand nur durch neuerliches Initialisieren des Controllers mit IOCTL_INACAN_SETPAR verlassen werden.</value>
+  </data>
+  <data name="13213" xml:space="preserve">
+    <value>Fehler bei CAN Initialisierung. Der CAN Controller kann nicht initialisiert werden, z.B. wegen Angabe einer falschen I/O Port Adresse bei IOCTL_INACAN_SETPAR.</value>
+  </data>
+  <data name="13218" xml:space="preserve">
+    <value>Timeout kann nicht gestartet werden. Windows Systemfehler: Ein Timeout kann nicht gestartet werden.</value>
+  </data>
+  <data name="13219" xml:space="preserve">
+    <value>Semaphore kann nicht erzeugt werden. Windows Systemfehler: Eine Semaphore für das Warten im synchronen Modus kann nicht erzeugt werden.</value>
+  </data>
+  <data name="13236" xml:space="preserve">
+    <value>Fehler beim Abmelden eines RTR Objekts  </value>
+  </data>
+  <data name="13234" xml:space="preserve">
+    <value>RTR Objekt ist bereits verwendet. Das RTR Objekt mit der angegebenen ID wurde bereits bei einem anderen mit CreateFile geöffneten Pfad mit IOCTL_INACAN_RTR_DEFINE angegeben (wird bereits von anderen Anwendung benutzt).  </value>
+  </data>
+  <data name="13235" xml:space="preserve">
+    <value>Fehler beim Anmelden eines RTR Objekts  </value>
+  </data>
+  <data name="13232" xml:space="preserve">
+    <value>Falsche LS172 Firmware Version. Dieser Fehler tritt in folgenden Fällen auf: 1. bei IOCT_INACAN_UPDATE wenn die Firmware Version kleiner 1.90 (LS172.4) bzw. kleiner 2.40 (LS172.6x) ist. 2. bei IOCTL_INACAN_WRITE und IOCTL_INACAN_REQUEST beim Senden von Extended IDs &gt; 25 Bit wenn die Firmware Version kleiner 2.00 (LS172.4) bzw. kleiner 2.80 (LS172.6x) ist. 3. bei IOCTL_INACAN_SETPAR wenn die Baudrate INACAN_BAUD_800K eingestellt werden soll und die Firmware Version kleiner 2.10 (LS172.4) bzw. kleiner 2.90 (LS172.6x) ist.  </value>
+  </data>
+  <data name="13233" xml:space="preserve">
+    <value>LS172 Gerät ist noch beschäftigt (ausgelastet). Dieser Fehler tritt auf, wenn ein Kommando nicht zur LS172 geschrieben werden kann, weil die Sende-FIFO der LS172 voll ist.  </value>
+  </data>
+  <data name="13230" xml:space="preserve">
+    <value>Fehler beim Anfordern von Daten für ein RTR Objekt  </value>
+  </data>
+  <data name="13231" xml:space="preserve">
+    <value>Fehler beim Aktualisieren von Daten für ein RTR Objekt  </value>
+  </data>
+  <data name="13205" xml:space="preserve">
+    <value>Ungültiger Speicherzugriff. Auf den CAN Controller konnte nicht zugegriffen werden, z.B. wegen Angabe einer falschen Segment-Adresse bei IOCTL_INACAN_SETPAR.</value>
+  </data>
+  <data name="13204" xml:space="preserve">
+    <value>Funktion wird nicht unterstützt. Beim Aufruf von DeviceIoControl wurde ein unbekannter Funktionscode angegeben.</value>
+  </data>
+  <data name="13207" xml:space="preserve">
+    <value>Keine Bestätigung</value>
+  </data>
+  <data name="13206" xml:space="preserve">
+    <value>Interrupt kann nicht aktiviert werden. Windows Systemfehler: Der Interrupt mit der bei IOTCL_INACAN_SETPAR angegebenen IRQ Nummer konnte nicht aktiviert werden. Möglicherweise ist die IRQ Nummer ungültig oder bereits von einem anderen Gerät belegt.</value>
+  </data>
+  <data name="13201" xml:space="preserve">
+    <value>Ungültiger Parameter. Ein ungültiger Parameter wurde an DeviceIoControl übergeben, z.B. NULL Zeiger für &lt;OutBuf&gt; bei IOTCL_INACAN_READ.</value>
+  </data>
+  <data name="13203" xml:space="preserve">
+    <value>I/O noch tätig. Bei Aufruf von IOTCL_INACAN_READ oder IOTCL_INACAN_WRITE war noch ein asynchroner Aufruf derselben Funktion aktiv. Ein neuer Aufruf ist erst möglich, nachdem der aktive Aufruf beendet oder abgebrochen (mit IOTCL_INACAN_CANCEL) wurde.</value>
+  </data>
+  <data name="13202" xml:space="preserve">
+    <value>Falsche Länge. Eine falsche Datenlänge wurde an DeviceIoControl übergeben, z.B. die Größe des &lt;InBuf&gt; bei IOTCL_INACAN_SETPAR stimmt nicht mit der Größe der Struktur INACAN_CONFIG überein.</value>
+  </data>
+  <data name="13209" xml:space="preserve">
+    <value>Fehler beim Lesen (Nachrichten verloren). Fehler beim Lesen des Empfangsobjekts vom CAN Controller: Es gingen CAN Nachrichten verloren. Möglicherweise ist der PC zu langsam, um die auf dem CAN Bus auftretenden Nachrichten abzuarbeiten.</value>
+  </data>
+  <data name="13208" xml:space="preserve">
+    <value>Überlauf des Empfangspuffers. Die Empfangs-FIFO wurde voll, z.B. weil die Anwendung IOTCL_INACAN_READ nicht schnell genug aufruft, um die anstehenden CAN Nachrichten auszulesen.</value>
+  </data>
+  <data name="13227" xml:space="preserve">
+    <value>IRQ Überlauf. Es traten zu viele IRQs auf. Möglicherweise ist der PC zu langsam oder zu ausgelastet, um die auf dem CAN Bus auftretenden CAN Nachrichten zu verarbeiten.</value>
+  </data>
+  <data name="13226" xml:space="preserve">
+    <value>Gerätefehler. Nur bei INACAN_LS172_PCI/ISA: Bei der Kommunikation mit einer LS172 Karte wurde eine Fehlerantwort empfangen. Ursache kann z.B. Inkompatibilität von Treiber und LS172 Firmware oder ein Fehler im Treiber sein.</value>
+  </data>
+  <data name="13225" xml:space="preserve">
+    <value>CAN nicht betriebsbereit. Der CAN Controller wurde noch nicht mit IOCTL_INACAN_SETPAR gestartet.</value>
+  </data>
+  <data name="13224" xml:space="preserve">
+    <value>Fehler bei Speicher sperren. Windows Systemfehler: Speicherbereiche, die im asynchronen Modus verwendet werden, konnten nicht gesperrt werden, z.B. wegen Angabe einer ungültigen Adresse für &lt;OutBuf&gt; bzw. &lt;InBuf&gt; oder die OVERLAPPED Struktur bei IOCTL_INACAN_READ bzw. IOCTL_INACAN_WRITE.</value>
+  </data>
+  <data name="13223" xml:space="preserve">
+    <value>Ungültige CAN Datenlänge. Eine ungültige CAN Nachrichten Datenlänge (&gt; 8) wurde bei IOCTL_INACAN_WRITE angegeben oder vom CAN Controller gelesen.</value>
+  </data>
+  <data name="13222" xml:space="preserve">
+    <value>Ungültige CAN ID. Eine unzulässige CAN Nachrichten ID wurde bei IOCTL_INACAN_WRITE angegeben oder vom CAN Controller gelesen.</value>
+  </data>
+  <data name="13221" xml:space="preserve">
+    <value>Unzulässiges Handle. Interner Treiberfehler: Für diesen Auftrag benötigte Datenstrukturen konnten nicht gefunden werden.</value>
+  </data>
+  <data name="13220" xml:space="preserve">
+    <value>Zuwenig Speicher vorhanden. Windows Systemfehler: Notwendiger Speicher konnte vom System nicht angefordert werden.</value>
+  </data>
+  <data name="13229" xml:space="preserve">
+    <value>Kein RTR Objekt angelegt/frei. Es wurde entweder noch kein RTR Objekt mit IOCTL_INACAN_RTR_DEFINE angelegt oder sind zu viele RTR Objekte gleichzeitig aktiv. Die Anzahl der maximal gleichzeitig möglichen RTR Objekte ist geräteabhängig.  </value>
+  </data>
+  <data name="13228" xml:space="preserve">
+    <value>Protokollfehler. Es wurde eine unbekannte und unzulässige Antwort von der LS172 Karte empfangen.</value>
+  </data>
+  <data name="13070" xml:space="preserve">
+    <value>Zugriff verweigert (5, ERROR_ACCESS_DENIED). Zugriff verweigert, Windows Fehlernummer 5 = ERROR_ACCESS_DENIED Wenn falscher oder ungültiger Savepath (SP) oder Modulpfad (MP) am CPU Objekt (CD=) angegeben wurde.</value>
+  </data>
+  <data name="13071" xml:space="preserve">
+    <value>Das Gerät erkennt das Kommando nicht (22, ERROR_BAD_COMMAND)</value>
+  </data>
+  <data name="13072" xml:space="preserve">
+    <value>Das angegebene Gerät ist ungültig (1200, ERROR_BAD_DEVICE)</value>
+  </data>
+  <data name="13073" xml:space="preserve">
+    <value>Das System kann das angegebene Gerät nicht finden (20, ERROR_BAD_UNIT)</value>
+  </data>
+  <data name="13074" xml:space="preserve">
+    <value>Es ist nicht genug Speicher auf dem Laufwerk vorhanden (112, ERROR_DISK_FULL)</value>
+  </data>
+  <data name="13075" xml:space="preserve">
+    <value>Modul nicht vorhanden (126, ERROR_MOD_NOT_FOUND)</value>
+  </data>
+  <data name="13076" xml:space="preserve">
+    <value>Das angegebene Gerät (/IF Parameter) ist nicht vorhanden (2, ERROR_FILE_NOT_FOUND)</value>
+  </data>
+  <data name="13077" xml:space="preserve">
+    <value>Ein Gerät im System funktioniert nicht (31, ERROR_GEN_FAILURE)</value>
+  </data>
+  <data name="13078" xml:space="preserve">
+    <value>Ungültige Flags (1004, ERROR_INVALID_FLAGS)</value>
+  </data>
+  <data name="13079" xml:space="preserve">
+    <value>Dateiname, Verzeichnisname oder Laufwerkname-Syntax ist falsch (123, ERROR_INVALID_NAME)</value>
+  </data>
+  <data name="13052" xml:space="preserve">
+    <value>Kein freier Kanal.</value>
+  </data>
+  <data name="13053" xml:space="preserve">
+    <value>Falsches Format der Telefonnummer. Das Format der Telefonnummer stimmt nicht, es muss immer die vollständige Telefonnummer im internationalen Format (kanonisches Format) angewendet werden. (z.B.: "+43(7748)6586 999")</value>
+  </data>
+  <data name="13050" xml:space="preserve">
+    <value>Fehler beim Aufruf einer TAPI Funktion (Betriebssystem Fehlermeldung)</value>
+  </data>
+  <data name="13051" xml:space="preserve">
+    <value>Das TAPI-Gerät wird bereits von einem anderen Windows Programm verwendet.</value>
+  </data>
+  <data name="13056" xml:space="preserve">
+    <value>Das Modem konnte nicht wählen.. Möglicherweise ist das Modem nicht an die Telefonleitung angeschlossen oder es ist kein Wählton vorhanden oder die Leitung ist besetzt, etc.</value>
+  </data>
+  <data name="13057" xml:space="preserve">
+    <value>Fehler tritt auf wenn das Modem ausgeschaltet ist.</value>
+  </data>
+  <data name="13054" xml:space="preserve">
+    <value>Fehler beim Verbindungsaufbau.</value>
+  </data>
+  <data name="13055" xml:space="preserve">
+    <value>Keine Antwort vom Modem.. Es liegt möglicherweise ein Verdrahtungsproblem vor. z.B.: Modem nicht am Rechner angeschlossen.</value>
+  </data>
+  <data name="13058" xml:space="preserve">
+    <value>Falsche TAPI Version installiert (z.B.: 1.4).. Abhilfe: Version 2.0 oder 2.1 installieren.</value>
+  </data>
+  <data name="13059" xml:space="preserve">
+    <value>Eine bestehende Verbindung wurde unterbrochen.. Eine bestehende Verbindung wurde unterbrochen. Mögliche Ursache: z.B.: Modem ausgeschaltet, Telefonkabel abgesteckt, etc.</value>
+  </data>
+  <data name="13061" xml:space="preserve">
+    <value>Fehlende Parameter: /MO und /TN müssen angegeben werden</value>
+  </data>
+  <data name="13060" xml:space="preserve">
+    <value>Fehler während der Initialisierung. Systemressourcen die für den Betrieb notwendig sind konnten nicht angefordert werden.</value>
+  </data>
+  <data name="13034" xml:space="preserve">
+    <value>Fehler in der Netzwerk-Konfiguration (SA-Parameter).- Die angegebene Stationsnummer für die Quellstation ist innerhalb des IP-Netzwerks nicht eindeutig. Es existieren mindestend 2 Stationen mit gleicher Stationsnummer.</value>
+  </data>
+  <data name="13035" xml:space="preserve">
+    <value>Timeout-Fehler beim Lesen</value>
+  </data>
+  <data name="13036" xml:space="preserve">
+    <value>Timeout-Fehler beim Schreiben</value>
+  </data>
+  <data name="13037" xml:space="preserve">
+    <value>INA Frame Library INAFRMS.DLL nicht vorhanden oder kann nicht geladen werden</value>
+  </data>
+  <data name="13030" xml:space="preserve">
+    <value>Unbekannte Ziel-Adresse (z.B.: DA-Parameter: Stationsnummer, Stationsname)</value>
+  </data>
+  <data name="13033" xml:space="preserve">
+    <value>Fehler in der Netzwerk-Konfiguration (DA-Parameter).- Die angegebene Stationsnummer für die Zielstation ist innerhalb des IP-Netzwerks nicht eindeutig. Es existieren mindestend 2 Stationen mit gleicher Stationsnummer. </value>
+  </data>
+  <data name="13042" xml:space="preserve">
+    <value>Fehler beim Einrichten des Pbus-Lesen-/Schreiben-Threads</value>
+  </data>
+  <data name="13041" xml:space="preserve">
+    <value>Fehler beim Hinunterladen des Profibus-Netzwerkkonfig-Moduls</value>
+  </data>
+  <data name="13040" xml:space="preserve">
+    <value>Fehler beim Hinunterladen der Profibus-Firmware</value>
+  </data>
+  <data name="13047" xml:space="preserve">
+    <value>Ungültiger Modemname. Der angegebene Modemname konnte zwar gefunden werden, allerdings hat das entsprechende Gerät nicht die erforderlichen Eigenschaften, d.h. es ist kein Modem.</value>
+  </data>
+  <data name="13046" xml:space="preserve">
+    <value>Keine Modems installiert.</value>
+  </data>
+  <data name="13045" xml:space="preserve">
+    <value>Fehler bei der Initialisierung. Möglicherweise wurde TAPI nicht richtig installieren. (Siehe Modem Installation)</value>
+  </data>
+  <data name="13049" xml:space="preserve">
+    <value>TAPI Version wird nicht unterstützt. Die installierte TAPI Version wird nicht unterstützt. Bitte mindestens Tapi Version 2.0 verwenden.</value>
+  </data>
+  <data name="13048" xml:space="preserve">
+    <value>Modem nicht gefunden. Das Modem mit dem Angegebenen Namen konnte nicht gefunden werden. Überprüfen ob der Name stimmt bzw. entsprechendes Modem installieren</value>
+  </data>
+  <data name="13016" xml:space="preserve">
+    <value>Illegaler Stations-Handle</value>
+  </data>
+  <data name="13017" xml:space="preserve">
+    <value>Keine ID-Liste angegeben</value>
+  </data>
+  <data name="13014" xml:space="preserve">
+    <value>Illegale Datenlänge bei Sende-Anforderung</value>
+  </data>
+  <data name="13015" xml:space="preserve">
+    <value>Illegale Quell-Addresse (z.B.: SA-Parameter: Stationsnummer, Stationsname)</value>
+  </data>
+  <data name="13012" xml:space="preserve">
+    <value>Unerlaubte Parameteränderung</value>
+  </data>
+  <data name="13013" xml:space="preserve">
+    <value>Illegale Datenlänge bei Einlese-Anforderung</value>
+  </data>
+  <data name="13010" xml:space="preserve">
+    <value>Illegale Ziel-Addresse (z.B.: DA-Parameter: Stationsnummer, Stationsname)</value>
+  </data>
+  <data name="13011" xml:space="preserve">
+    <value>Ungültiger Parameter in der Anschlussbeschreibung (Initialisierungs-String)</value>
+  </data>
+  <data name="13018" xml:space="preserve">
+    <value>Zuwenig RAM-Speicher</value>
+  </data>
+  <data name="13019" xml:space="preserve">
+    <value>Geräte wurde geschlossen (Verbindung wurde abgebrochen).</value>
+  </data>
+  <data name="13025" xml:space="preserve">
+    <value>Nicht unterstützte Funktion</value>
+  </data>
+  <data name="13024" xml:space="preserve">
+    <value>Unbekanntes Gerät (z.B.: IF-Parameter: Gerätename)</value>
+  </data>
+  <data name="13027" xml:space="preserve">
+    <value>Fehler Windows-Ressource (Events, ...)</value>
+  </data>
+  <data name="13026" xml:space="preserve">
+    <value>Fehler beim Schreiben der Schnittstellenparameter</value>
+  </data>
+  <data name="13021" xml:space="preserve">
+    <value>Keine Bestätigungsdaten für Sendeanforderung vorhanden</value>
+  </data>
+  <data name="13020" xml:space="preserve">
+    <value>Keine Bestätigungsdaten für Leseanforderung vorhanden</value>
+  </data>
+  <data name="13022" xml:space="preserve">
+    <value>Fehler beim Lesen der Schnittstellenparameter</value>
+  </data>
+  <data name="13029" xml:space="preserve">
+    <value>Transfer-Thread kann nicht eingerichtet werden</value>
+  </data>
+  <data name="13028" xml:space="preserve">
+    <value>Station bzw. Gerät bereits in Verwendung</value>
+  </data>
+  <data name="13007" xml:space="preserve">
+    <value>Fehler im Gerätenamen - IF-Parameter (z.B.: falsche COM-Nummer)</value>
+  </data>
+  <data name="13006" xml:space="preserve">
+    <value>Treiber nicht gefunden, kann nicht geladen werden</value>
+  </data>
+  <data name="13005" xml:space="preserve">
+    <value>Fehler beim Schreiben über die Schnittstelle</value>
+  </data>
+  <data name="13004" xml:space="preserve">
+    <value>Fehler beim Einlesen von der Schnittstelle</value>
+  </data>
+  <data name="13003" xml:space="preserve">
+    <value>Fehler beim Schließen der Schnittstelle</value>
+  </data>
+  <data name="13002" xml:space="preserve">
+    <value>Aktiver Request noch tätig (in Senden-Anforderung)</value>
+  </data>
+  <data name="13001" xml:space="preserve">
+    <value>Aktiver Request noch tätig (in Einlesen-Anforderung)</value>
+  </data>
+  <data name="13000" xml:space="preserve">
+    <value>Undefinierter INAFRM.DLL-Fehler</value>
+  </data>
+  <data name="13009" xml:space="preserve">
+    <value>Illegaler Geräte-Handle</value>
+  </data>
+  <data name="13008" xml:space="preserve">
+    <value>Illegale Daten empfangen</value>
+  </data>
+  <data name="13098" xml:space="preserve">
+    <value>Win-Socket nicht installiert.. Abhilfe: Win95: Setup Datei ".../Pvi/SysSetup/TcpIp/Sock2295.exe" ist auszuführen.</value>
+  </data>
+  <data name="13096" xml:space="preserve">
+    <value>Thread kann nicht eingerichtet werden</value>
+  </data>
+  <data name="13097" xml:space="preserve">
+    <value>Station nicht vorhanden</value>
+  </data>
+  <data name="13094" xml:space="preserve">
+    <value>Port ist in Verwendung</value>
+  </data>
+  <data name="13095" xml:space="preserve">
+    <value>Fehler beim Binden des Sockets</value>
+  </data>
+  <data name="13092" xml:space="preserve">
+    <value>Fehler beim Einrichten des Sockets</value>
+  </data>
+  <data name="13093" xml:space="preserve">
+    <value>Allgemeiner TCP/IP Fehler</value>
+  </data>
+  <data name="13090" xml:space="preserve">
+    <value>Falsche Win-Socket Version</value>
+  </data>
+  <data name="13091" xml:space="preserve">
+    <value>Fehler bei der Initialisierung (Win-Socket)</value>
+  </data>
+  <data name="13089" xml:space="preserve">
+    <value>Das System kann nicht auf das angegebenen Gerät schreiben (29, ERROR_WRITE_FAULT)</value>
+  </data>
+  <data name="13088" xml:space="preserve">
+    <value>Rekursion zu tief - Stacküberlauf (1001, ERROR_STACK_OVERFLOW)</value>
+  </data>
+  <data name="13087" xml:space="preserve">
+    <value>Das System kann nicht vom angegebenen Gerät lesen (30, ERROR_READ_FAULT)</value>
+  </data>
+  <data name="13086" xml:space="preserve">
+    <value>Pfad nicht gefunden (3, ERROR_PATH_NOT_FOUND)</value>
+  </data>
+  <data name="13085" xml:space="preserve">
+    <value>Das System kann das Gerät nicht öffnen (110, ERROR_OPEN_FAILED)</value>
+  </data>
+  <data name="13084" xml:space="preserve">
+    <value>Das Gerät ist nicht bereit (21, ERROR_NOT_READY)</value>
+  </data>
+  <data name="13083" xml:space="preserve">
+    <value>Zu wenig Speicher für Befehlsausführung (8, ERROR_NOT_ENOUGH_MEMORY)</value>
+  </data>
+  <data name="13082" xml:space="preserve">
+    <value>Ungültiger Handle (6, ERROR_INVALID_HANDLE)</value>
+  </data>
+  <data name="13081" xml:space="preserve">
+    <value>Der Zugriffscode ist ungültig (12, ERROR_INVALID_ACCESS)</value>
+  </data>
+  <data name="13080" xml:space="preserve">
+    <value>Ungültige Funktion (1, ERROR_INVALID_FUNCTION)</value>
+  </data>
+  <data name="27312" xml:space="preserve">
+    <value>Ungültiger Offset von Resource Name.. Der Offset im Argument "Resource Name" der Funktion ReadResource ist ungültig. Der Offset ist größer wie die Länge des Resource Feldes. (resource array).</value>
+  </data>
+  <data name="27313" xml:space="preserve">
+    <value>Das Argument TagData der Funktion ReadBuffer oder WriteBuffer ist ungültig.. VARIANT wurde mit einem ungültigen Format vorinitialisiert. Es können nur Bytes verarbeitet werden.</value>
+  </data>
+  <data name="27310" xml:space="preserve">
+    <value>Ungültiger Offset in Resource Name.. Der Offset im Argument "Ressource Name" der Funktion ReadResource ist ungültig. Der Offset enthält ungültige Zeichen.</value>
+  </data>
+  <data name="27311" xml:space="preserve">
+    <value>Ungültige Rescource Name Deklaration.. Die Deklaration des Arguments "Resource Name" der Funktion ReadResource ist ungültig. Offset wurde nicht zischen '[' und ']' angegeben.</value>
+  </data>
+  <data name="27316" xml:space="preserve">
+    <value>Tag wurde im Konfigurationsfile nicht angegeben.. Der Tag Name der für die Funktion WriteBuffer oder ReadBuffer angegeben wurde, existiert im Konfigurationsfile des PviConfigurator's nicht.</value>
+  </data>
+  <data name="27314" xml:space="preserve">
+    <value>Schreiben und Lesen des Puffers von zwei- oder mehrdimensionalen Feldern wird nicht unterstützt.. Die Funktionen WriteBuffer und ReadBuffer unterstützen keine mehrdimensionalen Felder im VARIANT Typ.</value>
+  </data>
+  <data name="27315" xml:space="preserve">
+    <value>Das Schreiben und Lesen von Feldern mit mehr als 65535 Elementen wird nicht unterstützt.. WriteBuffer und ReadBuffer Funktionen unterstützen keine Felder mit mehr als 65535 Elementen im VARIANT Typ.</value>
+  </data>
+  <data name="27303" xml:space="preserve">
+    <value>Der Zugriff von String Feldern (string arrays) wird nicht unterstützt.. ReadTag und WriteTag unterstützen keine Daten mit dem VARIANT Typ String Feld (string array).</value>
+  </data>
+  <data name="27302" xml:space="preserve">
+    <value>Ungültiger Datentyp für Lesezugriff.. Der ReadTag unterstützt keinen Lesezugriff auf String Felder (string arrays), Strukturen und Daten.</value>
+  </data>
+  <data name="27301" xml:space="preserve">
+    <value>Ungültiger Datentyp für Schreibzugriff.. Der WriteTag unterstützt keinen Schreibzugriff auf String Felder (string arrays), Strukturen und Daten.</value>
+  </data>
+  <data name="27300" xml:space="preserve">
+    <value>Tag wurde im Konfigurationsfile nicht angegeben.. Der Tag Name der für die Funktion WriteTag oder ReadTag angegeben wurde, existiert im Konfigurationsfile des PviConfigurator's nicht.</value>
+  </data>
+  <data name="27307" xml:space="preserve">
+    <value>Der logische Pfad der Funktionen SetConnection und GetConnection existiert nicht.. ACHTUNG! Leerzeichen am Anfang und am Ende der Zeichenkette sind gültig.</value>
+  </data>
+  <data name="27306" xml:space="preserve">
+    <value>Das Schreiben und Lesen von Feldern mit mehr als 65535 Elementen wird nicht unterstützt.. ReadTag und WriteTag Funktionen unterstützen keine Felder mit mehr als 65535 Elementen im VARIANT Typ.</value>
+  </data>
+  <data name="27305" xml:space="preserve">
+    <value>Das Schreiben und Lesen von zwei- oder mehrdimensionalen Feldern wird nicht unterstützt.. ReadTag und WriteTag Funktionen unterstützen keine Mehrdimensionale Felder im VARIANT Typ.</value>
+  </data>
+  <data name="27304" xml:space="preserve">
+    <value>Schreiben und Lesen des VARIANT Datentyps wird nicht unterstützt.. Die ReadTag und WriteTag Funktionen unterstützen den initialisierten VARIANT Typ nicht.</value>
+  </data>
+  <data name="27309" xml:space="preserve">
+    <value>Der Resource Name der ReadResource Funktion existiert nicht.. ACHTUNG! Leerzeichen am Anfang und am Ende der Zeichenkette sind gültig.</value>
+  </data>
+  <data name="27308" xml:space="preserve">
+    <value>Die SetConnection oder GetConnection Funktion wurde aufgerufen, bevor PviControl initialisiert wurde.</value>
+  </data>
+  <data name="27356" xml:space="preserve">
+    <value>Kein Sprachwechsel. Es wurde die bereits aktive Sprache ausgewählt daher ist ein Umschalten nicht erforderlich und wird auch nicht durchgeführt.   </value>
+  </data>
+  <data name="27357" xml:space="preserve">
+    <value>Unbekannte Sprache. Diese Sprachspalte gibt es nicht oder der Name wurde nicht richtig geschrieben; Sprachbezeichnungen sind CASE sensitiv!  </value>
+  </data>
+  <data name="27354" xml:space="preserve">
+    <value>AlarmReferenz nicht gefunden. Der angegebene Referenz Name kann nicht gefunden werden, da er nicht existiert oder falsch geschrieben wurde. Möglicherweise wurde die Konfiguration geändert.  </value>
+  </data>
+  <data name="27355" xml:space="preserve">
+    <value>Keine Brückung möglich. Der angegebene Alarm kann nicht gebrückt werden, da ihm keine Alarmdefinition zugrunde liegt. Der Alarm entsteh zumeist aus PVI Fehlern, die eigens gekennzeichnet werden. Es kann aber auch ein Folgefehler von Fehler 27354 sein.  </value>
+  </data>
+  <data name="27352" xml:space="preserve">
+    <value>Ungültiges Format der Alarmbedingung. Die Bedingung (LowLow, Low, High oder HighHigh) besitzt ein ungültiges Format, oder existiert überhaupt nicht. Ursachen: Der Name wurde falsch geschrieben, falsche Konfiguration oder das Alarmobjekt existiert nicht; der angegebene Fixwert ist keine gültige Zahl.  </value>
+  </data>
+  <data name="27353" xml:space="preserve">
+    <value>Konfigurationsdatei fehlt. Der Name für eine Konfigurationsdatei wurde nicht angegeben oder ein falscher Dateiname wurde angegeben.  </value>
+  </data>
+  <data name="27350" xml:space="preserve">
+    <value>Alarmserver Neustart. Der AlarmServer wurde reinitialisiert und liest die Alarmkonfiguration neu aus  </value>
+  </data>
+  <data name="27351" xml:space="preserve">
+    <value>Objekt existiert nicht. Das angeforderte Alarmobjekt existiert nicht. Ursachen: Der Name wurde falsch geschrieben, falsche Konfiguration oder das Alarmobjekt existiert nicht  </value>
+  </data>
+  <data name="27358" xml:space="preserve">
+    <value>Neutral Sprache fehlt. Diese Sprachspalte Neutral ist nicht vorhanden. Diese Spalte muss immer vorhanden sein! Es ist im Normalfall eigentlich nicht möglich diese Spalte zu entfernen. (Kann nur durch manuelle Manipulation der Ressourcedatei passieren)!  </value>
+  </data>
+  <data name="27359" xml:space="preserve">
+    <value>Linkobjekt existiert nicht. Es wurde versucht einen Alarm zu bearbeiten (Brücken), dessen Alarmvariable noch kein Linkobjekt besitzt. Ein folgefehler eines PVI System Fehlers.  </value>
+  </data>
+  <data name="27364" xml:space="preserve">
+    <value>Mehrfach- Entbrückung nicht möglich. Der Alarm ist nicht gebrückt und kann daher auch nicht entbrückt werden. Wird versucht die Brückung eines ungebrückten Alarmes auf zu heben, so wird dieser Auftrag vom Alarmsystem zurückgewiesen.  </value>
+  </data>
+  <data name="27361" xml:space="preserve">
+    <value>Ungültiges History File. Die Datei ist keine Alarmhistory Datei, oder das Format konnte nicht erkannt werden. Kann nur durch manuelle Manipulation der Datei vorkommen.  </value>
+  </data>
+  <data name="27360" xml:space="preserve">
+    <value>Keine Alarmevents aufgezeichnet. Es wird versucht die Alarmhistory zu sichern, obwohl noch keine Alarmevents aufgezeichnet wurden.  </value>
+  </data>
+  <data name="27363" xml:space="preserve">
+    <value>Mehrfach- Brückung nicht möglich. Wird versucht einen bereits gebrückten Alarm erneut zu brücken, so wird dieser Vorgang vom Alarmsystem abgelehnt. Bereits gebrückte Alarme können nicht nochmals gebrückt werden!  </value>
+  </data>
+  <data name="27362" xml:space="preserve">
+    <value>PVI System Alarme sind unquittierbar. Das Quittieren eines Alarms mit diesem Status ist nicht möglich, da es sich um einen PVI System Fehler handelt (z.B. RPS Verbindung unterbrochen). In diesem Fall ist auch meist die Quittierungsvariable nicht verfügbar. Sollen solche Alarme nicht eingetragen werden, so ist der Alarm zu brücken.  </value>
+  </data>
+  <data name="4001" xml:space="preserve">
+    <value>Fehler aus Dekodierfunktion (_CPinfo)</value>
+  </data>
+  <data name="4000" xml:space="preserve">
+    <value>Fehler aus Kodierfunktion (_CPinfo)</value>
+  </data>
+  <data name="4003" xml:space="preserve">
+    <value>Default Fehler (_CPinfo)</value>
+  </data>
+  <data name="4002" xml:space="preserve">
+    <value>Unerwartetes Telegramm (_CPinfo)</value>
+  </data>
+  <data name="4010" xml:space="preserve">
+    <value>Fehler aus Kodierfunktion (_CPreset)</value>
+  </data>
+  <data name="4011" xml:space="preserve">
+    <value>Fehler aus Dekodierfunktion (_CPreset)</value>
+  </data>
+  <data name="4012" xml:space="preserve">
+    <value>Unerwartetes Telegramm (_CPreset)</value>
+  </data>
+  <data name="4013" xml:space="preserve">
+    <value>Default Fehler (_CPreset)</value>
+  </data>
+  <data name="4014" xml:space="preserve">
+    <value>Password falsch (_CPreset)</value>
+  </data>
+  <data name="4023" xml:space="preserve">
+    <value>Default Fehler (_CPclearMem)</value>
+  </data>
+  <data name="4022" xml:space="preserve">
+    <value>Unerwartetes Telegramm (_CPclearMem)</value>
+  </data>
+  <data name="4021" xml:space="preserve">
+    <value>Fehler aus Dekodierfunktion (_CPclearMem)</value>
+  </data>
+  <data name="4020" xml:space="preserve">
+    <value>Fehler aus Kodierfunktion (_CPclearMem)</value>
+  </data>
+  <data name="4025" xml:space="preserve">
+    <value>RPS muss im Diagnose-Modus sein (_CPclearMem)</value>
+  </data>
+  <data name="4024" xml:space="preserve">
+    <value>Speichertyp nicht vorhanden bzw. kann nicht gelöscht werden (_CPclearMem)</value>
+  </data>
+  <data name="4032" xml:space="preserve">
+    <value>Unerwartetes Telegramm (_CPmemInfo)</value>
+  </data>
+  <data name="4033" xml:space="preserve">
+    <value>Default Fehler (_CPmemInfo)</value>
+  </data>
+  <data name="4030" xml:space="preserve">
+    <value>Fehler aus Kodierfunktion (_CPmemInfo)</value>
+  </data>
+  <data name="4031" xml:space="preserve">
+    <value>Fehler aus Dekodierfunktion (_CPmemInfo)</value>
+  </data>
+  <data name="4044" xml:space="preserve">
+    <value>Objekt existiert nicht (CPmemInfo)</value>
+  </data>
+  <data name="4041" xml:space="preserve">
+    <value>Fehler aus Dekodierfunktion (CPmemInfo)</value>
+  </data>
+  <data name="4040" xml:space="preserve">
+    <value>Fehler aus Kodierfunktion (CPmemInfo)</value>
+  </data>
+  <data name="4043" xml:space="preserve">
+    <value>Default Fehler (CPmemInfo)</value>
+  </data>
+  <data name="4042" xml:space="preserve">
+    <value>Unerwartetes Telegramm (CPmemInfo)</value>
+  </data>
+  <data name="4054" xml:space="preserve">
+    <value>Objekt existiert nicht (_DeleteModule)</value>
+  </data>
+  <data name="4055" xml:space="preserve">
+    <value>PI muss gestoppt sein (_DeleteModule)</value>
+  </data>
+  <data name="4056" xml:space="preserve">
+    <value>Objekt kann nicht deinstalliert werden (_DeleteModule)</value>
+  </data>
+  <data name="4057" xml:space="preserve">
+    <value>Objekt wird in einem Task verwendet und kann daher nicht gelöscht werden (_DeleteModule)</value>
+  </data>
+  <data name="4050" xml:space="preserve">
+    <value>Fehler aus Kodierfunktion (_DeleteModule)</value>
+  </data>
+  <data name="4051" xml:space="preserve">
+    <value>Fehler aus Dekodierfunktion (_DeleteModule)</value>
+  </data>
+  <data name="4052" xml:space="preserve">
+    <value>Unerwartetes Telegramm (_DeleteModule)</value>
+  </data>
+  <data name="4053" xml:space="preserve">
+    <value>Default Fehler (_DeleteModule)</value>
+  </data>
+  <data name="4067" xml:space="preserve">
+    <value>Kein BR-Modul (2b97) (_DownloadModule)</value>
+  </data>
+  <data name="4066" xml:space="preserve">
+    <value>Kein Eintrag in der Modultabelle frei (_DownloadModule)</value>
+  </data>
+  <data name="4065" xml:space="preserve">
+    <value>Download fuer USER gesperrt (_DownloadModule)</value>
+  </data>
+  <data name="4064" xml:space="preserve">
+    <value>DL Abbruch durch USER (_DownloadModule)</value>
+  </data>
+  <data name="4063" xml:space="preserve">
+    <value>Default Fehler (_DownloadModule)</value>
+  </data>
+  <data name="4062" xml:space="preserve">
+    <value>Unerwartetes Telegramm (_DownloadModule)</value>
+  </data>
+  <data name="4061" xml:space="preserve">
+    <value>Fehler aus Dekodierfunktion (_DownloadModule)</value>
+  </data>
+  <data name="4060" xml:space="preserve">
+    <value>Fehler aus Kodierfunktion (_DownloadModule)</value>
+  </data>
+  <data name="4069" xml:space="preserve">
+    <value>BR-Modul Installfehler (_DownloadModule)</value>
+  </data>
+  <data name="4068" xml:space="preserve">
+    <value>Beschaedigte BR-Modul-Checksumme (_DownloadModule)</value>
+  </data>
+  <data name="4074" xml:space="preserve">
+    <value>Fehler von der NC-Manager-DL-Funktion (_DownloadModule)</value>
+  </data>
+  <data name="4072" xml:space="preserve">
+    <value>Fehler beim Brennen des BR-Moduls (_DownloadModule)</value>
+  </data>
+  <data name="4073" xml:space="preserve">
+    <value>Kein NC-Manager installiert (_DownloadModule)</value>
+  </data>
+  <data name="4070" xml:space="preserve">
+    <value>BR-Modul falsche Länge (_DownloadModule)</value>
+  </data>
+  <data name="4071" xml:space="preserve">
+    <value>Zuwenig freier Zielspeicher (_DownloadModule)</value>
+  </data>
+  <data name="4088" xml:space="preserve">
+    <value>Upload fuer USER gesperrt (_UploadModule)</value>
+  </data>
+  <data name="4081" xml:space="preserve">
+    <value>Fehler aus Dekodierfunktion (_UploadModule)</value>
+  </data>
+  <data name="4080" xml:space="preserve">
+    <value>Fehler aus Kodierfunktion (_UploadModule)</value>
+  </data>
+  <data name="4083" xml:space="preserve">
+    <value>Default Fehler (_UploadModule)</value>
+  </data>
+  <data name="4082" xml:space="preserve">
+    <value>Unerwartetes Telegramm (_UploadModule)</value>
+  </data>
+  <data name="4085" xml:space="preserve">
+    <value>Modul existiert nicht (falscher Name) (_UploadModule)</value>
+  </data>
+  <data name="4084" xml:space="preserve">
+    <value>UL Abbruch durch USER (_UploadModule)</value>
+  </data>
+  <data name="4087" xml:space="preserve">
+    <value>Upload des Moduls gesperrt (_UploadModule)</value>
+  </data>
+  <data name="4086" xml:space="preserve">
+    <value>Modulzustand ungleich READY (_UploadModule)</value>
+  </data>
+  <data name="4104" xml:space="preserve">
+    <value>TK laeuft bereits (_TKresume)</value>
+  </data>
+  <data name="4105" xml:space="preserve">
+    <value>TK existiert nicht (_TKresume)</value>
+  </data>
+  <data name="4124" xml:space="preserve">
+    <value>Task laeuft bereits (_TaskResume)</value>
+  </data>
+  <data name="4125" xml:space="preserve">
+    <value>Task existiert nicht (_TaskResume)</value>
+  </data>
+  <data name="4115" xml:space="preserve">
+    <value>TK existiert nicht (_TKsuspend)</value>
+  </data>
+  <data name="4114" xml:space="preserve">
+    <value>TK ist schon gestoppt (_TKsuspend)</value>
+  </data>
+  <data name="4144" xml:space="preserve">
+    <value>Task existiert nicht (_TaskSetStepcount)</value>
+  </data>
+  <data name="4135" xml:space="preserve">
+    <value>Task existiert nicht (_TaskSuspend)</value>
+  </data>
+  <data name="4134" xml:space="preserve">
+    <value>Task ist schon gestoppt (_TaskSuspend)</value>
+  </data>
+  <data name="4184" xml:space="preserve">
+    <value>Ungültige PV-ID (_WriteVar)</value>
+  </data>
+  <data name="4185" xml:space="preserve">
+    <value>PV existiert nicht (_WriteVar)</value>
+  </data>
+  <data name="4186" xml:space="preserve">
+    <value>Falsche PV-Länge (_WriteVar)</value>
+  </data>
+  <data name="4187" xml:space="preserve">
+    <value>Dyn. PV ist nicht belegt (NULL-Ptr.) (_WriteVar)</value>
+  </data>
+  <data name="4177" xml:space="preserve">
+    <value>Dyn. PV ist nicht belegt (NULL-Ptr.) (_ReadVars)</value>
+  </data>
+  <data name="4176" xml:space="preserve">
+    <value>Falsche PV-Länge (_ReadVars)</value>
+  </data>
+  <data name="4175" xml:space="preserve">
+    <value>PV existiert nicht (_ReadVars)</value>
+  </data>
+  <data name="4174" xml:space="preserve">
+    <value>Ungültige PV-ID (_ReadVars)</value>
+  </data>
+  <data name="4195" xml:space="preserve">
+    <value>Ungültige Taskklasse (_ForceVarOn)</value>
+  </data>
+  <data name="4194" xml:space="preserve">
+    <value>Ungültige PV-ID (Datentyp, Baseptr, ...) (_ForceVarOn)</value>
+  </data>
+  <data name="4196" xml:space="preserve">
+    <value>Kein freier Eintrag in der Forcetabelle (_ForceVarOn)</value>
+  </data>
+  <data name="4224" xml:space="preserve">
+    <value>Diagnosetask nicht geladen (_DiagListModules)</value>
+  </data>
+  <data name="4234" xml:space="preserve">
+    <value>Diagnosetask nicht geladen (_DiagDeleteModule)</value>
+  </data>
+  <data name="4235" xml:space="preserve">
+    <value>DIAG-Modulindex ungültig, Liste noch nicht gelesen ? (_DiagDeleteModule)</value>
+  </data>
+  <data name="4206" xml:space="preserve">
+    <value>PV ist nicht geforced (_ForceVarOff)</value>
+  </data>
+  <data name="4205" xml:space="preserve">
+    <value>Ungültige Taskklasse (_ForceVarOff)</value>
+  </data>
+  <data name="4204" xml:space="preserve">
+    <value>Ungültige PV-ID (Datentyp, Baseptr, ...) (_ForceVarOff)</value>
+  </data>
+  <data name="4264" xml:space="preserve">
+    <value>Keine HWC-Ermittlung auf RPS durchgefuehrt (z.B. in Diag.Mode) (_ListHwComponets)</value>
+  </data>
+  <data name="4244" xml:space="preserve">
+    <value>Diagnosetask nicht geladen (_DiagExit)</value>
+  </data>
+  <data name="4283" xml:space="preserve">
+    <value>Ungültiges Uhrzeitformat bei Zugriffsfunktion POBJ_ACC_DATE_TIME</value>
+  </data>
+  <data name="4334" xml:space="preserve">
+    <value>Maximale Anzahl Event-Master erreicht.</value>
+  </data>
+  <data name="4366" xml:space="preserve">
+    <value>Falsche Commserv-Version (_UnlinkEventVars).</value>
+  </data>
+  <data name="4356" xml:space="preserve">
+    <value>Falsche Commserv-Version (_LinkEventVars).</value>
+  </data>
+  <data name="4355" xml:space="preserve">
+    <value>PV existiert nicht (_LinkEventVars).</value>
+  </data>
+  <data name="4354" xml:space="preserve">
+    <value>Ungültige Server Objekt ID (_LinkEventVars).</value>
+  </data>
+  <data name="4464" xml:space="preserve">
+    <value>Logeintrag im BR-Logdatenmodul nicht gefunden (_LogDataIdentify). </value>
+  </data>
+  <data name="4475" xml:space="preserve">
+    <value>Die SPS verweigert den Zugriff auf das BR-Logdatenmodul (_LogDataClear). </value>
+  </data>
+  <data name="4405" xml:space="preserve">
+    <value>Linknode existiert nicht auf der SPS (_LNIdentify). </value>
+  </data>
+  <data name="4485" xml:space="preserve">
+    <value>Die Daten im BR-Logdatenmodul sind beschädigt (_LogDataRead).</value>
+  </data>
+  <data name="4484" xml:space="preserve">
+    <value>Speicherfehler auf der SPS (_LogDataRead).</value>
+  </data>
+  <data name="4486" xml:space="preserve">
+    <value>Das Format der Daten im BR-Logdatenmodul ist unbekannt (_LogDataRead).</value>
+  </data>
+  <data name="4504" xml:space="preserve">
+    <value>Fehlendes Argument für eine Kommandozeilenoption. Es wurde eine Kommandozeilenoption ohne Argument übergeben. Für die angeführte Kommandozeilenoption muss ein entsprechendes Argument angegeben werden. Details dazu sind in der Beschreibung der Kommandozeilenoption für das Backend zu finden.</value>
+  </data>
+  <data name="4505" xml:space="preserve">
+    <value>Zyklischer Einsprungpunkt nicht erlaubt. In einer Quelldatei wurde eine Funktion mit dem vorangestellten Attribut "_CYCLIC" gekennzeichnet. Dies ist für diesen Programmtyp nicht zulässig. Entfernen des Attributs "_CYCLIC" aus dem Quellcode für das Programm.</value>
+  </data>
+  <data name="4506" xml:space="preserve">
+    <value>Eingabedatei nicht gefunden. Die in der Kommandozeile übergebene Eingabedatei wurde nicht gefunden. Kontrolle, ob die Eingabedatei existiert. Kontrolle der Schreibweise der Eingabedatei.</value>
+  </data>
+  <data name="4507" xml:space="preserve">
+    <value>Ausgabedatei kann nicht gelöscht werden. Die alte, vor dem Übersetzungsvorgang vorhandene Ausgabedatei kann nicht gelöscht werden. Kontrolle, ob die Ausgabedatei von einem anderen Programm verwendet wird und damit gesperrt ist. Löschen der Datei.</value>
+  </data>
+  <data name="4500" xml:space="preserve">
+    <value>Fehlendes Argument für eine Kommandozeilenoption. Es wurde eine Kommandozeilenoption ohne Argument übergeben. Für die angeführte Kommandozeilenoption muss ein entsprechendes Argument angegeben werden. Details dazu sind in der Beschreibung der Kommandozeilenoption für das Backend zu finden.</value>
+  </data>
+  <data name="4501" xml:space="preserve">
+    <value>Ungültiges Zielsystem für den Übersetzungsvorgang. Über die Kommandozeilenoption -T wurde ein üngültiger Wert für das Zielsystem übergeben. Gültige Werte für die Kommandozeilenoption -T sind "SG3" und "SG4".</value>
+  </data>
+  <data name="4502" xml:space="preserve">
+    <value>Fehlendes Argument für eine Kommandozeilenoption. Es wurde eine Kommandozeilenoption ohne Argument übergeben. Für die angeführte Kommandozeilenoption muss ein entsprechendes Argument angegeben werden. Details dazu sind in der Beschreibung der Kommandozeilenoption für das Backend zu finden.</value>
+  </data>
+  <data name="4503" xml:space="preserve">
+    <value>Ungültige Ressource für den Übersetzungsvorgang. Über die Kommandozeilenoption -r wurde ein üngültiger Wert für die Ressource übergeben. Gültige Werte für die Kommandozeilenoption -r sind "Cyclic1 " bis "Cyclic8 " für zyklische Tasks, "Timer1 " bis "Timer4 " für Timer Tasks, "Exception1 " bis "Exception255 " für Exception Task s, "Interrupt1 " bis "Interrupt255 " für Interrupt Task s und "Library " für Bibliotheken.</value>
+  </data>
+  <data name="4508" xml:space="preserve">
+    <value>Interner Fehler in der BFD Library. Interner Fehler in der BFD Library. Dieser Fehler ist ein interner Fehler und kann durch den Anwender nicht behoben werden. Möglicherweise ist ein fataler Systemengpass aufgetreten, der durch ein Beenden und neuerliches Starten des Automation Studio behoben werden kann. </value>
+  </data>
+  <data name="4509" xml:space="preserve">
+    <value>Eingabedatei kann nicht geöffnet werden. Die in der Kommandozeile übergebene Eingabedatei ist zwar vorhanden, kann aber nicht geöffnet werden. Kontrolle, ob die Ausgabedatei von einem anderen Programm verwendet wird und damit gesperrt ist.</value>
+  </data>
+  <data name="4526" xml:space="preserve">
+    <value>Fehler beim Anlegen einer Sektion. Beim Erzeugen einer Sektion in der Ausgabedatei ist ein Fehler aufgetreten. Dieser Fehler ist ein interner Fehler und kann durch den Anwender nicht behoben werden. Möglicherweise ist ein fataler Systemengpass aufgetreten, der durch ein Beenden und neuerliches Starten des Automation Studio behoben werden kann.</value>
+  </data>
+  <data name="4527" xml:space="preserve">
+    <value>Keine Symbolinformation für den Einsprungpunkt vorhanden. In der Eingabedatei ist keine Symbolinformation (Debug Info) für den Einsprungpunkt vorhanden. Die Eingabedatei wurde mit der Option übersetzt, keine Symbolinformation zu erzeugen. Einschalten der Option zur Erzeugung von Symbolinformation beim Übersetzen der Quelldateien in die Eingabedatei des Backends. Details dazu sind der Dokumentation des GNU C Compilers zu entnehmen.</value>
+  </data>
+  <data name="4524" xml:space="preserve">
+    <value>Ungültige Symbolinformation. In der Eingabedatei ist keine gültige Symbolinformation (Debug Info) vorhanden. Die Eingabedatei wurde mit der falschen Option zur Erzeugung der Symbolinformation übersetzt. Einschalten der Option zur Erzeugung von Symbolinformation beim Übersetzen der Quelldateien in die Eingabedatei des Backends. Details dazu sind der Dokumentation des GNU C Compilers zu entnehmen.</value>
+  </data>
+  <data name="4525" xml:space="preserve">
+    <value>Keine passendes Symbol zu einem GOT Eintrag gefunden. Zu einem Eintrag in der GOT (Global offset table) wurde kein passendes Symbol gefunden. Dieser Fehler darf im Normalbetrieb nicht auftreten und deutet auf ein gravierendes Problem in der Übersetzungskette hin. Bitte Kontakt mit dem Support von B&amp;R aufnehmen.</value>
+  </data>
+  <data name="4522" xml:space="preserve">
+    <value>Kein zyklischer Einsprungpunkt für einen zyklischen Tasks gefunden. Für zyklische Tasks bzw. Timer Tasks muss genau ein zyklischer Einsprungpunkt definiert sein. Diese Definition erfolgt im Quellcode über das Attribut "_CYCLIC", das derjenigen Funktion vorangestellt ist, die vom Automation Runtime zyklisch aufgerufen werden soll. Kennzeichnen einer Funktion in den Quelldateien als zyklischen Einsprungpunkt durch das vorangestellte Attribut "_CYCLIC".</value>
+  </data>
+  <data name="4523" xml:space="preserve">
+    <value>Ungültige Symbolinformation. In der Eingabedatei ist keine gültige Symbolinformation (Debug Info) vorhanden. Die Eingabedatei wurde mit der falschen Option zur Erzeugung der Symbolinformation übersetzt. Einschalten der Option zur Erzeugung von Symbolinformation beim Übersetzen der Quelldateien in die Eingabedatei des Backends. Details dazu sind der Dokumentation des GNU C Compilers zu entnehmen.</value>
+  </data>
+  <data name="4520" xml:space="preserve">
+    <value>Fehlende Implementierung eines Funktionsblocks oder einer Funktion. Ein Funktionsblock oder eine Funktion einer Bibliothek ist zwar deklariert aber nicht implementiert. Implementieren des Funktionsblocks bzw. der Funktion oder Löschen der Deklaration.</value>
+  </data>
+  <data name="4521" xml:space="preserve">
+    <value>Kein Initialisierungswert für das Symbol erlaubt. Für das IEC Symbol ist kein Initialisierungswert erlaubt. Löschen des Initialisierungswertes für das Symbol in der Quelldatei, in der das Symbol deklariert ist.</value>
+  </data>
+  <data name="4528" xml:space="preserve">
+    <value>Fehler beim Schreiben in eine Sektion. Beim Schreiben in eine Sektion der Ausgabedatei ist ein Fehler aufgetreten. Dieser Fehler ist ein interner Fehler und kann durch den Anwender nicht behoben werden. Möglicherweise ist ein fataler Systemengpass aufgetreten, der durch ein Beenden und neuerliches Starten des Automation Studio behoben werden kann.</value>
+  </data>
+  <data name="4529" xml:space="preserve">
+    <value>Fehler beim Kopieren der BFD Daten. Beim Kopieren der BFD Daten ist ein Fehler aufgetreten. Dieser Fehler ist ein interner Fehler und kann durch den Anwender nicht behoben werden. Möglicherweise ist ein fataler Systemengpass aufgetreten, der durch ein Beenden und neuerliches Starten des Automation Studio behoben werden kann.</value>
+  </data>
+  <data name="4515" xml:space="preserve">
+    <value>Nicht zyklischer Einsprungpunkt nicht erlaubt. In einer Quelldatei wurde eine Funktion mit dem vorangestellten Attribut "_NONCYCLIC" gekennzeichnet. Dies ist für diesen Programmtyp nicht zulässig. Entfernen des Attributs "_NONCYCLIC" aus dem Quellcode für das Programm.</value>
+  </data>
+  <data name="4514" xml:space="preserve">
+    <value>Falsche Version des GCC. Die Eingabedatei wurde mit der falschen Version des GNU C Compilers erstellt. Sicherstellen, daß diejenige Version des GNU C Compilers für die Erstellung der Eingabedatei verwendet wird, die in der Automation Studio Installation enthalten ist.</value>
+  </data>
+  <data name="4517" xml:space="preserve">
+    <value>In den Quelldateien zu dem Programm wurde der Einsprungpunkt mehrfach definiert. Der Einsprungpunkt wird durch das Attribut "_CYCLIC" für zyklische Programmierung oder "_NONCYCLIC" für nicht zyklische Programmierung definiert. Dieses Attribut wird der entsprechenden Funktion vorangestellt. Kontrolle der Quelldateien auf mehrfaches Vorkommen der Attribute "_CYCLIC" oder "_NONCYCLIC" und Löschen an den entsprechenden Positionen.</value>
+  </data>
+  <data name="4516" xml:space="preserve">
+    <value>Mehrfache Definition des Einsprungpunktes.</value>
+  </data>
+  <data name="4511" xml:space="preserve">
+    <value>Ausgabedatei kann nicht erstellt werden. Die Ausgabedatei kann im Zielverzeichnis nicht erstellt werden. Sicherstellen, daß das Medium, auf dem die Ausgabedatei erstellt werden soll, nicht schreibgeschützt ist und daß genügend Speicherplatz zur Verfügung steht.</value>
+  </data>
+  <data name="4510" xml:space="preserve">
+    <value>Falsches Format für die Eingabedatei. Die Eingabedatei hat kein gültiges Format. Es muss sich dabei um das Ausgabeformat der GNU Linkers handeln. Sicherstellen, daß die Eingabedatei gültiges Format aufweist.</value>
+  </data>
+  <data name="4513" xml:space="preserve">
+    <value>Fehler beim Lesen der Symboltabelle. Beim Lesen der Symboltabelle ist ein Fehler aufgetreten. Dieser Fehler ist ein interner Fehler und kann durch den Anwender nicht behoben werden. Möglicherweise ist ein fataler Systemengpass aufgetreten, der durch ein Beenden und neuerliches Starten des Automation Studio behoben werden kann.</value>
+  </data>
+  <data name="4512" xml:space="preserve">
+    <value>Keine Symbolinformation vorhanden. In der Eingabedatei ist keine Symbolinformation (Debug Info) vorhanden. Die Eingabedatei wurde mit der Option übersetzt, keine Symbolinformation zu erzeugen. Einschalten der Option zur Erzeugung von Symbolinformation beim Übersetzen der Quelldateien in die Eingabedatei des Backends. Details dazu sind der Dokumentation des GNU C Compilers zu entnehmen.</value>
+  </data>
+  <data name="4519" xml:space="preserve">
+    <value>Mehrfache Definition der Deinitialisierungsfunktion. Die Deinitialisierungsfunktion eines Programms ist diejenige Funktion, die beim Löschen am Automation Runtime einmalig durchlaufen wird. Diese Funktion wird durch das vorangestellte Attribut "_EXIT" gekennzeichnet. Dieses Attribut darf in einem Programm nur einmal vorhanden sein. Kontrolle der Quelldateien auf mehrfaches Vorkommen des Attributes "_EXIT" und Löschen an den entsprechenden Positionen.</value>
+  </data>
+  <data name="4518" xml:space="preserve">
+    <value>Mehrfache Definition der Initialisierungsfunktion. Die Initialisierungsfunktion eines Programms ist diejenige Funktion, die bei der Installation am Automation Runtime bzw. beim Neustart des Automation Runtime einmalig durchlaufen wird. Diese Funktion wird durch das vorangestellte Attribut "_INIT" gekennzeichnet. Dieses Attribut darf in einem Programm nur einmal vorhanden sein. Kontrolle der Quelldateien auf mehrfaches Vorkommen des Attributes "_INIT" und Löschen an den entsprechenden Positionen.</value>
+  </data>
+  <data name="4537" xml:space="preserve">
+    <value>Ein nicht zyklischer Task darf weder Initialisierungs- noch Deinitialisierungseinspünge haben. Für nicht zyklische Tasks sind Initialisierungs- und Deinitialisierungseinspünge nicht erlaubt. Solche Einsprungpunkte sind durch das vorangestellte Attribut "_INIT" bzw. "_EXIT" bei der entsprechenden Funktion in den Quelldateien gekennzeichnet. Eliminieren der ungültigen Attribute in den Quelldateien. </value>
+  </data>
+  <data name="4536" xml:space="preserve">
+    <value>Keine Deinitialisierungsfunktion erlaubt. Für diesen Programmtyp ist keine Deinitialisierungsfunktion erlaubt. Die Deinitialisierungsfunktion eines Programms ist diejenige Funktion, die beim Löschen am Automation Runtime einmalig durchlaufen wird. Diese Funktion wird durch das vorangestellte Attribut "_EXIT" gekennzeichnet. Löschen des Attributs "_EXIT" in der entsprechenden Quelldatei.</value>
+  </data>
+  <data name="4535" xml:space="preserve">
+    <value>Keine Initialisierungsfunktion erlaubt. Für diesen Programmtyp ist keine Initialisierungsfunktion erlaubt. Die Initialisierungsfunktion eines Programms ist diejenige Funktion, die bei der Installation am Automation Runtime bzw. beim Neustart des Automation Runtime einmalig durchlaufen wird. Diese Funktion wird durch das vorangestellte Attribut "_INIT" gekennzeichnet. Löschen des Attributs "_INIT" in der entsprechenden Quelldatei.</value>
+  </data>
+  <data name="4534" xml:space="preserve">
+    <value>Nur nicht zyklische Einsprungpunkte für Bibliotheken erlaubt. Bibliotheken dürfen nur nicht zyklische Einsprungpunkte haben. Ein solcher Einsprungpunkt ist durch das vorangestellte Attribut "_NONCYCLIC" bei der entsprechenden Funktion in den Quelldateien gekennzeichnet. Einsprungpunkt, die mit "_INIT", "_EXIT" oder "_CYCLIC" gekennzeichnet sind, sind nicht erlaubt. Eliminieren der ungültigen Attribute in den Quelldateien.</value>
+  </data>
+  <data name="4533" xml:space="preserve">
+    <value>Fehler beim Schreiben einer Sektion. Beim Schreiben einer Sektion in die Ausgabedatei ist ein Fehler aufgetreten. Dieser Fehler ist ein interner Fehler und kann durch den Anwender nicht behoben werden. Möglicherweise ist ein fataler Systemengpass aufgetreten, der durch ein Beenden und neuerliches Starten des Automation Studio behoben werden kann. </value>
+  </data>
+  <data name="4532" xml:space="preserve">
+    <value>Fehler beim Schreiben einer Sektion. Beim Schreiben einer Sektion in die Ausgabedatei ist ein Fehler aufgetreten. Dieser Fehler ist ein interner Fehler und kann durch den Anwender nicht behoben werden. Möglicherweise ist ein fataler Systemengpass aufgetreten, der durch ein Beenden und neuerliches Starten des Automation Studio behoben werden kann.</value>
+  </data>
+  <data name="4531" xml:space="preserve">
+    <value>Fehler beim Lesen einer Sektion. Beim Lesen einer Sektion der Eingabedatei ist ein Fehler aufgetreten. Dieser Fehler ist ein interner Fehler und kann durch den Anwender nicht behoben werden. Möglicherweise ist ein fataler Systemengpass aufgetreten, der durch ein Beenden und neuerliches Starten des Automation Studio behoben werden kann.</value>
+  </data>
+  <data name="4530" xml:space="preserve">
+    <value>Mehrfachvergabe der Attribute für Einsprungfunktionen. Für die Einsprungfunktionen in ein Programm wurden mehr als eines der möglichen Attribute CYCLIC, _INIT oder _EXIT vergeben. Beispiel: int _CYCLIC _INIT entryfunc() { } Für jede der Einsprungfunktionen darf nur eines der Attribute CYCLIC, _INIT oder _EXIT vergeben werden. </value>
+  </data>
+  <data name="4539" xml:space="preserve">
+    <value>Keine Eindeutigkeit von Namen von Funktionsblöcken oder Funktionen in den ersten 9 Zeichen. Auf SG3 Zielsystem müssen sich die Namen von Funktionsblöcken oder Funktionen in den ersten 9 Zeichen unterschieden. Sicherstellen der Eindeutigkeit der ersten 9 Zeichen der Namen von Funktionsblöcken oder Funktionen. </value>
+  </data>
+  <data name="4538" xml:space="preserve">
+    <value>Kein nicht zyklischer Einsprungpunkt für einen nicht zyklischen Tasks gefunden. Für nicht zyklische Tasks muss genau ein nicht zyklischer Einsprungpunkt definiert sein. Diese Definition erfolgt im Quellcode über das Attribut "_NONCYCLIC", das derjenigen Funktion vorangestellt ist, die vom Automation Runtime aufgerufen werden soll. Kennzeichnen einer Funktion in den Quelldateien als nicht zyklischen Einsprungpunkt durch das vorangestellte Attribut "_NONCYCLIC".</value>
+  </data>
+  <data name="4604" xml:space="preserve">
+    <value>Illegale Syntax in Routing-Pfadinformation</value>
+  </data>
+  <data name="4809" xml:space="preserve">
+    <value>Verbindung zur RPS kann nicht installiert werden</value>
+  </data>
+  <data name="4808" xml:space="preserve">
+    <value>Keine Verbindung zur RPS verfügbar</value>
+  </data>
+  <data name="4801" xml:space="preserve">
+    <value>Fehler beim Einrichen eines Speichers</value>
+  </data>
+  <data name="4803" xml:space="preserve">
+    <value>Service wird nicht unterstützt</value>
+  </data>
+  <data name="4802" xml:space="preserve">
+    <value>Ungültiger Objekttyp</value>
+  </data>
+  <data name="4805" xml:space="preserve">
+    <value>Falscher Service-Status</value>
+  </data>
+  <data name="4804" xml:space="preserve">
+    <value>Objekteigenschaft ist nicht definiert. Eine von der INA2000-Linie benötigte Objekteigenschaft (z.B: Anschlussbeschreibung) ist nicht definiert.</value>
+  </data>
+  <data name="4807" xml:space="preserve">
+    <value>Unzulässige Objekthierarchie</value>
+  </data>
+  <data name="4806" xml:space="preserve">
+    <value>Ungültige Objektinformation</value>
+  </data>
+  <data name="4818" xml:space="preserve">
+    <value>Lesefehler RPS-Info</value>
+  </data>
+  <data name="4819" xml:space="preserve">
+    <value>Service abgebrochen</value>
+  </data>
+  <data name="4810" xml:space="preserve">
+    <value>Service nicht ausführbar</value>
+  </data>
+  <data name="4811" xml:space="preserve">
+    <value>Service ist aktiv</value>
+  </data>
+  <data name="4812" xml:space="preserve">
+    <value>Service-Fehlerantwort</value>
+  </data>
+  <data name="4813" xml:space="preserve">
+    <value>Identifizierungsfehler</value>
+  </data>
+  <data name="4814" xml:space="preserve">
+    <value>Fehler beim Lesen einer Variable</value>
+  </data>
+  <data name="4815" xml:space="preserve">
+    <value>Service ist derzeit nicht implementiert</value>
+  </data>
+  <data name="4816" xml:space="preserve">
+    <value>Lesefehler Variablenliste</value>
+  </data>
+  <data name="4817" xml:space="preserve">
+    <value>Lesefehler Modulliste</value>
+  </data>
+  <data name="4820" xml:space="preserve">
+    <value>Fehler beim Lesen eines B&amp;R-Moduls</value>
+  </data>
+  <data name="4825" xml:space="preserve">
+    <value>Unbekanntes Format der PV Sektion- Die im angesprochenen BR Modul abgelegten PV Informationen, können von der verwendeten PVI Version nicht interpretiert werden.</value>
+  </data>
+  <data name="4824" xml:space="preserve">
+    <value>Event-Modus für Struktur- oder Feldvariable nicht möglich. Es wurde versucht, eine Struktur oder ein Array als Event-Pv anzumelden. Fuer Eventbetrieb sind nur Basis-Datentypen zulässig</value>
+  </data>
+  <data name="4901" xml:space="preserve">
+    <value>INACOMM-DLL nicht vorhanden</value>
+  </data>
+  <data name="4902" xml:space="preserve">
+    <value>INACOMM-DLL ungültig</value>
+  </data>
+  <data name="4903" xml:space="preserve">
+    <value>Interner Fehler (APLCIF)</value>
+  </data>
+  <data name="4904" xml:space="preserve">
+    <value>Ungültiger Offset</value>
+  </data>
+  <data name="4905" xml:space="preserve">
+    <value>Fehler beim Einrichten einer Verbindung (Verbindung bereits eingerichtet)</value>
+  </data>
+</root>

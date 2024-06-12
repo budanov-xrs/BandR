@@ -1,0 +1,2091 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="14101" xml:space="preserve">
+    <value>Incorrect node number (e.g. station number) received in the response. The node number is different from the request node number. </value>
+  </data>
+  <data name="14100" xml:space="preserve">
+    <value>Invalid Opcode received in the response (Opcode not specified in the OS9/NET protocol). </value>
+  </data>
+  <data name="14102" xml:space="preserve">
+    <value>Unknown Opcode received in the response </value>
+  </data>
+  <data name="14001" xml:space="preserve">
+    <value>Write procedure not supported </value>
+  </data>
+  <data name="14002" xml:space="preserve">
+    <value>Read procedure not supported </value>
+  </data>
+  <data name="14003" xml:space="preserve">
+    <value>Info service not supported </value>
+  </data>
+  <data name="14004" xml:space="preserve">
+    <value>Connection description (CD) for the line object could not be determined </value>
+  </data>
+  <data name="14005" xml:space="preserve">
+    <value>Write mode is not supported for the info service in the line object </value>
+  </data>
+  <data name="14006" xml:space="preserve">
+    <value>Read mode is not supported for the info service in the line object </value>
+  </data>
+  <data name="14007" xml:space="preserve">
+    <value>Internal error reading the line version from the DLL </value>
+  </data>
+  <data name="14008" xml:space="preserve">
+    <value>No memory available for temporarily saving the version </value>
+  </data>
+  <data name="14009" xml:space="preserve">
+    <value>Invalid access type specified for the line object in the info service </value>
+  </data>
+  <data name="14022" xml:space="preserve">
+    <value>Station object connection error </value>
+  </data>
+  <data name="14023" xml:space="preserve">
+    <value>Internal error processing the station object. </value>
+  </data>
+  <data name="14020" xml:space="preserve">
+    <value>Read mode not supported in station object's info service. </value>
+  </data>
+  <data name="14021" xml:space="preserve">
+    <value>Invalid access specified in the station object's info service </value>
+  </data>
+  <data name="14026" xml:space="preserve">
+    <value>Internal error processing the variable object </value>
+  </data>
+  <data name="14027" xml:space="preserve">
+    <value>Write mode not supported for the variable object's info service </value>
+  </data>
+  <data name="14024" xml:space="preserve">
+    <value>Invalid object hierarchy </value>
+  </data>
+  <data name="14025" xml:space="preserve">
+    <value>The start object of the object hierarchy is not a line object </value>
+  </data>
+  <data name="14028" xml:space="preserve">
+    <value>Read mode not supported for the variable object's info service </value>
+  </data>
+  <data name="14029" xml:space="preserve">
+    <value>Invalid access specified for the variable object's info service </value>
+  </data>
+  <data name="14011" xml:space="preserve">
+    <value>Read mode not supported for the device object in the info service </value>
+  </data>
+  <data name="14010" xml:space="preserve">
+    <value>Write mode not supported for the device object in the info service </value>
+  </data>
+  <data name="14013" xml:space="preserve">
+    <value>The starting position of the device object's ident service could not be determined </value>
+  </data>
+  <data name="14012" xml:space="preserve">
+    <value>Invalid access specified in the device object's info service </value>
+  </data>
+  <data name="14015" xml:space="preserve">
+    <value>Device object connection error </value>
+  </data>
+  <data name="14014" xml:space="preserve">
+    <value>A parent object was found which is not a line object when the device object was processing the ident service </value>
+  </data>
+  <data name="14017" xml:space="preserve">
+    <value>Only one object found in the object hierarchy when processing station objects </value>
+  </data>
+  <data name="14016" xml:space="preserve">
+    <value>Internal error processing the device object. </value>
+  </data>
+  <data name="14019" xml:space="preserve">
+    <value>Write mode not supported in station object's info service. </value>
+  </data>
+  <data name="14018" xml:space="preserve">
+    <value>The first object (head) in the object hierarchy is not a line object </value>
+  </data>
+  <data name="14044" xml:space="preserve">
+    <value>Station thread could not be created </value>
+  </data>
+  <data name="14045" xml:space="preserve">
+    <value>Device object connection description could not be read when carrying out the ident service </value>
+  </data>
+  <data name="14046" xml:space="preserve">
+    <value>All device created under the LNOS9NET line object have to have an ARCNET connection description. </value>
+  </data>
+  <data name="14047" xml:space="preserve">
+    <value>Error occurred when carrying out the device object's ident service: Memory not available. </value>
+  </data>
+  <data name="14041" xml:space="preserve">
+    <value>Internal error </value>
+  </data>
+  <data name="14042" xml:space="preserve">
+    <value>Error occurred when carrying out the station object's ident service: Memory not available. </value>
+  </data>
+  <data name="14043" xml:space="preserve">
+    <value>Error occurred when carrying out the device object's ident service: Memory not available. </value>
+  </data>
+  <data name="14048" xml:space="preserve">
+    <value>Internal error processing the device object. </value>
+  </data>
+  <data name="14049" xml:space="preserve">
+    <value>Internal error processing the device object. </value>
+  </data>
+  <data name="14032" xml:space="preserve">
+    <value>Internal error </value>
+  </data>
+  <data name="14031" xml:space="preserve">
+    <value>Station response timeout </value>
+  </data>
+  <data name="14030" xml:space="preserve">
+    <value>Variable object connection error </value>
+  </data>
+  <data name="14066" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14067" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14064" xml:space="preserve">
+    <value>The station object's connection description could not be read in the station object's ident service. </value>
+  </data>
+  <data name="14065" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14062" xml:space="preserve">
+    <value>The second object in the object hierarchy is not the device object </value>
+  </data>
+  <data name="14063" xml:space="preserve">
+    <value>The device object's connection description could not be read in the station object's ident service. </value>
+  </data>
+  <data name="14060" xml:space="preserve">
+    <value>Not enough memory for processing the ident service in the station object </value>
+  </data>
+  <data name="14061" xml:space="preserve">
+    <value>The starting position of the station object could not be read in the ident service </value>
+  </data>
+  <data name="14068" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14069" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14055" xml:space="preserve">
+    <value>Internal error processing the station object. </value>
+  </data>
+  <data name="14054" xml:space="preserve">
+    <value>Internal error processing the station object. </value>
+  </data>
+  <data name="14057" xml:space="preserve">
+    <value>Internal error processing the station object. </value>
+  </data>
+  <data name="14056" xml:space="preserve">
+    <value>Internal error processing the station object. </value>
+  </data>
+  <data name="14051" xml:space="preserve">
+    <value>Internal error processing the line object </value>
+  </data>
+  <data name="14050" xml:space="preserve">
+    <value>Internal error processing the device object. </value>
+  </data>
+  <data name="14053" xml:space="preserve">
+    <value>Internal error processing the station object. </value>
+  </data>
+  <data name="14052" xml:space="preserve">
+    <value>Internal error processing the line object. </value>
+  </data>
+  <data name="14059" xml:space="preserve">
+    <value>Internal error processing the station object. </value>
+  </data>
+  <data name="14058" xml:space="preserve">
+    <value>Internal error processing the station object. </value>
+  </data>
+  <data name="14088" xml:space="preserve">
+    <value>Unknown error (e.g. not 200 = or 201) is returned by the OS9NET_READ Opcode command. </value>
+  </data>
+  <data name="14089" xml:space="preserve">
+    <value>Variable name too long </value>
+  </data>
+  <data name="14080" xml:space="preserve">
+    <value>The variable object's connection description could not be read in the variable object's ident service. </value>
+  </data>
+  <data name="14081" xml:space="preserve">
+    <value>Syntax error in the connection description for the variable object </value>
+  </data>
+  <data name="14082" xml:space="preserve">
+    <value>The array specified in the variable object's connection description could not be created with the desired size </value>
+  </data>
+  <data name="14083" xml:space="preserve">
+    <value>The requested memory could not reserved for the variable array </value>
+  </data>
+  <data name="14084" xml:space="preserve">
+    <value>Internal error processing the station object. </value>
+  </data>
+  <data name="14085" xml:space="preserve">
+    <value>Internal error processing the station object. </value>
+  </data>
+  <data name="14086" xml:space="preserve">
+    <value>The table with the path entries for OS9NET stations is full. </value>
+  </data>
+  <data name="14087" xml:space="preserve">
+    <value>The specified path in the OS9NET communication request is invalid. </value>
+  </data>
+  <data name="14077" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14076" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14075" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14074" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14073" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14072" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14071" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14070" xml:space="preserve">
+    <value>Internal error processing the variable object. </value>
+  </data>
+  <data name="14079" xml:space="preserve">
+    <value>A variable object can only be created under a station object in the object hierarchy. </value>
+  </data>
+  <data name="14078" xml:space="preserve">
+    <value>Only one object is entered in the object hierarchy when carrying out the variable object's ident service. </value>
+  </data>
+  <data name="14099" xml:space="preserve">
+    <value>Only an object of type "ARCNET" can be created </value>
+  </data>
+  <data name="14098" xml:space="preserve">
+    <value>Only an object of type "LNOS9NET" can be created </value>
+  </data>
+  <data name="14091" xml:space="preserve">
+    <value>Syntax error defining the variable array </value>
+  </data>
+  <data name="14090" xml:space="preserve">
+    <value>No name specified for the variable </value>
+  </data>
+  <data name="14093" xml:space="preserve">
+    <value>Unequal variable data type </value>
+  </data>
+  <data name="14092" xml:space="preserve">
+    <value>Syntax error in variable name </value>
+  </data>
+  <data name="14095" xml:space="preserve">
+    <value>Variable value outside of rack range </value>
+  </data>
+  <data name="14094" xml:space="preserve">
+    <value>Variable value outside of address range </value>
+  </data>
+  <data name="14097" xml:space="preserve">
+    <value>Variable value outside of channel range </value>
+  </data>
+  <data name="14096" xml:space="preserve">
+    <value>Variable value outside of slot range </value>
+  </data>
+  <data name="14321" xml:space="preserve">
+    <value>Internal error: VM file management error - data could not be written. </value>
+  </data>
+  <data name="14320" xml:space="preserve">
+    <value>Internal error: Data from the section could not be written to the BR module. </value>
+  </data>
+  <data name="14323" xml:space="preserve">
+    <value>Internal error: The BR module was not able to be completed in memory. </value>
+  </data>
+  <data name="14322" xml:space="preserve">
+    <value>Internal error: Additional sections could not be created in the BR module. </value>
+  </data>
+  <data name="14325" xml:space="preserve">
+    <value>Internal error: Data could not be transferred from VM memory to the BR module. </value>
+  </data>
+  <data name="14324" xml:space="preserve">
+    <value>Internal error: VM file management error - memory could not be requested. </value>
+  </data>
+  <data name="14327" xml:space="preserve">
+    <value>Internal error: Not enough memory for data. (calculation error) </value>
+  </data>
+  <data name="14326" xml:space="preserve">
+    <value>Memory space could not be requested and reserved </value>
+  </data>
+  <data name="14329" xml:space="preserve">
+    <value>Reserved </value>
+  </data>
+  <data name="14328" xml:space="preserve">
+    <value>Internal error: Memory not released - gaps may have developed in memory </value>
+  </data>
+  <data name="14303" xml:space="preserve">
+    <value>The data transferred is invalid. </value>
+  </data>
+  <data name="14302" xml:space="preserve">
+    <value>The given NC data object type (MT=NC_...) is unknown. </value>
+  </data>
+  <data name="14301" xml:space="preserve">
+    <value>The given BR module type (MT=...) is unknown. </value>
+  </data>
+  <data name="14300" xml:space="preserve">
+    <value>The given module type (MT=...) is unknown. </value>
+  </data>
+  <data name="14307" xml:space="preserve">
+    <value>Module name has not been specified </value>
+  </data>
+  <data name="14306" xml:space="preserve">
+    <value>Module info has not been specified </value>
+  </data>
+  <data name="14305" xml:space="preserve">
+    <value>Module type has not been specified </value>
+  </data>
+  <data name="14304" xml:space="preserve">
+    <value>One of the pieces of information necessary for generating a BR module is invalid or missing </value>
+  </data>
+  <data name="14309" xml:space="preserve">
+    <value>Specified "section" invalid </value>
+  </data>
+  <data name="14308" xml:space="preserve">
+    <value>Version number not specified or faulty </value>
+  </data>
+  <data name="14312" xml:space="preserve">
+    <value>Specified module is not an NC data object </value>
+  </data>
+  <data name="14313" xml:space="preserve">
+    <value>Module contains no data for retranslation </value>
+  </data>
+  <data name="14310" xml:space="preserve">
+    <value>The index of the "section" has not been specified </value>
+  </data>
+  <data name="14311" xml:space="preserve">
+    <value>The "special module type" is unknown </value>
+  </data>
+  <data name="14316" xml:space="preserve">
+    <value>Error occurred when reading data </value>
+  </data>
+  <data name="14317" xml:space="preserve">
+    <value>Error analysing text data </value>
+  </data>
+  <data name="14314" xml:space="preserve">
+    <value>Specified module is not a BR data object </value>
+  </data>
+  <data name="14315" xml:space="preserve">
+    <value>Language not present </value>
+  </data>
+  <data name="14318" xml:space="preserve">
+    <value>Structure for the desired data types is not defined (NCT=...) </value>
+  </data>
+  <data name="14319" xml:space="preserve">
+    <value>BuildModule() or RebuildModule() cannot be called during PVI download or upload </value>
+  </data>
+  <data name="14289" xml:space="preserve">
+    <value>No station found connected to the ARCNET network </value>
+  </data>
+  <data name="14299" xml:space="preserve">
+    <value>Fatal error in OS9ARC.DLL </value>
+  </data>
+  <data name="14298" xml:space="preserve">
+    <value>Station name is NULL </value>
+  </data>
+  <data name="14293" xml:space="preserve">
+    <value>Filter for the ARCNET card cannot be set </value>
+  </data>
+  <data name="14292" xml:space="preserve">
+    <value>The node number of the installed ARCNET card cannot be read </value>
+  </data>
+  <data name="14291" xml:space="preserve">
+    <value>The version of OS9ARC.DLL cannot be read. </value>
+  </data>
+  <data name="14290" xml:space="preserve">
+    <value>Internal error: buffer too small </value>
+  </data>
+  <data name="14297" xml:space="preserve">
+    <value>Station name not found in the station information </value>
+  </data>
+  <data name="14296" xml:space="preserve">
+    <value>Request list full </value>
+  </data>
+  <data name="14295" xml:space="preserve">
+    <value>Too little memory available. </value>
+  </data>
+  <data name="14294" xml:space="preserve">
+    <value>ARCNET card cannot be addressed </value>
+  </data>
+  <data name="14980" xml:space="preserve">
+    <value>Illegal object hierarchy </value>
+  </data>
+  <data name="14982" xml:space="preserve">
+    <value>Read and write attributes are set </value>
+  </data>
+  <data name="14986" xml:space="preserve">
+    <value>Timeout while writing </value>
+  </data>
+  <data name="14988" xml:space="preserve">
+    <value>Illegal "IF" parameter (device object connection description) </value>
+  </data>
+  <data name="14945" xml:space="preserve">
+    <value>Max. Protocol length exceeded </value>
+  </data>
+  <data name="14944" xml:space="preserve">
+    <value>Fatal error in the Mininet line </value>
+  </data>
+  <data name="14946" xml:space="preserve">
+    <value>Illegal object name </value>
+  </data>
+  <data name="14941" xml:space="preserve">
+    <value>Device object is already installed (only one device object allowed) </value>
+  </data>
+  <data name="14940" xml:space="preserve">
+    <value>Error when initializing the MiniNet-DLL </value>
+  </data>
+  <data name="14943" xml:space="preserve">
+    <value>No connection to the PLC or Mininet protocol error </value>
+  </data>
+  <data name="14942" xml:space="preserve">
+    <value>Illegal object hierarchy </value>
+  </data>
+  <data name="14966" xml:space="preserve">
+    <value>Index reset </value>
+  </data>
+  <data name="14965" xml:space="preserve">
+    <value>Invalid parameter </value>
+  </data>
+  <data name="14964" xml:space="preserve">
+    <value>Command already carried out </value>
+  </data>
+  <data name="14963" xml:space="preserve">
+    <value>Unknown command </value>
+  </data>
+  <data name="14962" xml:space="preserve">
+    <value>Index/command contradiction </value>
+  </data>
+  <data name="14961" xml:space="preserve">
+    <value>Index error </value>
+  </data>
+  <data name="14960" xml:space="preserve">
+    <value>Reset carried out </value>
+  </data>
+  <data name="14979" xml:space="preserve">
+    <value>Illegal CAN ID (in the connection description) </value>
+  </data>
+  <data name="14973" xml:space="preserve">
+    <value>Windows system error when creating a system resource </value>
+  </data>
+  <data name="14970" xml:space="preserve">
+    <value>Fatal error </value>
+  </data>
+  <data name="14880" xml:space="preserve">
+    <value>Invalid parameter ("CD") </value>
+  </data>
+  <data name="14881" xml:space="preserve">
+    <value>Windows system (9x/NT) not recognized </value>
+  </data>
+  <data name="14879" xml:space="preserve">
+    <value>Scan codes are not defined </value>
+  </data>
+  <data name="14878" xml:space="preserve">
+    <value>No display connected </value>
+  </data>
+  <data name="14877" xml:space="preserve">
+    <value>Incorrect MTC version </value>
+  </data>
+  <data name="14876" xml:space="preserve">
+    <value>MTC device cannot be opened </value>
+  </data>
+  <data name="14875" xml:space="preserve">
+    <value>Illegal object data </value>
+  </data>
+  <data name="14874" xml:space="preserve">
+    <value>No key register defined </value>
+  </data>
+  <data name="14873" xml:space="preserve">
+    <value>Illegal object name </value>
+  </data>
+  <data name="14872" xml:space="preserve">
+    <value>Fatal error </value>
+  </data>
+  <data name="14871" xml:space="preserve">
+    <value>MTC protocol error </value>
+  </data>
+  <data name="14870" xml:space="preserve">
+    <value>Illegal object hierarchy </value>
+  </data>
+  <data name="12701" xml:space="preserve">
+    <value>Memory error in init section (memory requirements led to error) </value>
+  </data>
+  <data name="12700" xml:space="preserve">
+    <value>DSF not yet initialized (caused by calling dsf_action before dsf_open) </value>
+  </data>
+  <data name="12703" xml:space="preserve">
+    <value>Error when creating/ending the communication threads </value>
+  </data>
+  <data name="12702" xml:space="preserve">
+    <value>Action code of DSF-state-machine invalid (possible version problem) </value>
+  </data>
+  <data name="12704" xml:space="preserve">
+    <value>Error when creating/ending the communication events </value>
+  </data>
+  <data name="12755" xml:space="preserve">
+    <value>NET2000 = Master library or PLC error. </value>
+  </data>
+  <data name="12756" xml:space="preserve">
+    <value>Error initializing the NET2000 = DLL </value>
+  </data>
+  <data name="12758" xml:space="preserve">
+    <value>Illegal object hierarchy </value>
+  </data>
+  <data name="12759" xml:space="preserve">
+    <value>NET2000 = protocol error </value>
+  </data>
+  <data name="12763" xml:space="preserve">
+    <value>PLC doesn't support event or event module not installed </value>
+  </data>
+  <data name="12762" xml:space="preserve">
+    <value>Illegal object name </value>
+  </data>
+  <data name="12761" xml:space="preserve">
+    <value>Maximal NET2000 = protocol length too small </value>
+  </data>
+  <data name="12760" xml:space="preserve">
+    <value>Fatal error </value>
+  </data>
+  <data name="12600" xml:space="preserve">
+    <value>Slave: Fatal error </value>
+  </data>
+  <data name="12601" xml:space="preserve">
+    <value>Slave: No Level 7 = response buffer of the corresponding size available. </value>
+  </data>
+  <data name="12602" xml:space="preserve">
+    <value>Slave: Illegal object index. </value>
+  </data>
+  <data name="12603" xml:space="preserve">
+    <value>Slave: Illegal call code (Service was not supported). </value>
+  </data>
+  <data name="12604" xml:space="preserve">
+    <value>Slave: Illegal channel number (check software version) </value>
+  </data>
+  <data name="12605" xml:space="preserve">
+    <value>Slave: Defective syntax for event driven object (event list) </value>
+  </data>
+  <data name="12606" xml:space="preserve">
+    <value>Slave: No event manager installed </value>
+  </data>
+  <data name="12607" xml:space="preserve">
+    <value>Slave: Event list configured too small. </value>
+  </data>
+  <data name="12608" xml:space="preserve">
+    <value>Slave: Object is not a structure. </value>
+  </data>
+  <data name="12609" xml:space="preserve">
+    <value>Slave: Error while reading object structure. </value>
+  </data>
+  <data name="12611" xml:space="preserve">
+    <value>Slave: Object index error / Index outside allowed range </value>
+  </data>
+  <data name="12610" xml:space="preserve">
+    <value>Slave: A "Master" other than the event master tried to register event controlled PVs. </value>
+  </data>
+  <data name="12613" xml:space="preserve">
+    <value>Slave: No confirmation buffer (Level 4 = or 7) of the corresponding size available. </value>
+  </data>
+  <data name="12612" xml:space="preserve">
+    <value>Slave: No Level 7 = request buffer of the corresponding size available. </value>
+  </data>
+  <data name="12614" xml:space="preserve">
+    <value>Slave: No indication buffer (Level 4 = or 7) of the corresponding size available. </value>
+  </data>
+  <data name="12672" xml:space="preserve">
+    <value>Slave: Object index table is full. </value>
+  </data>
+  <data name="12671" xml:space="preserve">
+    <value>Slave: Unknown object </value>
+  </data>
+  <data name="12670" xml:space="preserve">
+    <value>Slave: Invalid object type </value>
+  </data>
+  <data name="12521" xml:space="preserve">
+    <value>The master receive buffer is too small in order to record slave data. </value>
+  </data>
+  <data name="12520" xml:space="preserve">
+    <value>The master receive buffer could not be allocated (insufficient memory). </value>
+  </data>
+  <data name="12522" xml:space="preserve">
+    <value>Communication status error (data blocks lost). </value>
+  </data>
+  <data name="12510" xml:space="preserve">
+    <value>Timeout during communication with the slave. </value>
+  </data>
+  <data name="12561" xml:space="preserve">
+    <value>Illegal call code. </value>
+  </data>
+  <data name="12560" xml:space="preserve">
+    <value>Data buffer is too small. </value>
+  </data>
+  <data name="12545" xml:space="preserve">
+    <value>Illegal data received from slave, incorrect data length. </value>
+  </data>
+  <data name="12544" xml:space="preserve">
+    <value>Illegal data received from slave, incorrect service code. </value>
+  </data>
+  <data name="12543" xml:space="preserve">
+    <value>Illegal data received from slave, incorrect sequence number. </value>
+  </data>
+  <data name="12542" xml:space="preserve">
+    <value>The master send buffer is too small in order to record slave data. </value>
+  </data>
+  <data name="12541" xml:space="preserve">
+    <value>The master send buffer could not be allocated (insufficient memory). </value>
+  </data>
+  <data name="12540" xml:space="preserve">
+    <value>Slave is not ready </value>
+  </data>
+  <data name="12581" xml:space="preserve">
+    <value>Memory could not be allocated (Init). </value>
+  </data>
+  <data name="12580" xml:space="preserve">
+    <value>Memory could not be allocated (create). </value>
+  </data>
+  <data name="12125" xml:space="preserve">
+    <value>Error when creating/opening a file </value>
+  </data>
+  <data name="12124" xml:space="preserve">
+    <value>Device is not ready </value>
+  </data>
+  <data name="12127" xml:space="preserve">
+    <value>Error while reading </value>
+  </data>
+  <data name="12126" xml:space="preserve">
+    <value>Write error </value>
+  </data>
+  <data name="12121" xml:space="preserve">
+    <value>Invalid path or file name </value>
+  </data>
+  <data name="12120" xml:space="preserve">
+    <value>Path/file not available </value>
+  </data>
+  <data name="12123" xml:space="preserve">
+    <value>Device is write protected </value>
+  </data>
+  <data name="12122" xml:space="preserve">
+    <value>Access denied </value>
+  </data>
+  <data name="12129" xml:space="preserve">
+    <value>Error executing a file </value>
+  </data>
+  <data name="12128" xml:space="preserve">
+    <value>Error deleting a file </value>
+  </data>
+  <data name="12130" xml:space="preserve">
+    <value>File already exists </value>
+  </data>
+  <data name="12104" xml:space="preserve">
+    <value>Windows system error: Create/start thread </value>
+  </data>
+  <data name="12103" xml:space="preserve">
+    <value>Windows system error: Mapped file (communications buffer) open/create </value>
+  </data>
+  <data name="12102" xml:space="preserve">
+    <value>Windows system error: Create/Open events </value>
+  </data>
+  <data name="12101" xml:space="preserve">
+    <value>Windows system error: Wait function. </value>
+  </data>
+  <data name="12100" xml:space="preserve">
+    <value>Windows system error when creating a system resource </value>
+  </data>
+  <data name="12060" xml:space="preserve">
+    <value>Process timeout (Request/Response) </value>
+  </data>
+  <data name="12062" xml:space="preserve">
+    <value>PVICOM is not / or already initialized </value>
+  </data>
+  <data name="12063" xml:space="preserve">
+    <value>Illegal function parameter </value>
+  </data>
+  <data name="12042" xml:space="preserve">
+    <value>Application not registered </value>
+  </data>
+  <data name="12043" xml:space="preserve">
+    <value>Request interrupted </value>
+  </data>
+  <data name="12040" xml:space="preserve">
+    <value>Link broken </value>
+  </data>
+  <data name="12041" xml:space="preserve">
+    <value>Error registering the application </value>
+  </data>
+  <data name="12044" xml:space="preserve">
+    <value>Application instance (clients) maximum exceeded </value>
+  </data>
+  <data name="12045" xml:space="preserve">
+    <value>Invalid instance handle (client) </value>
+  </data>
+  <data name="12071" xml:space="preserve">
+    <value>Error identifying the line DLL </value>
+  </data>
+  <data name="12070" xml:space="preserve">
+    <value>Error loading the line DLL </value>
+  </data>
+  <data name="12073" xml:space="preserve">
+    <value>Invalid line name </value>
+  </data>
+  <data name="12072" xml:space="preserve">
+    <value>Undefined line error message </value>
+  </data>
+  <data name="12075" xml:space="preserve">
+    <value>Error loading the function DLL </value>
+  </data>
+  <data name="12074" xml:space="preserve">
+    <value>Component for B&amp;R module generation not installed </value>
+  </data>
+  <data name="12077" xml:space="preserve">
+    <value>Invalid function name </value>
+  </data>
+  <data name="12076" xml:space="preserve">
+    <value>Error identifying the function DLL </value>
+  </data>
+  <data name="12024" xml:space="preserve">
+    <value>Maximum nesting depth or number of elements in a structure variable has been exceeded </value>
+  </data>
+  <data name="12025" xml:space="preserve">
+    <value>Illegal nesting in structure variable </value>
+  </data>
+  <data name="12026" xml:space="preserve">
+    <value>Invalid scaling or limit entry </value>
+  </data>
+  <data name="12027" xml:space="preserve">
+    <value>Invalid scaling or limit value </value>
+  </data>
+  <data name="12020" xml:space="preserve">
+    <value>Illegal syntax </value>
+  </data>
+  <data name="12021" xml:space="preserve">
+    <value>Unknown keyword in a PVI description string </value>
+  </data>
+  <data name="12022" xml:space="preserve">
+    <value>Keyword in description already exists </value>
+  </data>
+  <data name="12023" xml:space="preserve">
+    <value>Invalid key word in description </value>
+  </data>
+  <data name="12028" xml:space="preserve">
+    <value>Invalid hysteresis entry </value>
+  </data>
+  <data name="12053" xml:space="preserve">
+    <value>Illegal request data </value>
+  </data>
+  <data name="12052" xml:space="preserve">
+    <value>Incorrect communication DLL version </value>
+  </data>
+  <data name="12051" xml:space="preserve">
+    <value>Error communicating with PVI Manager </value>
+  </data>
+  <data name="12050" xml:space="preserve">
+    <value>PVI Manager not started </value>
+  </data>
+  <data name="12057" xml:space="preserve">
+    <value>Illegal window handle </value>
+  </data>
+  <data name="12056" xml:space="preserve">
+    <value>Illegal use of C functions </value>
+  </data>
+  <data name="12055" xml:space="preserve">
+    <value>No response data present </value>
+  </data>
+  <data name="12054" xml:space="preserve">
+    <value>Illegal response data </value>
+  </data>
+  <data name="12059" xml:space="preserve">
+    <value>Communication timeout (application/PVI Manager) </value>
+  </data>
+  <data name="12058" xml:space="preserve">
+    <value>Access type not supported </value>
+  </data>
+  <data name="12006" xml:space="preserve">
+    <value>Illegal object name length </value>
+  </data>
+  <data name="12007" xml:space="preserve">
+    <value>Syntax error in object name </value>
+  </data>
+  <data name="12004" xml:space="preserve">
+    <value>Undefined object handle </value>
+  </data>
+  <data name="12005" xml:space="preserve">
+    <value>Illegal object type </value>
+  </data>
+  <data name="12002" xml:space="preserve">
+    <value>Object name already exists </value>
+  </data>
+  <data name="12003" xml:space="preserve">
+    <value>Object-Name not found </value>
+  </data>
+  <data name="12000" xml:space="preserve">
+    <value>Undefined error </value>
+  </data>
+  <data name="12001" xml:space="preserve">
+    <value>Object handle list full </value>
+  </data>
+  <data name="12008" xml:space="preserve">
+    <value>Syntax error in connection description </value>
+  </data>
+  <data name="12009" xml:space="preserve">
+    <value>Illegal object hierarchy </value>
+  </data>
+  <data name="12035" xml:space="preserve">
+    <value>Object with read protection </value>
+  </data>
+  <data name="12034" xml:space="preserve">
+    <value>Object with write protection </value>
+  </data>
+  <data name="12037" xml:space="preserve">
+    <value>Data length conflict </value>
+  </data>
+  <data name="12036" xml:space="preserve">
+    <value>Data type conflict (cast with incompatible data types) </value>
+  </data>
+  <data name="12031" xml:space="preserve">
+    <value>Status not supported </value>
+  </data>
+  <data name="12030" xml:space="preserve">
+    <value>Property not supported </value>
+  </data>
+  <data name="12033" xml:space="preserve">
+    <value>Illegal data format </value>
+  </data>
+  <data name="12032" xml:space="preserve">
+    <value>No data format defined </value>
+  </data>
+  <data name="12039" xml:space="preserve">
+    <value>Data format is defined by the line </value>
+  </data>
+  <data name="12038" xml:space="preserve">
+    <value>Illegal data format together with hysteresis or function </value>
+  </data>
+  <data name="12014" xml:space="preserve">
+    <value>Limit exceeded </value>
+  </data>
+  <data name="12013" xml:space="preserve">
+    <value>Process object doesn't have valid variable data  </value>
+  </data>
+  <data name="12012" xml:space="preserve">
+    <value>Illegal data length </value>
+  </data>
+  <data name="12011" xml:space="preserve">
+    <value>Requested memory cannot be reserved </value>
+  </data>
+  <data name="12010" xml:space="preserve">
+    <value>PVI object not created </value>
+  </data>
+  <data name="12086" xml:space="preserve">
+    <value>System error PVI/line (The version of the line DLL being used is not compatible to PVI Manager.)</value>
+  </data>
+  <data name="12084" xml:space="preserve">
+    <value>System error for line (illegal process object handle) </value>
+  </data>
+  <data name="12085" xml:space="preserve">
+    <value>System error PVI/line (undefined service condition) </value>
+  </data>
+  <data name="12082" xml:space="preserve">
+    <value>System error line (denied access to line interface function) </value>
+  </data>
+  <data name="12083" xml:space="preserve">
+    <value>System error line (process suspension not permitted) </value>
+  </data>
+  <data name="12080" xml:space="preserve">
+    <value>System error PVI (illegal value format) </value>
+  </data>
+  <data name="12081" xml:space="preserve">
+    <value>System error PVI (internal PVI data is damaged) </value>
+  </data>
+  <data name="12096" xml:space="preserve">
+    <value>Host not found or disturbed (TCP/IP error) </value>
+  </data>
+  <data name="12095" xml:space="preserve">
+    <value>Communication disturbed (TCP/IP error) </value>
+  </data>
+  <data name="12094" xml:space="preserve">
+    <value>Communication not possible (TCP/IP error) </value>
+  </data>
+  <data name="12093" xml:space="preserve">
+    <value>Memory error or limit reached (TCP/IP error) </value>
+  </data>
+  <data name="12092" xml:space="preserve">
+    <value>Error in network sub system (TCP/IP error) </value>
+  </data>
+  <data name="12091" xml:space="preserve">
+    <value>False address or host name not available (TCP/IP error) </value>
+  </data>
+  <data name="12090" xml:space="preserve">
+    <value>General socket error (TCP/IP error) </value>
+  </data>
+  <data name="12902" xml:space="preserve">
+    <value>Device is not available </value>
+  </data>
+  <data name="12901" xml:space="preserve">
+    <value>Invalid data format </value>
+  </data>
+  <data name="12900" xml:space="preserve">
+    <value>Data buffer not installed. </value>
+  </data>
+  <data name="11150" xml:space="preserve">
+    <value>Base for ANSL Server errors</value>
+  </data>
+  <data name="11041" xml:space="preserve">
+    <value>The specified object name contains illegal characters.</value>
+  </data>
+  <data name="11040" xml:space="preserve">
+    <value>Invalid internal ANSL module list.</value>
+  </data>
+  <data name="11043" xml:space="preserve">
+    <value>The length of the specified object name is either 0 or longer than 767 characters.</value>
+  </data>
+  <data name="11042" xml:space="preserve">
+    <value>Variable type not supported.</value>
+  </data>
+  <data name="11045" xml:space="preserve">
+    <value>The process variable being addressed is not an array variable or the index is outside the valid indexing range.</value>
+  </data>
+  <data name="11044" xml:space="preserve">
+    <value>The length of the specified BR module is 0.</value>
+  </data>
+  <data name="11046" xml:space="preserve">
+    <value>The specified structure element is invalid or the process variable being addressed is not a structure variable..</value>
+  </data>
+  <data name="11014" xml:space="preserve">
+    <value>Event variables are DISABLED or NOT allowed.</value>
+  </data>
+  <data name="11010" xml:space="preserve">
+    <value>Illegal interface parameter</value>
+  </data>
+  <data name="11011" xml:space="preserve">
+    <value>Illegal application module name</value>
+  </data>
+  <data name="11012" xml:space="preserve">
+    <value>Invalid data format</value>
+  </data>
+  <data name="11013" xml:space="preserve">
+    <value>The specified variable format is NOT supported</value>
+  </data>
+  <data name="11036" xml:space="preserve">
+    <value>Object NOT supported.</value>
+  </data>
+  <data name="11037" xml:space="preserve">
+    <value>Invalid object.</value>
+  </data>
+  <data name="11034" xml:space="preserve">
+    <value>Object already exists</value>
+  </data>
+  <data name="11035" xml:space="preserve">
+    <value>Object busy or not read for service commands.</value>
+  </data>
+  <data name="11032" xml:space="preserve">
+    <value>Invalid service parameter</value>
+  </data>
+  <data name="11033" xml:space="preserve">
+    <value>The object does not exist</value>
+  </data>
+  <data name="11030" xml:space="preserve">
+    <value>Services has been canceld.</value>
+  </data>
+  <data name="11031" xml:space="preserve">
+    <value>Object or service not supported by ANSL</value>
+  </data>
+  <data name="11038" xml:space="preserve">
+    <value>Invalid object name.</value>
+  </data>
+  <data name="11005" xml:space="preserve">
+    <value>Common error for the Online-Server</value>
+  </data>
+  <data name="11004" xml:space="preserve">
+    <value>ANSL object error</value>
+  </data>
+  <data name="11007" xml:space="preserve">
+    <value>Invalid XML-Data</value>
+  </data>
+  <data name="11006" xml:space="preserve">
+    <value>Error for the Online-Server Response</value>
+  </data>
+  <data name="11001" xml:space="preserve">
+    <value>internal ANSL error</value>
+  </data>
+  <data name="11003" xml:space="preserve">
+    <value>ANSL protocol error</value>
+  </data>
+  <data name="11002" xml:space="preserve">
+    <value>ANSL versions conflict</value>
+  </data>
+  <data name="11009" xml:space="preserve">
+    <value>BrMod104 error</value>
+  </data>
+  <data name="11008" xml:space="preserve">
+    <value>Missing XML-Tag</value>
+  </data>
+  <data name="11023" xml:space="preserve">
+    <value>Wrong IP-address</value>
+  </data>
+  <data name="11022" xml:space="preserve">
+    <value>Connection has been closed.</value>
+  </data>
+  <data name="11021" xml:space="preserve">
+    <value>Connection has been disconnected or interrupted</value>
+  </data>
+  <data name="11020" xml:space="preserve">
+    <value>Failed to establish the connection</value>
+  </data>
+  <data name="13214" xml:space="preserve">
+    <value>Error starting CAN </value>
+  </data>
+  <data name="13215" xml:space="preserve">
+    <value>Error resetting CAN </value>
+  </data>
+  <data name="13216" xml:space="preserve">
+    <value>Configuration error </value>
+  </data>
+  <data name="13217" xml:space="preserve">
+    <value>Error initializing FIFO </value>
+  </data>
+  <data name="13210" xml:space="preserve">
+    <value>Write error </value>
+  </data>
+  <data name="13211" xml:space="preserve">
+    <value>CAN warning state </value>
+  </data>
+  <data name="13212" xml:space="preserve">
+    <value>CAN bus off </value>
+  </data>
+  <data name="13213" xml:space="preserve">
+    <value>Error initializing CAN </value>
+  </data>
+  <data name="13218" xml:space="preserve">
+    <value>Timeout cannot be started </value>
+  </data>
+  <data name="13219" xml:space="preserve">
+    <value>Semaphore cannot be created </value>
+  </data>
+  <data name="13236" xml:space="preserve">
+    <value>Error deregistering an RTR object  </value>
+  </data>
+  <data name="13234" xml:space="preserve">
+    <value>RTR object already being used  </value>
+  </data>
+  <data name="13235" xml:space="preserve">
+    <value>Error registering an RTR object  </value>
+  </data>
+  <data name="13232" xml:space="preserve">
+    <value>Incorrect LS172 = firmware version  </value>
+  </data>
+  <data name="13233" xml:space="preserve">
+    <value>LS172 = device still busy  </value>
+  </data>
+  <data name="13230" xml:space="preserve">
+    <value>Error requesting data for an RTR object  </value>
+  </data>
+  <data name="13231" xml:space="preserve">
+    <value>Error updating data for an RTR object  </value>
+  </data>
+  <data name="13205" xml:space="preserve">
+    <value>Invalid memory access </value>
+  </data>
+  <data name="13204" xml:space="preserve">
+    <value>Function not supported </value>
+  </data>
+  <data name="13207" xml:space="preserve">
+    <value>No acknowledgement </value>
+  </data>
+  <data name="13206" xml:space="preserve">
+    <value>Interrupt cannot be enabled </value>
+  </data>
+  <data name="13201" xml:space="preserve">
+    <value>Invalid parameter </value>
+  </data>
+  <data name="13203" xml:space="preserve">
+    <value>I/O still busy </value>
+  </data>
+  <data name="13202" xml:space="preserve">
+    <value>Wrong length </value>
+  </data>
+  <data name="13209" xml:space="preserve">
+    <value>Error while reading (messages lost) </value>
+  </data>
+  <data name="13208" xml:space="preserve">
+    <value>Receive buffer overflow </value>
+  </data>
+  <data name="13227" xml:space="preserve">
+    <value>IRQ overflow </value>
+  </data>
+  <data name="13226" xml:space="preserve">
+    <value>Device error </value>
+  </data>
+  <data name="13225" xml:space="preserve">
+    <value>CAN not ready </value>
+  </data>
+  <data name="13224" xml:space="preserve">
+    <value>Error locking memory </value>
+  </data>
+  <data name="13223" xml:space="preserve">
+    <value>Invalid CAN data length </value>
+  </data>
+  <data name="13222" xml:space="preserve">
+    <value>Invalid CAN ID </value>
+  </data>
+  <data name="13221" xml:space="preserve">
+    <value>Illegal handle </value>
+  </data>
+  <data name="13220" xml:space="preserve">
+    <value>Insufficient memory </value>
+  </data>
+  <data name="13229" xml:space="preserve">
+    <value>RTR object not created/available  </value>
+  </data>
+  <data name="13228" xml:space="preserve">
+    <value>Protocol error </value>
+  </data>
+  <data name="13070" xml:space="preserve">
+    <value>Access denied (5, ERROR_ACCESS_DENIED) </value>
+  </data>
+  <data name="13071" xml:space="preserve">
+    <value>Device does not recognize command (22, ERROR_BAD_COMMAND) </value>
+  </data>
+  <data name="13072" xml:space="preserve">
+    <value>The device entered is invalid (1200, ERROR_BAD_DEVICE) </value>
+  </data>
+  <data name="13073" xml:space="preserve">
+    <value>The system cannot find the specified device (20, ERROR_BAD_UNIT) </value>
+  </data>
+  <data name="13074" xml:space="preserve">
+    <value>Insufficient memory on the disk drive (112, ERROR_DISK_FULL) </value>
+  </data>
+  <data name="13075" xml:space="preserve">
+    <value>Specified module not found (126, ERROR_MOD_NOT_FOUND) </value>
+  </data>
+  <data name="13076" xml:space="preserve">
+    <value>The specified file cannot be found (2, ERROR_FILE_NOT_FOUND) </value>
+  </data>
+  <data name="13077" xml:space="preserve">
+    <value>A device in the system does not function (31, ERROR_GEN_FAILURE) </value>
+  </data>
+  <data name="13078" xml:space="preserve">
+    <value>Invalid flag (1004, ERROR_INVALID_FLAGS) </value>
+  </data>
+  <data name="13079" xml:space="preserve">
+    <value>Syntax of file name, directory name or disk drive name incorrect (123, ERROR_INVALID_NAME) </value>
+  </data>
+  <data name="13052" xml:space="preserve">
+    <value>No free channel </value>
+  </data>
+  <data name="13053" xml:space="preserve">
+    <value>Incorrect telephone number format </value>
+  </data>
+  <data name="13050" xml:space="preserve">
+    <value>Error when calling up the TAPI function (Operating system error) </value>
+  </data>
+  <data name="13051" xml:space="preserve">
+    <value>The TAPI device is already being used by another Windows program. </value>
+  </data>
+  <data name="13056" xml:space="preserve">
+    <value>The modem could not dial. </value>
+  </data>
+  <data name="13057" xml:space="preserve">
+    <value>Error when the modem is switched off </value>
+  </data>
+  <data name="13054" xml:space="preserve">
+    <value>Error when making connection </value>
+  </data>
+  <data name="13055" xml:space="preserve">
+    <value>No answer from the modem. </value>
+  </data>
+  <data name="13058" xml:space="preserve">
+    <value>Wrong TAPI version installed (e.g. 1.4) </value>
+  </data>
+  <data name="13059" xml:space="preserve">
+    <value>An existing connection has been interrupted. </value>
+  </data>
+  <data name="13061" xml:space="preserve">
+    <value>Missing parameters: /MO and /TN must be defined. </value>
+  </data>
+  <data name="13060" xml:space="preserve">
+    <value>Error during initialization. Required system resources may not be defined. </value>
+  </data>
+  <data name="13034" xml:space="preserve">
+    <value>Network configuration error (SA parameter). The source station number is not unique for the specified IP network. There are at least two stations with the same source station number.</value>
+  </data>
+  <data name="13035" xml:space="preserve">
+    <value>Time out error (reading) </value>
+  </data>
+  <data name="13036" xml:space="preserve">
+    <value>Time out error (writing) </value>
+  </data>
+  <data name="13037" xml:space="preserve">
+    <value>INA frame library INAFRMS.dll not present or cannot be loaded </value>
+  </data>
+  <data name="13030" xml:space="preserve">
+    <value>Unknown target address (e.g. DA parameter: station number, station name) </value>
+  </data>
+  <data name="13033" xml:space="preserve">
+    <value>Network configuration error (DA parameter). The destination station number is not unique for the specified IP network. There are at least two stations with the same destination station number.</value>
+  </data>
+  <data name="13042" xml:space="preserve">
+    <value>Error when installing the Pbus read/write threads </value>
+  </data>
+  <data name="13041" xml:space="preserve">
+    <value>Error when downloading Profibus network configuration module. </value>
+  </data>
+  <data name="13040" xml:space="preserve">
+    <value>Error when downloading the Profibus firmware. </value>
+  </data>
+  <data name="13047" xml:space="preserve">
+    <value>Invalid modem name </value>
+  </data>
+  <data name="13046" xml:space="preserve">
+    <value>No modem installed </value>
+  </data>
+  <data name="13045" xml:space="preserve">
+    <value>Error when initializing. Possible problem with TAPI installation. (See modem installation) </value>
+  </data>
+  <data name="13049" xml:space="preserve">
+    <value>TAPI version not supported </value>
+  </data>
+  <data name="13048" xml:space="preserve">
+    <value>Modem not found </value>
+  </data>
+  <data name="13016" xml:space="preserve">
+    <value>Illegal station handle </value>
+  </data>
+  <data name="13017" xml:space="preserve">
+    <value>No ID list specified </value>
+  </data>
+  <data name="13014" xml:space="preserve">
+    <value>Illegal data length while sending request </value>
+  </data>
+  <data name="13015" xml:space="preserve">
+    <value>Illegal source address (e.g. SA parameter: station number, station name) </value>
+  </data>
+  <data name="13012" xml:space="preserve">
+    <value>Unauthorized parameter change </value>
+  </data>
+  <data name="13013" xml:space="preserve">
+    <value>Illegal data length while reading request </value>
+  </data>
+  <data name="13010" xml:space="preserve">
+    <value>Illegal target address (e.g. DA parameter, station number, station name) </value>
+  </data>
+  <data name="13011" xml:space="preserve">
+    <value>Invalid parameter in the connection description (initialization string) </value>
+  </data>
+  <data name="13018" xml:space="preserve">
+    <value>Insufficient RAM memory </value>
+  </data>
+  <data name="13019" xml:space="preserve">
+    <value>Device was connected (connection was cancelled) </value>
+  </data>
+  <data name="13025" xml:space="preserve">
+    <value>Unsupported function </value>
+  </data>
+  <data name="13024" xml:space="preserve">
+    <value>Unknown device (e.g. IF parameter: device name) </value>
+  </data>
+  <data name="13027" xml:space="preserve">
+    <value>Error in Windows resource (Events, etc.) </value>
+  </data>
+  <data name="13026" xml:space="preserve">
+    <value>Error while writing the interface parameters </value>
+  </data>
+  <data name="13021" xml:space="preserve">
+    <value>No confirmation data for send request present </value>
+  </data>
+  <data name="13020" xml:space="preserve">
+    <value>No confirmation data for read request present </value>
+  </data>
+  <data name="13022" xml:space="preserve">
+    <value>Error while reading interface parameter </value>
+  </data>
+  <data name="13029" xml:space="preserve">
+    <value>Transfer thread cannot be installed </value>
+  </data>
+  <data name="13028" xml:space="preserve">
+    <value>Station or device already in use </value>
+  </data>
+  <data name="13007" xml:space="preserve">
+    <value>Error in the device name "/IF" parameter (e.g. wrong COM number) </value>
+  </data>
+  <data name="13006" xml:space="preserve">
+    <value>Driver not found, cannot be loaded </value>
+  </data>
+  <data name="13005" xml:space="preserve">
+    <value>Error while reading from the interface </value>
+  </data>
+  <data name="13004" xml:space="preserve">
+    <value>Error while reading from the interface </value>
+  </data>
+  <data name="13003" xml:space="preserve">
+    <value>Error while closing the interface. </value>
+  </data>
+  <data name="13002" xml:space="preserve">
+    <value>Active request still in progress (in send request) </value>
+  </data>
+  <data name="13001" xml:space="preserve">
+    <value>Active request still in progress (in receive request) </value>
+  </data>
+  <data name="13000" xml:space="preserve">
+    <value>Undefined INAFRM.DLL error </value>
+  </data>
+  <data name="13009" xml:space="preserve">
+    <value>Illegal device handle </value>
+  </data>
+  <data name="13008" xml:space="preserve">
+    <value>Illegal data received </value>
+  </data>
+  <data name="13098" xml:space="preserve">
+    <value>WinSocket not installed </value>
+  </data>
+  <data name="13096" xml:space="preserve">
+    <value>Thread can not be installed </value>
+  </data>
+  <data name="13097" xml:space="preserve">
+    <value>Station not available </value>
+  </data>
+  <data name="13094" xml:space="preserve">
+    <value>Port is in use </value>
+  </data>
+  <data name="13095" xml:space="preserve">
+    <value>Error in connection of the sockets </value>
+  </data>
+  <data name="13092" xml:space="preserve">
+    <value>Error when installing the sockets </value>
+  </data>
+  <data name="13093" xml:space="preserve">
+    <value>General TCP/IP error </value>
+  </data>
+  <data name="13090" xml:space="preserve">
+    <value>Wrong Win-socket Version </value>
+  </data>
+  <data name="13091" xml:space="preserve">
+    <value>Error during initialization (Win-Socket) </value>
+  </data>
+  <data name="13089" xml:space="preserve">
+    <value>The system cannot write to the specified device (29, ERROR_WRITE_FAULT) </value>
+  </data>
+  <data name="13088" xml:space="preserve">
+    <value>Recursion too deep - stack overflow (1001, ERROR_STACK_OVERFLOW) </value>
+  </data>
+  <data name="13087" xml:space="preserve">
+    <value>The system cannot read from the specified device (30, ERROR_READ_FAULT) </value>
+  </data>
+  <data name="13086" xml:space="preserve">
+    <value>Path not found (3, ERROR_PATH_NOT_FOUND) </value>
+  </data>
+  <data name="13085" xml:space="preserve">
+    <value>The system cannot open the device/file (110, ERROR_OPEN_FAILED) </value>
+  </data>
+  <data name="13084" xml:space="preserve">
+    <value>The device is not ready (21, ERROR_NOT_READY) </value>
+  </data>
+  <data name="13083" xml:space="preserve">
+    <value>Insufficient memory to execute command (8, ERROR_NOT_ENOUGH_MEMORY) </value>
+  </data>
+  <data name="13082" xml:space="preserve">
+    <value>Invalid handle (6, ERROR_INVALID_HANDLE) </value>
+  </data>
+  <data name="13081" xml:space="preserve">
+    <value>The access code is invalid (12, ERROR_INVALID_ACCESS) </value>
+  </data>
+  <data name="13080" xml:space="preserve">
+    <value>Invalid function (1, ERROR_INVALID_FUNCTION) </value>
+  </data>
+  <data name="27312" xml:space="preserve">
+    <value>Invalid offset from resource name </value>
+  </data>
+  <data name="27313" xml:space="preserve">
+    <value>The TagData argument from the ReadBuffer and WriteBuffer functions is invalid. </value>
+  </data>
+  <data name="27310" xml:space="preserve">
+    <value>Invalid offset in resource name </value>
+  </data>
+  <data name="27311" xml:space="preserve">
+    <value>Invalid resource name declaration </value>
+  </data>
+  <data name="27316" xml:space="preserve">
+    <value>Tag not specified in the configuration file </value>
+  </data>
+  <data name="27314" xml:space="preserve">
+    <value>Reading and writing the buffer from two or more dimensional arrays is not supported </value>
+  </data>
+  <data name="27315" xml:space="preserve">
+    <value>Reading and writing arrays with more than 65535 = elements is not supported. </value>
+  </data>
+  <data name="27303" xml:space="preserve">
+    <value>Accessing string arrays is not supported </value>
+  </data>
+  <data name="27302" xml:space="preserve">
+    <value>Invalid data type for read access </value>
+  </data>
+  <data name="27301" xml:space="preserve">
+    <value>Invalid data type for write access </value>
+  </data>
+  <data name="27300" xml:space="preserve">
+    <value>Tag not specified in the configuration file </value>
+  </data>
+  <data name="27307" xml:space="preserve">
+    <value>The logical path of the SetConnection and GetConnection functions does not exist </value>
+  </data>
+  <data name="27306" xml:space="preserve">
+    <value>Reading and writing arrays with more than 65535 = elements is not supported. </value>
+  </data>
+  <data name="27305" xml:space="preserve">
+    <value>Reading and writing two or more dimensional arrays is not supported </value>
+  </data>
+  <data name="27304" xml:space="preserve">
+    <value>Reading and writing to VARIANT data type is not supported </value>
+  </data>
+  <data name="27309" xml:space="preserve">
+    <value>The resource name of the ReadResource function doesn't exist. </value>
+  </data>
+  <data name="27308" xml:space="preserve">
+    <value>The SetConnection or GetConnection function was called before PviControl was initialized </value>
+  </data>
+  <data name="27356" xml:space="preserve">
+    <value> No language change  </value>
+  </data>
+  <data name="27357" xml:space="preserve">
+    <value> Unknown language  </value>
+  </data>
+  <data name="27354" xml:space="preserve">
+    <value> Alarm reference not found  </value>
+  </data>
+  <data name="27355" xml:space="preserve">
+    <value> Bypass not possible  </value>
+  </data>
+  <data name="27352" xml:space="preserve">
+    <value> Invalid format for alarm condition  </value>
+  </data>
+  <data name="27353" xml:space="preserve">
+    <value> Configuration file missing  </value>
+  </data>
+  <data name="27350" xml:space="preserve">
+    <value> Alarm server restart  </value>
+  </data>
+  <data name="27351" xml:space="preserve">
+    <value> Object does not exist  </value>
+  </data>
+  <data name="27358" xml:space="preserve">
+    <value> Missing neutral language  </value>
+  </data>
+  <data name="27359" xml:space="preserve">
+    <value> Link object does not exist  </value>
+  </data>
+  <data name="27364" xml:space="preserve">
+    <value> Multiple bypass clearing not possible  </value>
+  </data>
+  <data name="27361" xml:space="preserve">
+    <value> Invalid history file  </value>
+  </data>
+  <data name="27360" xml:space="preserve">
+    <value> No alarm events recorded  </value>
+  </data>
+  <data name="27363" xml:space="preserve">
+    <value> Multiple bypassing not possible  </value>
+  </data>
+  <data name="27362" xml:space="preserve">
+    <value> PVI system alarms cannot be acknowledged.  </value>
+  </data>
+  <data name="4001" xml:space="preserve">
+    <value>Error from decoding function (_CPinfo) </value>
+  </data>
+  <data name="4000" xml:space="preserve">
+    <value>Error from coding function (_CPinfo) </value>
+  </data>
+  <data name="4003" xml:space="preserve">
+    <value>Default error (_CPinfo) </value>
+  </data>
+  <data name="4002" xml:space="preserve">
+    <value>Unexpected telegram (_CPinfo) </value>
+  </data>
+  <data name="4010" xml:space="preserve">
+    <value>= Error from coding function (_CPreset) </value>
+  </data>
+  <data name="4011" xml:space="preserve">
+    <value>Error from decoding function (_CPreset) </value>
+  </data>
+  <data name="4012" xml:space="preserve">
+    <value>Unexpected telegram (_CPreset) </value>
+  </data>
+  <data name="4013" xml:space="preserve">
+    <value>Default error (_CPreset) </value>
+  </data>
+  <data name="4014" xml:space="preserve">
+    <value>Password incorrect (_CPreset) </value>
+  </data>
+  <data name="4023" xml:space="preserve">
+    <value>Default error (_CPclearMem) </value>
+  </data>
+  <data name="4022" xml:space="preserve">
+    <value>Unexpected telegram (_CPclearMem) </value>
+  </data>
+  <data name="4021" xml:space="preserve">
+    <value>Error from decoding function (_CPclearMem) </value>
+  </data>
+  <data name="4020" xml:space="preserve">
+    <value>Error from coding function (_CPclearMem) </value>
+  </data>
+  <data name="4025" xml:space="preserve">
+    <value>PLC must be in Diagnose Mode (_CPclearMem) </value>
+  </data>
+  <data name="4024" xml:space="preserve">
+    <value>Memory type not available or cannot be deleted (_CPclearMem) </value>
+  </data>
+  <data name="4032" xml:space="preserve">
+    <value>Unexpected telegram (_CPmemInfo) </value>
+  </data>
+  <data name="4033" xml:space="preserve">
+    <value>Default error (_CPmemInfo) </value>
+  </data>
+  <data name="4030" xml:space="preserve">
+    <value>Error from coding function (_CPmemInfo) </value>
+  </data>
+  <data name="4031" xml:space="preserve">
+    <value>Error from decoding function (_CPmemInfo) </value>
+  </data>
+  <data name="4044" xml:space="preserve">
+    <value>Object does not exist (CPmemInfo) </value>
+  </data>
+  <data name="4041" xml:space="preserve">
+    <value>Error from decoding function (CPmemInfo) </value>
+  </data>
+  <data name="4040" xml:space="preserve">
+    <value>Error from coding function (CPmemInfo) </value>
+  </data>
+  <data name="4043" xml:space="preserve">
+    <value>Default error (CPmemInfo) </value>
+  </data>
+  <data name="4042" xml:space="preserve">
+    <value>Unexpected telegram (CPmemInfo) </value>
+  </data>
+  <data name="4054" xml:space="preserve">
+    <value>Object does not exist (_DeleteModule) </value>
+  </data>
+  <data name="4055" xml:space="preserve">
+    <value>PI must be stopped (_DeleteModule) </value>
+  </data>
+  <data name="4056" xml:space="preserve">
+    <value>Object cannot be deinstalled (_DeleteModule) </value>
+  </data>
+  <data name="4057" xml:space="preserve">
+    <value>Object is used by an other task and cannot be deinstalled (_DeleteModule) </value>
+  </data>
+  <data name="4050" xml:space="preserve">
+    <value>Error from coding function (_DeleteModule) </value>
+  </data>
+  <data name="4051" xml:space="preserve">
+    <value>Error from decoding function (_DeleteModule) </value>
+  </data>
+  <data name="4052" xml:space="preserve">
+    <value>Unexpected telegram (_DeleteModule) </value>
+  </data>
+  <data name="4053" xml:space="preserve">
+    <value>Default error (_DeleteModule) </value>
+  </data>
+  <data name="4067" xml:space="preserve">
+    <value>No BR module (2b97) (_DownloadModule) </value>
+  </data>
+  <data name="4066" xml:space="preserve">
+    <value>No available entry in the module table (_DownloadModule) </value>
+  </data>
+  <data name="4065" xml:space="preserve">
+    <value>Download disabled for USER (_DownloadModule) </value>
+  </data>
+  <data name="4064" xml:space="preserve">
+    <value>DL interrupted by USER (_DownloadModule) </value>
+  </data>
+  <data name="4063" xml:space="preserve">
+    <value>Default error (_DownloadModule) </value>
+  </data>
+  <data name="4062" xml:space="preserve">
+    <value>Unexpected telegram (_DownloadModule) </value>
+  </data>
+  <data name="4061" xml:space="preserve">
+    <value>Error from decoding function (_DownloadModule) </value>
+  </data>
+  <data name="4060" xml:space="preserve">
+    <value>Error from coding function (_DownloadModule) </value>
+  </data>
+  <data name="4069" xml:space="preserve">
+    <value>BR module install error (_DownloadModule) </value>
+  </data>
+  <data name="4068" xml:space="preserve">
+    <value>Damaged BR module checksum (_DownloadModule) </value>
+  </data>
+  <data name="4074" xml:space="preserve">
+    <value>Error from NC Manager DL function (_DownloadModule) </value>
+  </data>
+  <data name="4072" xml:space="preserve">
+    <value>Error burning the BR module (_DownloadModule) </value>
+  </data>
+  <data name="4073" xml:space="preserve">
+    <value>No NC Manager installed (_DownloadModule) </value>
+  </data>
+  <data name="4070" xml:space="preserve">
+    <value>BR module has incorrect length (_DownloadModule) </value>
+  </data>
+  <data name="4071" xml:space="preserve">
+    <value>Not enough available target memory (_DownloadModule) </value>
+  </data>
+  <data name="4088" xml:space="preserve">
+    <value>Upload disabled for USER (_UploadModule) </value>
+  </data>
+  <data name="4081" xml:space="preserve">
+    <value>Error from decoding function (_UploadModule) </value>
+  </data>
+  <data name="4080" xml:space="preserve">
+    <value>Error from coding function (_UploadModule) </value>
+  </data>
+  <data name="4083" xml:space="preserve">
+    <value>Default error (_UploadModule) </value>
+  </data>
+  <data name="4082" xml:space="preserve">
+    <value>Unexpected telegram (_UploadModule) </value>
+  </data>
+  <data name="4085" xml:space="preserve">
+    <value>Module doesn't exist (incorrect name) (_UploadModule) </value>
+  </data>
+  <data name="4084" xml:space="preserve">
+    <value>UL interrupted by USER (_UploadModule) </value>
+  </data>
+  <data name="4087" xml:space="preserve">
+    <value>Uploading the module disabled (_UploadModule) </value>
+  </data>
+  <data name="4086" xml:space="preserve">
+    <value>Module state not equal to READY (_UploadModule) </value>
+  </data>
+  <data name="4104" xml:space="preserve">
+    <value>TC already running (_TKresume) </value>
+  </data>
+  <data name="4105" xml:space="preserve">
+    <value>TC does not exist (_TKresume) </value>
+  </data>
+  <data name="4124" xml:space="preserve">
+    <value>Task already running (_TaskResume) </value>
+  </data>
+  <data name="4125" xml:space="preserve">
+    <value>Task does not exist (_TaskResume) </value>
+  </data>
+  <data name="4115" xml:space="preserve">
+    <value>TC does not exist (_TKsuspend) </value>
+  </data>
+  <data name="4114" xml:space="preserve">
+    <value>TC already stopped (_TKsuspend) </value>
+  </data>
+  <data name="4144" xml:space="preserve">
+    <value>Task does not exist (_TaskSetStepcount) </value>
+  </data>
+  <data name="4135" xml:space="preserve">
+    <value>Task does not exist (_TaskSuspend) </value>
+  </data>
+  <data name="4134" xml:space="preserve">
+    <value>Task is already stopped (_TaskSuspend) </value>
+  </data>
+  <data name="4184" xml:space="preserve">
+    <value>Invalid PV ID (_WriteVar) </value>
+  </data>
+  <data name="4185" xml:space="preserve">
+    <value>PV does not exist (_WriteVar) </value>
+  </data>
+  <data name="4186" xml:space="preserve">
+    <value>Incorrect PV length (_WriteVar) </value>
+  </data>
+  <data name="4187" xml:space="preserve">
+    <value>Dyn. PV is not used (NULL pointer) (_WriteVar) </value>
+  </data>
+  <data name="4177" xml:space="preserve">
+    <value>Dyn. PV is not used (NULL pointer) (_ReadVars) </value>
+  </data>
+  <data name="4176" xml:space="preserve">
+    <value>Incorrect PV length (_ReadVars) </value>
+  </data>
+  <data name="4175" xml:space="preserve">
+    <value>PV does not exist (_ReadVars) </value>
+  </data>
+  <data name="4174" xml:space="preserve">
+    <value>Invalid PV ID (_ReadVars) </value>
+  </data>
+  <data name="4195" xml:space="preserve">
+    <value>Invalid task class (_ForceVarOn) </value>
+  </data>
+  <data name="4194" xml:space="preserve">
+    <value>Invalid PV-ID (data type, base ptr., etc.) (_ForceVarOn) </value>
+  </data>
+  <data name="4196" xml:space="preserve">
+    <value>No available entry in the force table (_ForceVarOn) </value>
+  </data>
+  <data name="4224" xml:space="preserve">
+    <value>Diagnose task not loaded (_DiagListModules) </value>
+  </data>
+  <data name="4234" xml:space="preserve">
+    <value>Diagnose task not loaded (_DiagDeleteModule) </value>
+  </data>
+  <data name="4235" xml:space="preserve">
+    <value>DIAG module index invalid, list not yet read? (_DiagDeleteModule) </value>
+  </data>
+  <data name="4206" xml:space="preserve">
+    <value>PV is not forced (_ForceVarOff) </value>
+  </data>
+  <data name="4205" xml:space="preserve">
+    <value>Invalid task class (_ForceVarOff) </value>
+  </data>
+  <data name="4204" xml:space="preserve">
+    <value>Invalid PV-ID (data type, base ptr., etc.) (_ForceVarOff) </value>
+  </data>
+  <data name="4264" xml:space="preserve">
+    <value>No HWC determination carried out on PLC (e.g. in Diag. Mode) (_ListHwComponets) </value>
+  </data>
+  <data name="4244" xml:space="preserve">
+    <value>Diagnose task not loaded (_DiagExit) </value>
+  </data>
+  <data name="4283" xml:space="preserve">
+    <value>Invalid time format for access function POBJ_ACC_DATE_TIME </value>
+  </data>
+  <data name="4334" xml:space="preserve">
+    <value>Maximum number of event masters reached </value>
+  </data>
+  <data name="4366" xml:space="preserve">
+    <value>Incorrect commserv version (_UnlinkEventVars) </value>
+  </data>
+  <data name="4356" xml:space="preserve">
+    <value>Incorrect commserv version (_LinkEventVars) </value>
+  </data>
+  <data name="4355" xml:space="preserve">
+    <value>PV does not exist (_LinkEventVars) </value>
+  </data>
+  <data name="4354" xml:space="preserve">
+    <value>Invalid server object ID (_LinkEventVars) </value>
+  </data>
+  <data name="4464" xml:space="preserve">
+    <value>Enty missing in BR log data modul (_LogDataIdentify). </value>
+  </data>
+  <data name="4475" xml:space="preserve">
+    <value>BR log data modul access denied (_LogDataClear). </value>
+  </data>
+  <data name="4405" xml:space="preserve">
+    <value>Linknode does not exist (_LNIdentify). </value>
+  </data>
+  <data name="4485" xml:space="preserve">
+    <value>BR log data modul is damaged (_LogDataRead).</value>
+  </data>
+  <data name="4484" xml:space="preserve">
+    <value>Memory error on the PLC (_LogDataRead).</value>
+  </data>
+  <data name="4486" xml:space="preserve">
+    <value>Unknown BR log data modul format (_LogDataRead).</value>
+  </data>
+  <data name="4504" xml:space="preserve">
+    <value>Incorrect GCC version. The input file was created with the incorrect version of the GNU C compiler. Make sure that the version of the GNU C compiler included in the Automation Studio installation is being used to create the input file. </value>
+  </data>
+  <data name="4505" xml:space="preserve">
+    <value>Cyclic entry point &lt;FunctionName&gt; not allowed. A function in a source file was identified with the prefix attribute "_CYCLIC". This is not allowed for this program type. Remove the "_CYCLIC" attribute from the source code for the program. </value>
+  </data>
+  <data name="4506" xml:space="preserve">
+    <value>Non-cyclic entry point &lt;FunctionName&gt; not allowed. A function in a source file was identified with the prefix attribute "_NONCYCLIC". This is not allowed for this program type. Remove the "_NONCYCLIC" attribute from the source code for the program. </value>
+  </data>
+  <data name="4507" xml:space="preserve">
+    <value>Entry point &lt;FunctionName1&gt; and &lt;FunctionName2&gt; defined multiple times. The entry point has been defined more than once in the program's source files. The entry point is defined by the "_CYCLIC" attribute for cyclic programming or "_NONCYCLIC" for non-cyclic programming. This attribute precedes the corresponding function. Check the source files to see if the "_CYCLIC" or "_NONCYCLIC" attributes occur more than once. If so, delete at the appropriate position. </value>
+  </data>
+  <data name="4500" xml:space="preserve">
+    <value>Input file &lt;Filename&gt; not found. The input file specified in the command line could not be found. Check whether the input file exists. Check the input file's name. </value>
+  </data>
+  <data name="4501" xml:space="preserve">
+    <value>Output file &lt;Filename&gt; cannot be deleted. The old output file that existed before the build cannot be deleted. Check whether the output file is locked or being used by another program. Delete the file. </value>
+  </data>
+  <data name="4502" xml:space="preserve">
+    <value>Output file &lt;Filename&gt; cannot be built. The output file cannot be built in the target directory. Check that the medium where the output file should be built is not write-protected and that it has enough memory available. </value>
+  </data>
+  <data name="4503" xml:space="preserve">
+    <value>Incorrect format for the input file &lt;Filename&gt;. The input file has an invalid format. It must have the output format of the GNU linker. Recompile the project with Automation Studio. </value>
+  </data>
+  <data name="4508" xml:space="preserve">
+    <value>Initialization functions &lt;FunctionName1&gt; and &lt;FunctionName2&gt; defined multiple times. A program's initialization function is run once when the program is installed on Automation Runtime or when Automation Runtime is restarted. This function is identified by the prefix attribute "_INIT". This attribute may only be present once in a program. Check the source files to see if the "_INIT" attribute occurs more than once. If so, delete at the appropriate position. </value>
+  </data>
+  <data name="4509" xml:space="preserve">
+    <value>Deinitialization functions &lt;FunctionName1&gt; and &lt;FunctionName2&gt; defined multiple times. A program's deinitialization function is run once when being cleared on Automation Runtime. This function is identified by the prefix attribute "_EXIT". This attribute may only be present once in a program. Check the source files to see if the "_EXIT" attribute occurs more than once. If so, delete at the appropriate position. </value>
+  </data>
+  <data name="4526" xml:space="preserve">
+    <value>Error creating a section. An error occurred while creating a section in the output file. This is an internal error that cannot be corrected by the user. It's possible that a fatal system bottleneck has occurred that can be corrected by restarting Automation Studio. </value>
+  </data>
+  <data name="4527" xml:space="preserve">
+    <value>No symbol information present for the entry point. No symbol information (debug info) available for the entry point in the input file. The input file was compiled with the option for not generating symbol information. Switch on the option for creating symbol information when compiling the source files into the backend input file. Details about this can be found in the GNU C compiler documentation. </value>
+  </data>
+  <data name="4524" xml:space="preserve">
+    <value>Invalid symbol information. No valid symbol information (debug info) available in the input file. The input file was compiled with the incorrect option for generating symbol information. Switch on the option for creating symbol information when compiling the source files into the backend input file. Details about this can be found in the GNU C compiler documentation. </value>
+  </data>
+  <data name="4525" xml:space="preserve">
+    <value>No fitting symbol found for a GOT entry. A suitable symbol was not found for an entry in the GOT (global offset table). This error should not occur during normal operation and reflects a serious problem in the compilation chain. Please contact B&amp;R Support. </value>
+  </data>
+  <data name="4522" xml:space="preserve">
+    <value>Could not find cyclic entry point for cyclic task. Exactly one cyclic entry point must be defined for cyclic tasks and timer tasks. This definition is made in the source code with the "_CYCLIC" attribute that precedes the function that should be called cyclically by Automation Runtime. Identify a function in the source files an a cyclic entry point by prefixing it with the "_CYCLIC" attribute. </value>
+  </data>
+  <data name="4523" xml:space="preserve">
+    <value>Invalid symbol information. No valid symbol information (debug info) available in the input file. The input file was compiled with the incorrect option for generating symbol information. Switch on the option for creating symbol information when compiling the source files into the backend input file. Details about this can be found in the GNU C compiler documentation. </value>
+  </data>
+  <data name="4520" xml:space="preserve">
+    <value>Could not implement function or function blocks. A function block or function in a library is declared but not being implemented. Implement the function block / function or delete the declaration. </value>
+  </data>
+  <data name="4521" xml:space="preserve">
+    <value>Initialization value not allowed for the symbol. An initialization value is not allowed for the IEC symbol.  Delete the initialization value for the symbol in the source file where it is declared. </value>
+  </data>
+  <data name="4528" xml:space="preserve">
+    <value>Error writing to a section. An error occurred while writing to a section in the output file. This is an internal error that cannot be corrected by the user. It's possible that a fatal system bottleneck has occurred that can be corrected by restarting Automation Studio. </value>
+  </data>
+  <data name="4529" xml:space="preserve">
+    <value>Error copying BFD data. An error occurred while copying BFD data. This is an internal error that cannot be corrected by the user. It's possible that a fatal system bottleneck has occurred that can be corrected by restarting Automation Studio. </value>
+  </data>
+  <data name="4515" xml:space="preserve">
+    <value>Could not find non-cyclic entry point for non-cyclic task. Exactly one non-cyclic entry point must be defined for non-cyclic tasks. This definition is made in the source code with the "_NONCYCLIC" attribute that precedes the function that should be called by Automation Runtime. Identify a function in the source files an a non-cyclic entry point by prefixing it with the "_NONCYCLIC" attribute. </value>
+  </data>
+  <data name="4514" xml:space="preserve">
+    <value>A non-cyclic task may not have any initialization or deinitialization entry points. Initialization and deinitialization entry points are not allowed for non-cyclic tasks. These entry points are identified by the preceding attributes "_INIT" and "_EXIT" for the corresponding function in the source files. Eliminate the invalid attributes in the source files. </value>
+  </data>
+  <data name="4517" xml:space="preserve">
+    <value>Invalid entry function &lt;Name&gt;. The definition for an entry function is made in the source code with one of the "_NONCYLIC", "_CYCLIC", "_INIT", or "_EXIT" attributes. Correct the entry function definition in the source code. </value>
+  </data>
+  <data name="4516" xml:space="preserve">
+    <value>The names for the functions or function blocks &lt;Name1&gt; and &lt;Name2&gt; have the same first nine characters. On SG3 target systems, the first 9 characters of function or function block names must be unique. Check whether the first nine characters of the function block or function name are unique. </value>
+  </data>
+  <data name="4511" xml:space="preserve">
+    <value>Initialization value not allowed for the symbol &lt;Name&gt;. An initialization value is not allowed for the IEC symbol. Delete the initialization value for the symbol in the source file where it is declared. </value>
+  </data>
+  <data name="4510" xml:space="preserve">
+    <value>&lt;Name&gt; not implemented. A function block or function in a library is declared but not being implemented. Implement the function block / function or delete the declaration. </value>
+  </data>
+  <data name="4513" xml:space="preserve">
+    <value>Attributes for jump function entry functions used multiple times. For the entry functions in a program, more than one of the possible attributes CYCLIC, _INIT, or _EXIT was used.Example: int _CYCLIC _INIT entryfunc() { } Only one of the CYCLIC, _INIT, or _EXIT attributes may be used for each entry function. </value>
+  </data>
+  <data name="4512" xml:space="preserve">
+    <value>Could not find entry function for cyclic task. At least one entry point must be defined for cyclic or timer tasks. This definition is made in the source code with one of the "_CYCLIC", "_INIT", or "_EXIT" attributes. Identify a function as an entry point in the source files. </value>
+  </data>
+  <data name="4519" xml:space="preserve">
+    <value>Deinitialization function defined more than once. A program's deinitialization function is run once when being cleared on Automation Runtime. This function is identified by the prefix attribute "_EXIT". This attribute may only be present once in a program. Check the source files to see if the "_EXIT" attribute occurs more than once. If so, delete at the appropriate position. </value>
+  </data>
+  <data name="4518" xml:space="preserve">
+    <value>Initialization function defined more than once. A program's initialization function is run once when the program is installed on Automation Runtime or when Automation Runtime is restarted. This function is identified by the prefix attribute "_INIT". This attribute may only be present once in a program. Check the source files to see if the "_INIT" attribute occurs more than once. If so, delete at the appropriate position. </value>
+  </data>
+  <data name="4537" xml:space="preserve">
+    <value>A non-cyclic task may not have any initialization or deinitialization entry points. Initialization and deinitialization entry points are not allowed for non-cyclic tasks. These entry points are identified by the preceding attributes "_INIT" and "_EXIT" for the corresponding function in the source files.  Eliminate the invalid attributes in the source files. </value>
+  </data>
+  <data name="4536" xml:space="preserve">
+    <value>Deinitialization function not allowed. A deinitialization function is not allowed for this program type. A program's deinitialization function is run once when being cleared on Automation Runtime. This function is identified by the prefix attribute "_EXIT". Delete the "_EXIT" attribute in the corresponding source file. </value>
+  </data>
+  <data name="4535" xml:space="preserve">
+    <value>Initialization function not allowed. An initialization function is not allowed for this program type. A program's initialization function is run once when the program is installed on Automation Runtime or when Automation Runtime is restarted. This function is identified by the prefix attribute "_INIT". Delete the "_INIT" attribute in the corresponding source file. </value>
+  </data>
+  <data name="4534" xml:space="preserve">
+    <value>Only non-cyclic entry points allowed for libraries. Libraries may only have non-cyclic entry points. This type of entry point is identified by the prefix attribute "_NONCYCLIC" for the corresponding function in the source files. Entry points identified with "_INIT", "_EXIT", or "_CYCLIC" are not allowed. Eliminate the invalid attributes in the source files. </value>
+  </data>
+  <data name="4533" xml:space="preserve">
+    <value>Error writing a section. An error occurred while writing a section to the output file.  This is an internal error that cannot be corrected by the user. It's possible that a fatal system bottleneck has occurred that can be corrected by restarting Automation Studio. </value>
+  </data>
+  <data name="4532" xml:space="preserve">
+    <value>Error writing a section. An error occurred while writing a section to the output file. This is an internal error that cannot be corrected by the user. It's possible that a fatal system bottleneck has occurred that can be corrected by restarting Automation Studio. </value>
+  </data>
+  <data name="4531" xml:space="preserve">
+    <value>Error reading a section. An error occurred while reading a section in the input file. This is an internal error that cannot be corrected by the user. It's possible that a fatal system bottleneck has occurred that can be corrected by restarting Automation Studio. </value>
+  </data>
+  <data name="4539" xml:space="preserve">
+    <value>The first nine characters of a function block or function name are not unique. On SG3 target systems, the first 9 characters of function or function block names must be unique. Check whether the first nine characters of the function block or function name are unique. </value>
+  </data>
+  <data name="4538" xml:space="preserve">
+    <value>Could not find non-cyclic entry point for non-cyclic task Exactly one non-cyclic entry point must be defined for non-cyclic tasks. This definition is made in the source code with the "_NONCYCLIC" attribute that precedes the function that should be called by Automation Runtime. Identify a function in the source files an a non-cyclic entry point by prefixing it with the "_NONCYCLIC" attribute. </value>
+  </data>
+  <data name="4604" xml:space="preserve">
+    <value>Illegal syntax in routing path information </value>
+  </data>
+  <data name="4809" xml:space="preserve">
+    <value>Connection to the PLC cannot be installed </value>
+  </data>
+  <data name="4808" xml:space="preserve">
+    <value>No connection available to the PLC </value>
+  </data>
+  <data name="4801" xml:space="preserve">
+    <value>Error allocating memory </value>
+  </data>
+  <data name="4803" xml:space="preserve">
+    <value>Service not supported </value>
+  </data>
+  <data name="4802" xml:space="preserve">
+    <value>Invalid object type </value>
+  </data>
+  <data name="4805" xml:space="preserve">
+    <value>Incorrect Service-Status </value>
+  </data>
+  <data name="4804" xml:space="preserve">
+    <value>Object property is not defined </value>
+  </data>
+  <data name="4807" xml:space="preserve">
+    <value>Object hierarchy not allowed </value>
+  </data>
+  <data name="4806" xml:space="preserve">
+    <value>Invalid object information </value>
+  </data>
+  <data name="4818" xml:space="preserve">
+    <value>Read error PLC info </value>
+  </data>
+  <data name="4819" xml:space="preserve">
+    <value>Service interrupted </value>
+  </data>
+  <data name="4810" xml:space="preserve">
+    <value>Service cannot be carried out </value>
+  </data>
+  <data name="4811" xml:space="preserve">
+    <value>Service active </value>
+  </data>
+  <data name="4812" xml:space="preserve">
+    <value>Service error response </value>
+  </data>
+  <data name="4813" xml:space="preserve">
+    <value>Identification error </value>
+  </data>
+  <data name="4814" xml:space="preserve">
+    <value>Error reading a variable </value>
+  </data>
+  <data name="4815" xml:space="preserve">
+    <value>Service is presently not implemented </value>
+  </data>
+  <data name="4816" xml:space="preserve">
+    <value>Read error variable list </value>
+  </data>
+  <data name="4817" xml:space="preserve">
+    <value>Read error module list </value>
+  </data>
+  <data name="4820" xml:space="preserve">
+    <value>Error reading a B&amp;R module </value>
+  </data>
+  <data name="4825" xml:space="preserve">
+    <value>Invalid or unknown PV section. </value>
+  </data>
+  <data name="4824" xml:space="preserve">
+    <value>Event mode for structure or array variable not possible. </value>
+  </data>
+  <data name="4901" xml:space="preserve">
+    <value>INACOMM DLL not available </value>
+  </data>
+  <data name="4902" xml:space="preserve">
+    <value>INACOMM DLL invalid </value>
+  </data>
+  <data name="4903" xml:space="preserve">
+    <value>Internal error (APLCIF) </value>
+  </data>
+  <data name="4904" xml:space="preserve">
+    <value>Invalid offset </value>
+  </data>
+  <data name="4905" xml:space="preserve">
+    <value>Error establishing a connection (connection already made) </value>
+  </data>
+</root>

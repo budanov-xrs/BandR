@@ -1,0 +1,9 @@
+C:\Users\ss_six\RiderProjects\BR.AN.PVIServices\obj\Debug\BR.AN.PVIServices.csproj.AssemblyReference.cache
+C:\Users\ss_six\RiderProjects\BR.AN.PVIServices\obj\Debug\BR.AN.PVIServices.Resources.de.PccLog.resources
+C:\Users\ss_six\RiderProjects\BR.AN.PVIServices\obj\Debug\BR.AN.PVIServices.Resources.de.PviErrors.resources
+C:\Users\ss_six\RiderProjects\BR.AN.PVIServices\obj\Debug\BR.AN.PVIServices.Resources.en.PccLog.resources
+C:\Users\ss_six\RiderProjects\BR.AN.PVIServices\obj\Debug\BR.AN.PVIServices.Resources.en.PviErrors.resources
+C:\Users\ss_six\RiderProjects\BR.AN.PVIServices\obj\Debug\BR.AN.PVIServices.Resources.fr.PccLog.resources
+C:\Users\ss_six\RiderProjects\BR.AN.PVIServices\obj\Debug\BR.AN.PVIServices.Resources.fr.PviErrors.resources
+C:\Users\ss_six\RiderProjects\BR.AN.PVIServices\obj\Debug\BR.AN.PVIServices.csproj.GenerateResource.cache
+C:\Users\ss_six\RiderProjects\BR.AN.PVIServices\obj\Debug\BR.AN.PVIServices.csproj.CoreCompileInputs.cache

@@ -1,0 +1,40 @@
+﻿// Decompiled with JetBrains decompiler
+// Type: BR.AN.PviServices.ArrayDimension
+// Assembly: BR.AN.PVIServices, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: DA853F0A-C070-4E30-B7A7-51D955FB85F6
+// Assembly location: C:\Users\ss_six\Desktop\FXE\FXE software integration package\COMET_FXE-PVIServices_Example\Pluto-PVI-trial_01\packages\IToolS.BandR.3.5.58\lib\net20\BR.AN.PVIServices.dll
+
+namespace BR.AN.PviServices
+{
+  public class ArrayDimension
+  {
+    protected int propStartIdx;
+    protected int propEndIdx;
+
+    internal ArrayDimension(int endIdx, int startIdx)
+    {
+      this.propStartIdx = startIdx;
+      this.propEndIdx = endIdx;
+    }
+
+    internal ArrayDimension(ArrayDimension cloneItem)
+    {
+      this.propStartIdx = cloneItem.propStartIdx;
+      this.propEndIdx = cloneItem.propEndIdx;
+    }
+
+    internal ArrayDimension(int endIdx)
+    {
+      this.propStartIdx = 0;
+      this.propEndIdx = endIdx;
+    }
+
+    public int StartIndex => this.propStartIdx;
+
+    public int EndIndex => this.propEndIdx;
+
+    public int NumOfElements => this.propEndIdx - this.propStartIdx + 1;
+
+    public override string ToString() => "a," + this.propStartIdx.ToString() + "," + this.propEndIdx.ToString();
+  }
+}
